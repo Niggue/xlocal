@@ -4,6 +4,7 @@ from datetime import datetime
 import json
 import requests
 
+
 # this file execute the scraping task to get some data about the following array of crypto-currencies
 
 # Sine the webpage 'coinmarketcap.com' contains the most of the currencies as static html doc we can take use
@@ -14,7 +15,7 @@ import requests
 # every 5 minutes, including the time.
 
 
-target_currency = ["Bitcoin", "Ethereum", "Dogecoin", "Tether", "BNB"]
+target_currency = ["Bitcoin", "Ethereum", "Dogecoin", "Tether", "BNB"]      # currencies that we are gonna chase.
 
 URL = 'https://coinmarketcap.com/all/views/all/'
 
@@ -22,7 +23,7 @@ URL = 'https://coinmarketcap.com/all/views/all/'
 connection = mysql.connector.connect(user='root', password='kali', database='xlocal')
 
 response = requests.request('GET', URL)                     # getting the entire page
-print(f">> {'Response GET:':<20s}{str(response)+'.':>20s}")                        
+print(f">> {'Response GET:':<20s}{str(response)+'.':>20s}")
 
 page = bs4.BeautifulSoup(response.text, 'html.parser')      # parsing the html document
 print(f">> {'Page name:':<20s}{str(page.name)+' Parsed.':>20s}")
@@ -41,6 +42,7 @@ price_class = "cmc-link"
 market_class = "sc-1ow4cwt-1 ieFnWP"
 
 datetime_stamp_mysql = "{0:%Y}-{0:%m}-{0:%d} {0:%H}:{0:%M}:{0:%S}".format(datetime.now())       # current timestamp
+
 
 # fetching all the crypto-currency description
 for currency in range(len(target_currency)):
