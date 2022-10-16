@@ -5,6 +5,7 @@ import sys
 import requests
 print()
 
+
 # For some responsive purpose, to add a '-v' --verbose option CLI command it's not a waste.
 xargs = False
 if (len(sys.argv) > 2):
@@ -12,6 +13,7 @@ if (len(sys.argv) > 2):
     exit()
 elif (len(sys.argv) == 2):
     xargs = True if (sys.argv[1] == '-v') else print("\nUsage:\n\tonly either '-v' or nothing args\n")
+
 
 # this file execute the scraping task to get some data about the following array of crypto-currencies
 
@@ -23,12 +25,14 @@ elif (len(sys.argv) == 2):
 # every 5 minutes, including the time.
 
 
-target_currency = ["Bitcoin", "Ethereum", "Dogecoin", "Tether", "BNB"]      # currencies that we are gonna chase.
+target_currency = ["Bitcoin", "Ethereum", "Dogecoin", "Tether", "BNB"]      # currencies that we are gonna get.
 
 URL = 'https://coinmarketcap.com/all/views/all/'
 
+
 # MYSQL connection
 connection = mysql.connector.connect(user='root', password='kali', database='xlocal')
+connection.autocommit = True
 cursor = connection.cursor()
 
 
@@ -50,12 +54,15 @@ rank_class = "cmc-table__cell cmc-table__cell--sticky cmc-table__cell--sortable 
 price_class = "cmc-link"
 market_class = "sc-1ow4cwt-1 ieFnWP"
 
+
 datetime_stamp_mysql = "{0:%Y}-{0:%m}-{0:%d} {0:%H}:{0:%M}:{0:%S}".format(datetime.now())       # current timestamp
+
 
 # fetching all the crypto-currency description
 def get_data():
     
     sql_data = []
+    print()
 
     for currency in range(len(target_currency)):
 
@@ -76,14 +83,20 @@ def get_data():
     
     return sql_data
 
+
+
 # generating the query to ingest data into MYSQL
 def get_insert_query(sql_values, table, database):
     
-    query = ""
-    query += f"USE {database};\n" if database != None else ""
+    query = f"USE {database};" if database != None else ""
+
+    tmp_cursor = connection.cursor()
+    tmp_cursor.execute(query)
+
     query = f"INSERT INTO {table} (currency_rank, symbol, name, market_value, prices, date_of_ingest) VALUES\n"
     
     for row in range(len(sql_values)):
+
         rank = int(sql_values[row][0])
         symbol = repr(sql_values[row][1])
         name = repr(sql_values[row][2])
@@ -96,15 +109,17 @@ def get_insert_query(sql_values, table, database):
 
     return query
 
+
+
 # executing the main program
 mysql_values = get_data()
 sql_query = get_insert_query(mysql_values, 'cryptocurrencies', 'xlocal')
-print(sql_query)
+print(f"\n{sql_query}") if (xargs) else None
+
 
 # catching any ingesting error and closing the connection
 try:
     cursor.execute(sql_query)
-    connection.commit()
 except mysql.connector.Error as E:
     print("Something went wrong ingesting data into MySQL : {}".format(E))
 finally:
@@ -112,7 +127,16 @@ finally:
         connection.close()
 
 
+# also to complete the orchest, we define the period of execution for this .py file
+# scheduling it by cron on linux, kali in my case.
+# to execute it every 10 minutes a day : 24 * 60 = 1440 / 10 = 144 records a day.
+# theoretically this populates the 'cryptocurrency' database with 144 record a day,
+# but I use to sleep, and turn off the PC. Although on a server it goes well.
 
-
-
-
+    # SHELL=/usr/bin/zsh
+    # PATH=/bin:/sbin:/usr/bin:/usr/sbin
+    # MAILTO=spotifyet96@gmail.com
+    #
+    # m h  dom mon dow   command
+    #
+    # */10 * * * * python3 /home/kali/dev/xlocal/cryptocurency/data_scraping.py -v
