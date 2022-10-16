@@ -96,16 +96,20 @@ def get_insert_query(sql_values, table, database):
 
     return query
 
-
-
+# executing the main program
 mysql_values = get_data()
 sql_query = get_insert_query(mysql_values, 'cryptocurrencies', 'xlocal')
 print(sql_query)
 
-cursor.execute(sql_query)
-connection.commit()
-
-connection.close()
+# catching any ingesting error and closing the connection
+try:
+    cursor.execute(sql_query)
+    connection.commit()
+except mysql.connector.Error as E:
+    print("Something went wrong ingesting data into MySQL : {}".format(E))
+finally:
+    if connection.is_connected():
+        connection.close()
 
 
 
