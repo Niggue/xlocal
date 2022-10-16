@@ -1,8 +1,16 @@
 import mysql.connector
 import bs4
 from datetime import datetime
-import json
+import sys
 import requests
+
+xargs = False
+if (len(sys.argv) > 2):
+    print("Error : Too many arguments")
+    exit()
+elif (len(sys.argv) == 2):
+    xargs = True if (sys.argv[1] == '-v') else print("\nUsage:\n\tonly either '-v' or nothing args\n")
+
 
 
 # this file execute the scraping task to get some data about the following array of crypto-currencies
@@ -31,7 +39,7 @@ print(f">> {'Page name:':<20s}{str(page.name)+' Parsed.':>20s}")
 a_tags = page.find_all("a")                                 # fetching all the 'a' tags
 print(f">> {'Amount of `a` tag:':<20s}{str(len(a_tags))+'.':>20s}")
 
-
+print()
 row_class = "cmc-table-row"                                 # class identifier of every row
 
 # class attributte of every item to catch
@@ -45,18 +53,24 @@ datetime_stamp_mysql = "{0:%Y}-{0:%m}-{0:%d} {0:%H}:{0:%M}:{0:%S}".format(dateti
 
 
 # fetching all the crypto-currency description
-for currency in range(len(target_currency)):
+def get_data_from_page():
 
-    # the following it's not human-readable :)
-    try:
-        currency_rank = page.find("a", attrs={"title": str(target_currency[currency])}).parent.parent.parent.find("div").string
-        currency_symbol = page.find("a", attrs={"title": str(target_currency[currency])}, class_=symbol_class).string
-        currency_name = page.find("a", attrs={"title": str(target_currency[currency])}, class_=name_class).string
-        currency_market_cap = page.find_all("tr", class_=row_class)[int(currency_rank)-1].contents[3].find(class_=market_class).string
-        currency_price = page.find_all("tr", class_=row_class)[int(currency_rank)-1].contents[4].find("span").string
-        print(f"{currency_rank:>4s}{currency_symbol:>6s}{currency_name:>15s}{currency_market_cap:>20s}{currency_price:>12s}{datetime_stamp_mysql:>22s}")
-    except:
-        print("\n\tToo low-rank to scrap {}".format(target_currency[currency]))
+    for currency in range(len(target_currency)):
+
+        try:
+            # the following it's not human-readable :)
+            currency_rank = page.find("a", attrs={"title": str(target_currency[currency])}).parent.parent.parent.find("div").string
+            currency_symbol = page.find("a", attrs={"title": str(target_currency[currency])}, class_=symbol_class).string
+            currency_name = page.find("a", attrs={"title": str(target_currency[currency])}, class_=name_class).string
+            currency_market_cap = page.find_all("tr", class_=row_class)[int(currency_rank)-1].contents[3].find(class_=market_class).string
+            currency_price = page.find_all("tr", class_=row_class)[int(currency_rank)-1].contents[4].find("span").string
+            
+            if (xargs):
+                print(f"{currency_rank:>4s}{currency_symbol:>6s}{currency_name:>15s}{currency_market_cap:>20s}{currency_price:>12s}{datetime_stamp_mysql:>22s}")
+        
+        except:    
+            print("\n\tToo low-rank to scrap {}".format(target_currency[currency]))
 
 
 
+get_data_from_page()
