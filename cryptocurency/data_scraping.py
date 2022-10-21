@@ -112,19 +112,20 @@ def get_insert_query(sql_values, table, database):
 
 
 # executing the main program
-mysql_values = get_data()
-sql_query = get_insert_query(mysql_values, 'cryptocurrencies', 'xlocal')
-print(f"\n{sql_query}") if (xargs) else None
+if __name__ == '__main__':
+    mysql_values = get_data()
+    sql_query = get_insert_query(mysql_values, 'cryptocurrencies', 'xlocal')
+    print(f"\n{sql_query}") if (xargs) else None
 
 
 # catching any ingesting error and closing the connection
-try:
-    cursor.execute(sql_query)
-except mysql.connector.Error as E:
-    print("Something went wrong ingesting data into MySQL : {}".format(E))
-finally:
-    if connection.is_connected():
-        connection.close()
+    try:
+        cursor.execute(sql_query)
+    except mysql.connector.Error as E:
+        print("Something went wrong ingesting data into MySQL : {}".format(E))
+    finally:
+        if connection.is_connected():
+            connection.close()
 
 
 # also to complete the orchest, we define the period of execution for this .py file
