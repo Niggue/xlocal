@@ -96,7 +96,7 @@ def get_insert_query(sql_values, table, database):
     query = f"INSERT INTO {table} (currency_rank, symbol, name, market_value, prices, date_of_ingest) VALUES\n"
     
     for row in range(len(sql_values)):
-
+        # Not-human-readable
         rank = int(sql_values[row][0])
         symbol = repr(sql_values[row][1])
         name = repr(sql_values[row][2])
