@@ -4,8 +4,8 @@ import random
 from bs4 import BeautifulSoup as besoup
 import requests
 
-### Attributes Scope ###
 
+### Attributes Scope ###
 #---------------------------------------------------------------------------------------------------------------------------------------- 
 
 _FOUND_URL = 'https://www.showmyip.com'
@@ -13,11 +13,6 @@ _HEADERS = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 _proxies = ['45.167.125.97:9992', '190.26.201.194:8080', '45.167.125.61:9992', '186.96.108.30:8080']
 _proxie = ['181.129.49.214:999', '190.60.39.196:999']
 
-# Rotate proxy for new requests apart of ourself original IP data
-proxy_of_use = {
-    'https':_proxies[random.randint(0,3)],
-    'http':_proxie[random.randint(0,1)]
-}
 
 # seeking the connnection (original)
 _response = requests.request('GET', url=_FOUND_URL, headers=_HEADERS)
@@ -49,18 +44,21 @@ own_ip['user_agent'] = _table[0].find_all('td')[1].string
 
 
 ### functions Scope ###
-
 #----------------------------------------------------------------------------------------------------------------------------------------
 
 def roll():
     
+    # Rotate proxy for new requests apart of ourself original IP data
+    proxy_of_use = {
+        'http':_proxie[random.randint(0,1)],
+        'https':_proxies[random.randint(0,3)]
+    }
+
     return proxy_of_use
 
 
 
-
 ### Module's Isolated Execution ###
-
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
 if __name__ == '__main__':
