@@ -28,18 +28,18 @@ _table = _page.find('table', class_='iptab').find_all('tr')
 
 ### The following is not human readable
 # gathering every data about ip
-own_ip = {}
-own_ip['IPv4'] = _table[0].find_all('td')[1].find('b').string
-own_ip['IPv6'] = _table[1].find_all('td')[1].find('div', id='ipv6').string  #this one is dinamically charged from page
-own_ip['Country'] = _table[2].find_all('td')[1].string
-own_ip['Region'] = _table[3].find_all('td')[1].string
-own_ip['City'] = _table[4].find_all('td')[1].string
-own_ip['Zip_'] = _table[5].find_all('td')[1].string
-own_ip['Timezone'] = _table[6].find_all('td')[1].string
-own_ip['ISP'] = _table[7].find_all('td')[1].string
-own_ip['Organization'] = _table[8].find_all('td')[1].string 
-own_ip['AS_number'] = _table[9].find_all('td')[1].string 
-own_ip['user_agent'] = _table[0].find_all('td')[1].string 
+ipdata = {}
+ipdata['IPv4'] = _table[0].find_all('td')[1].find('b').string
+ipdata['IPv6'] = _table[1].find_all('td')[1].find('div', id='ipv6').string  #this one is dinamically charged from page
+ipdata['Country'] = _table[2].find_all('td')[1].string
+ipdata['Region'] = _table[3].find_all('td')[1].string
+ipdata['City'] = _table[4].find_all('td')[1].string
+ipdata['Zip_'] = _table[5].find_all('td')[1].string
+ipdata['Timezone'] = _table[6].find_all('td')[1].string
+ipdata['ISP'] = _table[7].find_all('td')[1].string
+ipdata['Organization'] = _table[8].find_all('td')[1].string 
+ipdata['AS_number'] = _table[9].find_all('td')[1].string 
+ipdata['user_agent'] = _table[0].find_all('td')[1].string 
 
 
 
@@ -62,7 +62,9 @@ def roll():
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
 if __name__ == '__main__':
-    for item, value in own_ip.items():
-        print(' > ', item, ' - ', value, end="\n")
+    
+    print("\nData Extracted:\n")
+    for item, value in ipdata.items():
+        print(" > ", item, ' - ', value, end="\n")
 
 

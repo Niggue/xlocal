@@ -1,6 +1,9 @@
-[
-	{
-		"username": "niggue",
-		"password": "4cfefd506a"
-	}
-]
+{
+	"username": "niggue",
+	"password": "4cfefd506a",
+	"dbname": "houses",
+	"port": 3306,
+	"host": "houses.cejk2eii72ys.us-east-1.rds.amazonaws.com",
+	"type": "MySQL",
+	"AZ": "us-east-1d"
+}
