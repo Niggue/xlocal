@@ -7,9 +7,8 @@ from pyspark import pandas
 
 # *************************************************************************************************************
 #
-# The following scrist does web scraping of the sit 'metrocuadrado.com' with the aim of gather
-# data related to prices of Offices, Apartments and  Housrelated to prices of Offices, Apartments
-# and  Houses.
+# The following script does web scraping of the sit 'metrocuadrado.com' with the aim of gather
+# data related to prices of Offices, Apartments and  Houses.
 #
 # *************************************************************************************************************
 
@@ -17,22 +16,13 @@ from pyspark import pandas
 ### Defining script variables
 #=======================================================================================================================================
 
-try:
-    file = open('awsdb.json')
-    aws_credential_file = json.load(file)
-    #print(aws_credential_file)
-    file.close()
-except:
-    print("Unable to open 'awsdb.json' file seeking for aws credentials")
-    exit()
-
 facility = ['/casa','/apartamento','/oficina']
-baseurl = 'https://www.metrocuadrado.com/'
+baseurl = 'https://www.metrocuadrado.com'
 via = '/venta'
 
 # on-listed UI of the site
-item_list_class = "sc-gPEVay dibcyk"
-item_link_class = "sc-bdVaJa ebNrSm"
+item_list_class = "sc-gPEVay dibcyk" #li
+item_link_class = "sc-bdVaJa ebNrSm" #a
 
 # on-a tag href redirected
 # post headers
@@ -51,6 +41,13 @@ area_class =  "Col-sc-14ninbu-0 lfGZKA mb-3 pb-1 col-12 col-lg-3" #div[5] >| p:'
 management_class = "Col-sc-14ninbu-0 lfGZKA mb-3 pb-1 col-12 col-lg-3" #div[6] >| p:'card-text'
 parkinglot_class =  "Col-sc-14ninbu-0 lfGZKA mb-3 pb-1 col-12 col-lg-3" #div[7] >| p:'card-text'
 
+# DataFrame where data is gonna save in
+#df = pandas.DataFrame()
+
+# iterable lists
+MAX_PAGE_NUMBER = 200
+cities = []
+
 
 
 ### Functions Scope
@@ -58,22 +55,35 @@ parkinglot_class =  "Col-sc-14ninbu-0 lfGZKA mb-3 pb-1 col-12 col-lg-3" #div[7] 
 
 def extract():
     
-    url = baseurl + facility[0] + via
+    # printing the current url of use
+    url = baseurl + facility[0] + via + "/santa-marta"
+    print(str(url + ' ...'), end=" ")
+    
+    # getting and parsing the page
+    try:
+        response = requests.request('GET', url=url, headers=proxyr._HEADERS, proxies=proxyr.roll())
+        page = besoup(response.text, 'html.parser')
+        print(f"[{response.reason}]")
+        print(page.find_all("li", class_=item_list_class)[0])
+    except requests.RequestException:
+        print("ERROR trying to connect in 'Response' of site 'metrocuadrado.com'")
 
-#   try:
-    response = requests.request('GET', url, headers=proxyr.ipdata['user_agent'], proxies=proxyr.roll())
-#   except requests.RequestException:
-#       print("ERROR trying in 'Response' of site 'metrocuadrado.com'")
-    
-    
-        
+    # saving the whole links in list
+    DYNAMIC PAGE SELENIUM TODO
+
     
 
 def trasform():
     pass
 
 
+if __name__=="__main__":
+
+    extract()
 
 
 
-extract()
+
+
+
+
