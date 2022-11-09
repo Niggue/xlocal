@@ -1,7 +1,5 @@
-import os
-import json
+import os, json, time
 import proxyr
-from datetime import datetime, time
 from pyspark import pandas
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -19,7 +17,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 #=======================================================================================================================================
 
 options = webdriver.ChromeOptions()
-options.page_load_strategy = 'eager'
+options.page_load_strategy = 'normal'
 options.add_argument('--incognito')
 options.add_argument('--disable-gpu')
 options.add_argument('--window-position=960,0')
@@ -46,12 +44,15 @@ service = Service(executable_path=ChromeDriverManager().install())
 baseurl = 'https://www.metrocuadrado.com'
 
 ### on-listed UI of the site
-# 'ul' tag where the items are listed
-item_listbox_class = "Ul-sctud2-0 jyGHXP realestate-results-list browse-results-list"
 # 'li' tag of every item
-item_list_class = "sc-gPEVay dibcyk"
+item_list_class = "sc-gPEVay dibcyk card-result-img"
 # 'a' tag contained in 'li' tag, used to redirect to the post page
 item_link_class = "sc-bdVaJa ebNrSm"
+# 'ul' page numbers list
+page_number_class = "sc-dVhcbM kVlaFh Pagination-w2fdu0-0 cxBThU paginator justify-content-center align-items-baseline pagination"
+# 'a' page link number: this will allow to get last page of each searching
+page_number_box_class = "page-item"
+page_active_class = "page-item active disabled"
 
 # on-a tag href redirected
 # post headers
@@ -93,7 +94,7 @@ via = 'venta'
 ### Functions Scope ###
 #=======================================================================================================================================
 
-def select_class(class_name):
+def clattr(class_name):
 
     __response = class_name.replace(" ",".")
     return __response
@@ -111,20 +112,21 @@ if __name__=="__main__":
     
     os.system("touch ./gathered.dat")
     
-    url = "%s/%s/%s/%s/" % (baseurl, facility[0], via, cities[0])
+    url = "%s/%s/%s/%s/" % (baseurl, facility[0], via, cities[9])
     
-    # try GET connection with 3 different proxies. in cases any works us the local IP and Port
+    # try GET connection with  different proxies. in cases any works us the local IP and Port
     attempts = 0
     while (attempts <= 3):
         
+        # settign options for each retry
         if (attempts != 3):
             proxy = proxyr.roll_proxy(proxyr._proxies, module="se")
-            options.add_argument(f"--proxy-server={proxy}")
+            #options.add_argument(f"--proxy-server={proxy}")
             driver = webdriver.Chrome(options=options, service=service)
-            driver.implicitly_wait(5)
+            driver.implicitly_wait(1)
         else:
             driver = webdriver.Chrome(options=local_proxy_options, service=service)
-            driver.implicitly_wait(5)
+            driver.implicitly_wait(1)
             print("Using local Proxy: ", end="")
 
         # getting the main list tag of the DoM where lies all the tag that we are gonna use along the whole script
@@ -132,9 +134,9 @@ if __name__=="__main__":
         # other separated script.
         try:
             driver.get(url)
-            if (driver.find_element(By.CLASS_NAME, select_class(item_listbox_class)).is_displayed()):
+            if (driver.find_element(By.CLASS_NAME, clattr(item_list_class)).is_displayed() &
+                    driver.find_element(By.CLASS_NAME, clattr(page_number_class)).is_displayed()):
                 print("Got")
-                
                 break
             
         except:
@@ -142,6 +144,37 @@ if __name__=="__main__":
 
         attempts += 1
         driver.close()
+
+    
+    
+    #  getting all the page item links
+    page_index = driver.find_elements(By.CLASS_NAME, clattr(page_number_box_class))
+    page_next = []
+    
+    for p in range(len(page_index)):
+
+        # finding list of items
+        li_tags = driver.find_elements(By.CLASS_NAME, clattr(item_list_class))
+        # finding links of items
+        a_tags = []
+        for item in range(len(li_tags)):
+            item_to_append = li_tags[item].find_element(By.CLASS_NAME, clattr(item_link_class))
+            a_tags.append(item_to_append.get_attribute("href"))
+
+        ## TODO SAVE A_TAGS INTO CSV GATHERING.DAT FILE
+    
+
+        # finding the 'current page' and seek for the 'next page element' to click on
+        for i in range(len(page_index)):
+            if (page_index[i].get_attribute("class") == page_active_class):
+                page_next = page_index[i + 1]
+                break
+        
+        # clicking on the 'next page element', to redirect scraping the next page
+        next_page_element = page_next.find_element(By.TAG_NAME, "a")
+        driver.execute_script("arguments[0].click();", next_page_element)
+
+        time.sleep(5)
 
 
 
