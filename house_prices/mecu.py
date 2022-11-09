@@ -110,15 +110,17 @@ def write_log(log):
 
 if __name__=="__main__":
     
-    os.system("touch ./gathered.dat")
-    
+    # updating or creating 'gather.dat' file
+    os.system("touch ./gather.dat")
+    # setting the url link structure
     url = "%s/%s/%s/%s/" % (baseurl, facility[0], via, cities[9])
     
-    # try GET connection with  different proxies. in cases any works us the local IP and Port
+
+    # try GET connection with  different proxies. in case any works us the local IP and Port
     attempts = 0
     while (attempts <= 3):
         
-        # settign options for each retry
+        # setting options for each retry
         if (attempts != 3):
             proxy = proxyr.roll_proxy(proxyr._proxies, module="se")
             #options.add_argument(f"--proxy-server={proxy}")
@@ -147,11 +149,8 @@ if __name__=="__main__":
 
     
     
-    #  getting all the page item links
-    page_index = driver.find_elements(By.CLASS_NAME, clattr(page_number_box_class))
-    page_next = []
-    
-    for p in range(len(page_index)):
+    # gathering data and writing into gather.dat
+    while (True):
 
         # finding list of items
         li_tags = driver.find_elements(By.CLASS_NAME, clattr(item_list_class))
@@ -160,21 +159,39 @@ if __name__=="__main__":
         for item in range(len(li_tags)):
             item_to_append = li_tags[item].find_element(By.CLASS_NAME, clattr(item_link_class))
             a_tags.append(item_to_append.get_attribute("href"))
-
-        ## TODO SAVE A_TAGS INTO CSV GATHERING.DAT FILE
     
+
+
+        ### Saving 'a_tags' into 'gather.dat' file
+        
+        
+
+
+
+        #  getting all the page item links
+        page_index = driver.find_elements(By.CLASS_NAME, clattr(page_number_box_class))
+        page_next = []
 
         # finding the 'current page' and seek for the 'next page element' to click on
         for i in range(len(page_index)):
             if (page_index[i].get_attribute("class") == page_active_class):
                 page_next = page_index[i + 1]
                 break
-        
+
+        # exiting the loop in case 'page next' would be the last page listed
+        if (page_next.get_attribute("class") == "item-icon-next page-item disabled"):
+            break
+
+        # rest 2 second before click on next page
+        time.sleep(2)
+
         # clicking on the 'next page element', to redirect scraping the next page
         next_page_element = page_next.find_element(By.TAG_NAME, "a")
         driver.execute_script("arguments[0].click();", next_page_element)
 
-        time.sleep(5)
+        time.sleep(2)
+
+    time.sleep(2)
 
 
 
