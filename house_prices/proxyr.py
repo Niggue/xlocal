@@ -1,8 +1,29 @@
 import sys
-import time
+import csv
 import random
 from bs4 import BeautifulSoup as besoup
 import requests
+
+
+### functions Scope ###
+#----------------------------------------------------------------------------------------------------------------------------------------
+
+def roll_proxy(proxy_list, module="bs"):
+    
+    # Rotate proxy for new requests apart of ourself original IP data
+
+    if module == "bs":
+        proxy_bs = {
+            'https':proxy_list[random.randint(0,len(proxy_list)-1)]
+        }
+        print("Using IP Proxy:", proxy_bs, "...", end="")
+        return proxy_bs
+
+    elif module == "se": 
+        proxy_se = proxy_list[random.randint(0,len(proxy_list)-1)]
+        print("Using IP Proxy:", proxy_se, "...", end="")
+        return proxy_se
+
 
 
 ### Attributes Scope ###
@@ -10,15 +31,16 @@ import requests
 
 _FOUND_URL = 'https://www.showmyip.com'
 _HEADERS = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'}
-_proxies = ['45.167.125.97:9992', '190.26.201.194:8080', '45.167.125.61:9992', '186.96.108.30:8080']
-_proxie = ['181.129.49.214:999', '190.60.39.196:999']
 
+_proxies = []
+with open("../proxies.csv", newline="") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    for row in reader:
+        data_to_append = str("%s:%s" % (row[0], row[1]))
+        _proxies.append(data_to_append)    
 
 # seeking the connnection (original)
-_response = requests.request('GET', url=_FOUND_URL, headers=_HEADERS)
-
-# await for 1 second to avoid issues related to suddenly connection
-time.sleep(1)
+_response = requests.request('GET', url=_FOUND_URL, headers=_HEADERS, timeout=10)
 
 # obtaining the html page
 _page = besoup(_response.text, 'html.parser')
@@ -43,21 +65,6 @@ ipdata['user_agent'] = _table[0].find_all('td')[1].string
 
 
 
-### functions Scope ###
-#----------------------------------------------------------------------------------------------------------------------------------------
-
-def roll():
-    
-    # Rotate proxy for new requests apart of ourself original IP data
-    proxy_of_use = {
-        'http':_proxie[random.randint(0,1)],
-        'https':_proxies[random.randint(0,3)]
-    }
-
-    return proxy_of_use
-
-
-
 ### Module's Isolated Execution ###
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -66,5 +73,12 @@ if __name__ == '__main__':
     print("\nData Extracted:\n")
     for item, value in ipdata.items():
         print(" > ", item, ' - ', value, end="\n")
+
+    print()
+
+
+
+
+
 
 
