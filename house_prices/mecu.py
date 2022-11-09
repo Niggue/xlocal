@@ -73,18 +73,9 @@ parkinglot_class =  "Col-sc-14ninbu-0 lfGZKA mb-3 pb-1 col-12 col-lg-3" #div[7] 
 
 # iterable lists
 cities = [
-    'bogota',
-    'barrancabermeja',
-    'barranquilla',
-    'buenaventura',
-    'cali',
-    'cartagena',
-    'medellin',
-    'mompos',
-    'riohacha',
-    'santa-marta',
-    'turbo',
-    'tumaco'
+    'bogota','barrancabermeja','barranquilla','buenaventura',
+    'cali','cartagena','medellin','mompos','riohacha','santa-marta',
+    'turbo','tumaco'
 ]
 
 facility = [
@@ -99,7 +90,7 @@ via = 'venta'
 
 
 
-### Functions Scope
+### Functions Scope ###
 #=======================================================================================================================================
 
 def select_class(class_name):
@@ -108,10 +99,17 @@ def select_class(class_name):
     return __response
 
 
+def write_log(log):
+    pass
+
+
+
+### Main Function ###
+#========================================================================================================================================
 
 if __name__=="__main__":
     
-    os.system("touch ./gathered_links.dat")
+    os.system("touch ./gathered.dat")
     
     url = "%s/%s/%s/%s/" % (baseurl, facility[0], via, cities[0])
     
@@ -136,6 +134,7 @@ if __name__=="__main__":
             driver.get(url)
             if (driver.find_element(By.CLASS_NAME, select_class(item_listbox_class)).is_displayed()):
                 print("Got")
+                
                 break
             
         except:
