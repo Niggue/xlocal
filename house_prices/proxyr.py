@@ -1,4 +1,5 @@
 import sys
+import collect
 import csv
 import random
 from bs4 import BeautifulSoup as besoup
@@ -16,12 +17,14 @@ def roll_proxy(proxy_list, module="bs"):
         proxy_bs = {
             'https':proxy_list[random.randint(0,len(proxy_list)-1)]
         }
-        print("Using IP Proxy:", proxy_bs, "... ", end="")
+        msg = f"Using IP Proxy: {proxy_bs} ... "
+        collect.write_log(msg)
         return proxy_bs
 
     elif module == "se": 
         proxy_se = proxy_list[random.randint(0,len(proxy_list)-1)]
-        print("Using IP Proxy:", proxy_se, "... ", end="")
+        msg = f"Using IP Proxy: {proxy_se} ... "
+        collect.write_log(msg)
         return proxy_se
 
 
@@ -70,7 +73,8 @@ ipdata['user_agent'] = _table[0].find_all('td')[1].string
 
 if __name__ == '__main__':
     
-    print("\nData Extracted:\n")
+    msg = "\nData Extracted:\n"
+    print(msg)
     for item, value in ipdata.items():
         print(" > ", item, ' - ', value, end="\n")
 
