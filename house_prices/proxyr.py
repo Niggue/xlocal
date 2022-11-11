@@ -16,12 +16,12 @@ def roll_proxy(proxy_list, module="bs"):
         proxy_bs = {
             'https':proxy_list[random.randint(0,len(proxy_list)-1)]
         }
-        print("Using IP Proxy:", proxy_bs, "...", end="")
+        print("Using IP Proxy:", proxy_bs, "... ", end="")
         return proxy_bs
 
     elif module == "se": 
         proxy_se = proxy_list[random.randint(0,len(proxy_list)-1)]
-        print("Using IP Proxy:", proxy_se, "...", end="")
+        print("Using IP Proxy:", proxy_se, "... ", end="")
         return proxy_se
 
 
