@@ -1,6 +1,7 @@
-import os
+import os, time
 import proxyr
 import pandas
+from threading import Thread
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -17,7 +18,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 #=======================================================================================================================================
 
 options = webdriver.ChromeOptions()
-options.page_load_strategy = 'eager'
+options.page_load_strategy = 'normal'
 options.add_argument('--incognito')
 options.add_argument('--disable-gpu')
 options.add_argument('--window-position=960,0')
@@ -32,7 +33,7 @@ local_proxy_options.add_argument('--blink-settings=imagesEnabled=false')
 local_proxy_options.add_argument('--headless')
 
 
-service = Service(executable_path=ChromeDriverManager().install())
+
 
 
 
@@ -77,23 +78,24 @@ page_active_class = "page-item active disabled"
 ### Functions Scope ###
 #=======================================================================================================================================
 
-def clattr(class_name):
+def clattr(__class_name): # this function adapt the class attributes strings for use of the 'find_element()' which does not support spaces
 
-    __response = class_name.replace(" ",".")
+    __response = __class_name.replace(" ",".")
     return __response
 
 
-def write_log(__message, __log_file="collect.log"):
+
+def write_log(__message, __log_file="collect.log"): # this write and print info about the runtime status
 
     with open(__log_file, "a") as log:
         log.write(f"{__message}\n")
         print(__message)
 
 
-def try_get(__url):
+
+def try_get(__url): # this function try 3 times with different proxies, if none of them works, use the local IP
     
-    stdout = f" >>> Trying GET method for link {__url} ... "
-    write_log(stdout)
+    write_log(f" >>> Trying GET method for link {__url} ... ")
     # try GET connection with  different proxies. in case any works use the local IP and Port
     attempts = 0
     while (attempts <= 3):
@@ -102,13 +104,12 @@ def try_get(__url):
         if (attempts != 3):
             proxy = proxyr.roll_proxy(proxyr._proxies, module="se")
             options.add_argument(f"--proxy-server={proxy}")
-            __driver = webdriver.Chrome(options=options, service=service)
+            __driver = webdriver.Chrome(options=options, service=Service(executable_path=ChromeDriverManager().install()))
             __driver.implicitly_wait(5)
         else:
-            __driver = webdriver.Chrome(options=local_proxy_options, service=service)
+            __driver = webdriver.Chrome(options=local_proxy_options, service=Service(executable_path=ChromeDriverManager().install()))
             __driver.implicitly_wait(5)
-            stdout = "Using local Proxy: "
-            write_log(stdout)
+            write_log("Using local Proxy: ")
 
         # getting the main list tag of the DoM where lies all the tag that we are gonna use along the whole script
         # all the 'li' tags constains the 'a' tag that will be stored in a csv formatted file, to scrap later in
@@ -117,8 +118,7 @@ def try_get(__url):
             __driver.get(__url)
             if (__driver.find_element(By.CLASS_NAME, clattr(item_list_class)).is_displayed() &
                     __driver.find_element(By.CLASS_NAME, clattr(page_number_class)).is_displayed()):
-                stdout = "Got it!"
-                write_log(stdout)
+                write_log("Got it!")
                 break
         except:
             write_log("Site can't be reached, Retrying")
@@ -130,31 +130,23 @@ def try_get(__url):
 
 
 
-### Main Function ###
-#========================================================================================================================================
-
-if __name__=="__main__":
+def collect_metrocuadrado(__data):    # this gather links for scraping from 'metrocuadrado.com'
     
-    # updating or creating 'gather.dat' file
-    os.system("touch gather.dat")
-    os.system("rm collect.log; touch collect.log")
-    # setting the url link structure of every website that we're gonna scrap
-    finra_url = ""
-    punpro_url = ""
-    
-    
-        ##### Extracting links from Metro Cuadrado #####
+    if (__data == None):
+        raise AttributeError("you haven't passed '__data' argument")
 
     for facility_item in facility:
         for city_item in cities:
             # setting the url link structure of every website that we're gonna scrap
             mecu_url = "%s/%s/%s/%s/" % (baseurl[0], facility_item, via, city_item)
-
+            
+            # trying connection
             driver = try_get(mecu_url)
 
+            # declaring the variables that we'll use, and the 'data' dictionary that will be returned
             current_page = 0
             a_tags = []
-            data = {}
+
             # gathering data and writing into gather.dat
             while (True):
 
@@ -167,12 +159,12 @@ if __name__=="__main__":
 
                 # writing log for more info about process
                 current_page += 1
-                info = f" L [page:{current_page}] a:href links collected > {len(a_tags)}"
+                info = f" L[{baseurl[0].split('/')[-1]}:page:{current_page}] a:href links got > {len(a_tags)}"
                 write_log(info)
 
                 #  getting all the page item links
                 page_index = driver.find_elements(By.CLASS_NAME, clattr(page_number_box_class))
-                page_next = []
+                
 
                 # finding the 'current page' and seek for the 'next page element' to click on
                 for i in range(len(page_index)):
@@ -187,26 +179,138 @@ if __name__=="__main__":
                 # clicking on the 'next page element', to redirect scraping the next page
                 next_page_element = page_next.find_element(By.TAG_NAME, "a")
                 driver.execute_script("arguments[0].click();", next_page_element)
-
+            
+            # closing the browser session
             driver.quit()
 
             # Appending info to data variable to save in 'gather.dat'
-            write_log("Appending links ... ")
+            write_log(f"Appending links for {baseurl[0]} ... ")
             
             for a in a_tags:
-                data['href'].append(a)
-                data['facility'].append(facility_item)
-                data['city'].append(city_item)
-                data['website'].append(baseurl[0]) 
-                data['Code'].append(a.split("/")[-1])
+                __data['href'].append(a)
+                __data['facility'].append(facility_item)
+                __data['city'].append(city_item)
+                __data['website'].append(baseurl[0]) 
+                __data['code'].append(a.split("/")[-1])
+    
 
-            try:
-                df = pandas.DataFrame(data=data, columns=['facility','city','Code','website','href'])
-                df.to_csv("./gather.dat", sep=",", header=True)
-            except:
-                write_log("[ERROR] Saving csv file of links.")
-            else:
-                write_log("[OK] All the things went good.")
+
+def collect_fincaraiz(__data):
+    
+    if (__data == None):
+        raise AttributeError("You haven't passed '__data' argument")
+    # setting the url structure
+    finra_url = "%s/%ss/%s/%s" % (baseurl[1], facility[0], via, cities[9])
+    
+    # trying the connection
+    driver = try_get(finra_url)
+
+    # declaring the variables that we'll use, and the 'data' dictionary that will be returned
+    current_page = 0
+    a_tags = []
+
+    
+    # gathering data and writing into gather.dat
+    while (False):
+
+
+
+
+    # closing the browser session
+    driver.quit()
+
+    # Appending info to data variable to save in 'gather.dat'
+    write_log(f"Appending links for {baseurl[0]} ... ")
+    
+    for a in a_tags:
+        __data['href'].append(a)
+        __data['facility'].append(facility_item)
+        __data['city'].append(city_item)
+        __data['website'].append(baseurl[0]) 
+        __data['code'].append(a.split("/")[-1])
+
+
+
+def collect_puntopropiedad(__data):
+
+    
+    if (__data == None):
+        raise AttributeError("You haven't passed '__data' argument")
+    # setting the url structure
+    finra_url = "%s/%ss/%s/%s" % (baseurl[1], facility[0], via, cities[9])
+    
+    # trying the connection
+    driver = try_get(finra_url)
+
+    # declaring the variables that we'll use, and the 'data' dictionary that will be returned
+    current_page = 0
+    a_tags = []
+
+    
+    # gathering data and writing into gather.dat
+    while (False):
+
+
+
+
+    # closing the browser session
+    driver.quit()
+
+    # Appending info to data variable to save in 'gather.dat'
+    write_log(f"Appending links for {baseurl[0]} ... ")
+    
+    for a in a_tags:
+        __data['href'].append(a)
+        __data['facility'].append(facility_item)
+        __data['city'].append(city_item)
+        __data['website'].append(baseurl[0]) 
+        __data['code'].append(a.split("/")[-1])
+
+
+
+
+### Main Function ###
+#========================================================================================================================================
+
+if __name__=="__main__":
+    
+    # updating or creating 'gather.dat' file
+    os.system("touch gather.dat")
+    os.system("rm collect.log; touch collect.log")
+    # setting the url link structure of every website that we're gonna scrap
+    punpro_url = ""
+    
+    # dictionary where all sources are gonna merge
+    data = {
+        'href':[],
+        'facility':[],
+        'city':[],
+        'website':[],
+        'code':[]
+    }
+
+    task1 = Thread(target=collect_metrocuadrado, args=([data]))
+    task1.start()
+    
+    task2 = Thread(target=collect_fincaraiz, args=([data]))
+    task2.run()
+
+    task1.join()
+    task2.join()
+    
+    
+
+    try:
+        df = pandas.DataFrame(
+            data=data,
+            index=range(1, len(data['href']) + 1),
+            columns=['facility','city','code','website','href']
+        )
+        df.to_csv("./gather.dat", sep=",", header=True)
+    except:
+        write_log("[ERROR] Saving links into csv file.")
+    else:
+        write_log("[OK] All the things went good.")
 
 
 
