@@ -20,7 +20,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 options = webdriver.ChromeOptions()
 options.page_load_strategy = 'normal'
 options.add_argument('--incognito')
-options.add_argument('--disable-gpu')
 options.add_argument('--window-position=0,0')
 options.add_argument('--window-size=0,0')
 options.add_argument('--blink-settings=imagesEnabled=false')
@@ -28,14 +27,10 @@ options.add_argument('--blink-settings=imagesEnabled=false')
 
 local_proxy_options = webdriver.ChromeOptions()
 local_proxy_options.add_argument('--incognito')
-local_proxy_options.add_argument('--disable-gpu')
 local_proxy_options.add_argument('--window-position=0,0')
 local_proxy_options.add_argument('--window-size=0,0')
 local_proxy_options.add_argument('--blink-settings=imagesEnabled=false')
 #local_proxy_options.add_argument('--headless')
-
-
-
 
 
 
@@ -116,11 +111,11 @@ def try_get(__url): # this function try 3 times with different proxies, if none 
             #options.add_argument(f"--proxy-server={proxy}")
             __driver = webdriver.Chrome(options=options, service=Service(executable_path=ChromeDriverManager().install()))
             __driver.minimize_window()
-            __driver.implicitly_wait(1.5)
+            __driver.implicitly_wait(2)
         else:
             __driver = webdriver.Chrome(options=local_proxy_options, service=Service(executable_path=ChromeDriverManager().install()))
             __driver.minimize_window()
-            __driver.implicitly_wait(1.5)
+            __driver.implicitly_wait(2)
             write_log("Using local Proxy: ")
 
         # getting the main list tag of the DOM where lies all the tag that we are gonna use along the whole script
@@ -240,7 +235,7 @@ def collect_fincaraiz(__data):
             if (page_index != False):
 
                 for pg in range(1, (last_page + 1)):
-
+                    
                     # setting the url structure
                     finra_url = "%s/%ss/%s/%s?pagina=%d" % (baseurl[1], facility_item, via, city_item, pg)
                     # passing toward next page
@@ -345,7 +340,7 @@ def collect_puntopropiedad(__data):
 if __name__=="__main__":
     
     # updating or creating 'gather.dat' file
-    os.system("touch gather.dat")
+    os.system("touch collect.dat")
     os.system("rm collect.log; touch collect.log")
     # setting the url link structure of every website that we're gonna scrap
     punpro_url = ""
@@ -376,7 +371,7 @@ if __name__=="__main__":
             index=range(1, len(data['href']) + 1),
             columns=['facility','city','code','website','href']
         )
-        df.to_csv("./gather.dat", sep=",", header=True)
+        df.to_csv("./collect.dat", sep=",", header=True)
     except:
         write_log("[ERROR] Saving links into csv file.")
     else:
