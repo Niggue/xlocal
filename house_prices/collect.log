@@ -1,27 +1,2244 @@
- >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/bogota/ ... 
- >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/santa-marta ... 
-Using IP Proxy: 64.225.97.57:8080 ... 
-Using IP Proxy: 68.183.242.248:3128 ... 
-Site can't be reached, Retrying
-Site can't be reached, Retrying
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/mompos/ ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/mompos?pagina=1 ... 
+Using IP Proxy: 45.167.125.61:9992 ... 
+Using IP Proxy: 191.102.254.10:8085 ... 
+Got it!
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/barrancabermeja/ ... 
 Using IP Proxy: 51.79.50.31:9300 ... 
-Using IP Proxy: 194.8.218.100:8080 ... 
-Site can't be reached, Retrying
-Site can't be reached, Retrying
-Using IP Proxy: 68.183.242.248:3128 ... 
-Using IP Proxy: 64.225.97.57:8080 ... 
-Site can't be reached, Retrying
-Site can't be reached, Retrying
-Using local Proxy: 
-Using local Proxy: 
+ L[fincaraiz.com.co:page:1] a:href links got > 27
 Got it!
  L[www.metrocuadrado.com:page:1] a:href links got > 50
-Site can't be reached, Retrying
+ L[fincaraiz.com.co:page:2] a:href links got > 45
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/barrancabermeja?pagina=1 ... 
+Using IP Proxy: 198.52.97.210:59394 ... 
+ L[www.metrocuadrado.com:page:2] a:href links got > 59
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/barranquilla/ ... 
+Using IP Proxy: 45.167.125.97:9992 ... 
+Got it!
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
  L[www.metrocuadrado.com:page:2] a:href links got > 100
  L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[fincaraiz.com.co:page:1] a:href links got > 26
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[fincaraiz.com.co:page:2] a:href links got > 52
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[fincaraiz.com.co:page:3] a:href links got > 56
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/barranquilla?pagina=1 ... 
+Using IP Proxy: 190.26.201.194:8080 ... 
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+Got it!
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[www.metrocuadrado.com:page:45] a:href links got > 2245
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/buenaventura/ ... 
+Using IP Proxy: 186.96.108.30:8080 ... 
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 5
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/cali/ ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[fincaraiz.com.co:page:12] a:href links got > 396
  L[www.metrocuadrado.com:page:4] a:href links got > 200
  L[www.metrocuadrado.com:page:5] a:href links got > 250
  L[www.metrocuadrado.com:page:6] a:href links got > 300
  L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[fincaraiz.com.co:page:13] a:href links got > 429
  L[www.metrocuadrado.com:page:8] a:href links got > 400
  L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[www.metrocuadrado.com:page:46] a:href links got > 2293
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/cartagena/ ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[www.metrocuadrado.com:page:21] a:href links got > 1014
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/medellin/ ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+Got it!
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/buenaventura?pagina=1 ... 
+Using IP Proxy: 45.167.125.97:9992 ... 
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+Got it!
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+no page index: must be just one page
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[fincaraiz.com.co:page:Unica] a:href links got > 14
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/cali?pagina=1 ... 
+Using IP Proxy: 191.102.254.10:8085 ... 
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+Got it!
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[www.metrocuadrado.com:page:57] a:href links got > 2806
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/bogota/ ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[www.metrocuadrado.com:page:57] a:href links got > 2850
+ L[www.metrocuadrado.com:page:58] a:href links got > 2900
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:59] a:href links got > 2950
+ L[www.metrocuadrado.com:page:60] a:href links got > 3000
+ L[www.metrocuadrado.com:page:61] a:href links got > 3050
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:62] a:href links got > 3100
+ L[www.metrocuadrado.com:page:63] a:href links got > 3150
+ L[www.metrocuadrado.com:page:64] a:href links got > 3200
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[www.metrocuadrado.com:page:65] a:href links got > 3250
+ L[www.metrocuadrado.com:page:66] a:href links got > 3300
+ L[www.metrocuadrado.com:page:67] a:href links got > 3350
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:68] a:href links got > 3400
+ L[www.metrocuadrado.com:page:69] a:href links got > 3450
+ L[www.metrocuadrado.com:page:70] a:href links got > 3500
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:71] a:href links got > 3550
+ L[www.metrocuadrado.com:page:72] a:href links got > 3600
+ L[www.metrocuadrado.com:page:73] a:href links got > 3650
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:74] a:href links got > 3700
+ L[www.metrocuadrado.com:page:75] a:href links got > 3750
+ L[www.metrocuadrado.com:page:76] a:href links got > 3800
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:77] a:href links got > 3850
+ L[www.metrocuadrado.com:page:78] a:href links got > 3900
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:79] a:href links got > 3950
+ L[www.metrocuadrado.com:page:80] a:href links got > 4000
+ L[www.metrocuadrado.com:page:81] a:href links got > 4050
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[www.metrocuadrado.com:page:82] a:href links got > 4100
+ L[www.metrocuadrado.com:page:83] a:href links got > 4150
+ L[www.metrocuadrado.com:page:84] a:href links got > 4200
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:85] a:href links got > 4250
+ L[www.metrocuadrado.com:page:86] a:href links got > 4300
+ L[www.metrocuadrado.com:page:87] a:href links got > 4350
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[www.metrocuadrado.com:page:88] a:href links got > 4400
+ L[www.metrocuadrado.com:page:89] a:href links got > 4450
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[www.metrocuadrado.com:page:90] a:href links got > 4500
+ L[www.metrocuadrado.com:page:91] a:href links got > 4550
+ L[www.metrocuadrado.com:page:92] a:href links got > 4600
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[www.metrocuadrado.com:page:93] a:href links got > 4650
+ L[www.metrocuadrado.com:page:94] a:href links got > 4700
+ L[www.metrocuadrado.com:page:95] a:href links got > 4750
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[www.metrocuadrado.com:page:96] a:href links got > 4800
+ L[www.metrocuadrado.com:page:97] a:href links got > 4850
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[www.metrocuadrado.com:page:98] a:href links got > 4900
+ L[www.metrocuadrado.com:page:99] a:href links got > 4950
+ L[www.metrocuadrado.com:page:100] a:href links got > 5000
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[www.metrocuadrado.com:page:101] a:href links got > 5050
+ L[www.metrocuadrado.com:page:102] a:href links got > 5100
+ L[www.metrocuadrado.com:page:103] a:href links got > 5150
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[www.metrocuadrado.com:page:104] a:href links got > 5200
+ L[www.metrocuadrado.com:page:105] a:href links got > 5250
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[www.metrocuadrado.com:page:106] a:href links got > 5300
+ L[www.metrocuadrado.com:page:107] a:href links got > 5350
+ L[www.metrocuadrado.com:page:108] a:href links got > 5400
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/cartagena?pagina=1 ... 
+Using IP Proxy: 201.184.124.218:999 ... 
+ L[www.metrocuadrado.com:page:109] a:href links got > 5450
+ L[www.metrocuadrado.com:page:110] a:href links got > 5500
+Got it!
+ L[www.metrocuadrado.com:page:111] a:href links got > 5550
+ L[www.metrocuadrado.com:page:112] a:href links got > 5600
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:113] a:href links got > 5650
+ L[www.metrocuadrado.com:page:114] a:href links got > 5700
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:115] a:href links got > 5750
+ L[www.metrocuadrado.com:page:116] a:href links got > 5800
+ L[www.metrocuadrado.com:page:117] a:href links got > 5850
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:118] a:href links got > 5900
+ L[www.metrocuadrado.com:page:119] a:href links got > 5950
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:120] a:href links got > 6000
+ L[www.metrocuadrado.com:page:121] a:href links got > 6050
+ L[www.metrocuadrado.com:page:122] a:href links got > 6100
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[www.metrocuadrado.com:page:123] a:href links got > 6150
+ L[www.metrocuadrado.com:page:124] a:href links got > 6200
+ L[www.metrocuadrado.com:page:125] a:href links got > 6250
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:126] a:href links got > 6300
+ L[www.metrocuadrado.com:page:127] a:href links got > 6350
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:128] a:href links got > 6400
+ L[www.metrocuadrado.com:page:129] a:href links got > 6450
+ L[www.metrocuadrado.com:page:130] a:href links got > 6500
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:131] a:href links got > 6550
+ L[www.metrocuadrado.com:page:132] a:href links got > 6600
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:133] a:href links got > 6650
+ L[www.metrocuadrado.com:page:134] a:href links got > 6700
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:135] a:href links got > 6750
+ L[www.metrocuadrado.com:page:136] a:href links got > 6800
+ L[www.metrocuadrado.com:page:137] a:href links got > 6850
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:138] a:href links got > 6900
+ L[www.metrocuadrado.com:page:139] a:href links got > 6950
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:140] a:href links got > 7000
+ L[www.metrocuadrado.com:page:141] a:href links got > 7050
+ L[www.metrocuadrado.com:page:142] a:href links got > 7100
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:143] a:href links got > 7150
+ L[www.metrocuadrado.com:page:144] a:href links got > 7200
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:145] a:href links got > 7250
+ L[www.metrocuadrado.com:page:146] a:href links got > 7300
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:147] a:href links got > 7350
+ L[www.metrocuadrado.com:page:148] a:href links got > 7400
+ L[www.metrocuadrado.com:page:149] a:href links got > 7450
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:150] a:href links got > 7500
+ L[www.metrocuadrado.com:page:151] a:href links got > 7550
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:152] a:href links got > 7600
+ L[www.metrocuadrado.com:page:153] a:href links got > 7650
+ L[www.metrocuadrado.com:page:154] a:href links got > 7700
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:155] a:href links got > 7750
+ L[www.metrocuadrado.com:page:156] a:href links got > 7800
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:157] a:href links got > 7850
+ L[www.metrocuadrado.com:page:158] a:href links got > 7900
+ L[www.metrocuadrado.com:page:159] a:href links got > 7950
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:160] a:href links got > 8000
+ L[www.metrocuadrado.com:page:161] a:href links got > 8050
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:162] a:href links got > 8100
+ L[www.metrocuadrado.com:page:163] a:href links got > 8150
+ L[www.metrocuadrado.com:page:164] a:href links got > 8200
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:165] a:href links got > 8250
+ L[www.metrocuadrado.com:page:166] a:href links got > 8300
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:167] a:href links got > 8350
+ L[www.metrocuadrado.com:page:168] a:href links got > 8400
+ L[www.metrocuadrado.com:page:169] a:href links got > 8450
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[www.metrocuadrado.com:page:170] a:href links got > 8500
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:171] a:href links got > 8550
+ L[www.metrocuadrado.com:page:172] a:href links got > 8600
+ L[www.metrocuadrado.com:page:173] a:href links got > 8650
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:174] a:href links got > 8700
+ L[www.metrocuadrado.com:page:175] a:href links got > 8750
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:176] a:href links got > 8800
+ L[www.metrocuadrado.com:page:177] a:href links got > 8850
+ L[www.metrocuadrado.com:page:178] a:href links got > 8900
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:179] a:href links got > 8950
+ L[www.metrocuadrado.com:page:180] a:href links got > 9000
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:181] a:href links got > 9050
+ L[www.metrocuadrado.com:page:182] a:href links got > 9100
+ L[www.metrocuadrado.com:page:183] a:href links got > 9150
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[www.metrocuadrado.com:page:184] a:href links got > 9200
+ L[www.metrocuadrado.com:page:185] a:href links got > 9250
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:186] a:href links got > 9300
+ L[www.metrocuadrado.com:page:187] a:href links got > 9350
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[www.metrocuadrado.com:page:188] a:href links got > 9400
+ L[www.metrocuadrado.com:page:189] a:href links got > 9450
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[www.metrocuadrado.com:page:190] a:href links got > 9500
+ L[www.metrocuadrado.com:page:191] a:href links got > 9550
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[www.metrocuadrado.com:page:192] a:href links got > 9600
+ L[www.metrocuadrado.com:page:193] a:href links got > 9650
+ L[www.metrocuadrado.com:page:194] a:href links got > 9700
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[www.metrocuadrado.com:page:195] a:href links got > 9750
+ L[www.metrocuadrado.com:page:196] a:href links got > 9800
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[www.metrocuadrado.com:page:197] a:href links got > 9850
+ L[www.metrocuadrado.com:page:198] a:href links got > 9900
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[www.metrocuadrado.com:page:199] a:href links got > 9950
+ L[www.metrocuadrado.com:page:200] a:href links got > 10000
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/riohacha/ ... 
+Using IP Proxy: 190.107.234.139:999 ... 
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 2
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/santa-marta/ ... 
+Using IP Proxy: 186.96.108.30:8080 ... 
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+Got it!
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/medellin?pagina=1 ... 
+Using IP Proxy: 194.8.218.100:8080 ... 
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+Got it!
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[www.metrocuadrado.com:page:9] a:href links got > 426
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/turbo/ ... 
+Using IP Proxy: 198.52.97.210:59394 ... 
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 1
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/casa/venta/tumaco/ ... 
+Using IP Proxy: 45.167.125.61:9992 ... 
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+Got it!
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/mompos/ ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/barrancabermeja/ ... 
+Using IP Proxy: 190.216.107.194:999 ... 
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 126
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/barranquilla/ ... 
+Using IP Proxy: 190.216.107.194:999 ... 
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[www.metrocuadrado.com:page:57] a:href links got > 2850
+ L[www.metrocuadrado.com:page:58] a:href links got > 2900
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:59] a:href links got > 2950
+ L[www.metrocuadrado.com:page:60] a:href links got > 3000
+ L[www.metrocuadrado.com:page:61] a:href links got > 3050
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:62] a:href links got > 3100
+ L[www.metrocuadrado.com:page:63] a:href links got > 3150
+ L[www.metrocuadrado.com:page:64] a:href links got > 3200
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:65] a:href links got > 3250
+ L[www.metrocuadrado.com:page:66] a:href links got > 3300
+ L[www.metrocuadrado.com:page:67] a:href links got > 3350
+ L[www.metrocuadrado.com:page:68] a:href links got > 3400
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:69] a:href links got > 3450
+ L[www.metrocuadrado.com:page:70] a:href links got > 3500
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:71] a:href links got > 3550
+ L[www.metrocuadrado.com:page:72] a:href links got > 3600
+ L[www.metrocuadrado.com:page:73] a:href links got > 3650
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[www.metrocuadrado.com:page:74] a:href links got > 3700
+ L[www.metrocuadrado.com:page:75] a:href links got > 3750
+ L[www.metrocuadrado.com:page:76] a:href links got > 3800
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:77] a:href links got > 3850
+ L[www.metrocuadrado.com:page:78] a:href links got > 3900
+ L[www.metrocuadrado.com:page:79] a:href links got > 3950
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[www.metrocuadrado.com:page:80] a:href links got > 4000
+ L[www.metrocuadrado.com:page:81] a:href links got > 4050
+ L[www.metrocuadrado.com:page:82] a:href links got > 4100
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[www.metrocuadrado.com:page:83] a:href links got > 4150
+ L[www.metrocuadrado.com:page:84] a:href links got > 4200
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[www.metrocuadrado.com:page:85] a:href links got > 4250
+ L[www.metrocuadrado.com:page:86] a:href links got > 4300
+ L[www.metrocuadrado.com:page:87] a:href links got > 4350
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[www.metrocuadrado.com:page:88] a:href links got > 4400
+ L[www.metrocuadrado.com:page:89] a:href links got > 4450
+ L[www.metrocuadrado.com:page:90] a:href links got > 4500
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[www.metrocuadrado.com:page:91] a:href links got > 4550
+ L[www.metrocuadrado.com:page:92] a:href links got > 4600
+ L[www.metrocuadrado.com:page:93] a:href links got > 4650
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[www.metrocuadrado.com:page:94] a:href links got > 4700
+ L[www.metrocuadrado.com:page:95] a:href links got > 4750
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[www.metrocuadrado.com:page:96] a:href links got > 4800
+ L[www.metrocuadrado.com:page:97] a:href links got > 4850
+ L[www.metrocuadrado.com:page:98] a:href links got > 4900
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[www.metrocuadrado.com:page:99] a:href links got > 4950
+ L[www.metrocuadrado.com:page:100] a:href links got > 5000
+ L[www.metrocuadrado.com:page:101] a:href links got > 5050
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/bogota?pagina=1 ... 
+Using IP Proxy: 45.167.125.61:9992 ... 
+ L[www.metrocuadrado.com:page:102] a:href links got > 5100
+ L[www.metrocuadrado.com:page:103] a:href links got > 5150
+Got it!
+ L[www.metrocuadrado.com:page:104] a:href links got > 5200
+ L[www.metrocuadrado.com:page:105] a:href links got > 5250
+ L[www.metrocuadrado.com:page:106] a:href links got > 5300
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:107] a:href links got > 5350
+ L[www.metrocuadrado.com:page:108] a:href links got > 5400
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:109] a:href links got > 5450
+ L[www.metrocuadrado.com:page:110] a:href links got > 5500
+ L[www.metrocuadrado.com:page:111] a:href links got > 5550
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:112] a:href links got > 5566
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/buenaventura/ ... 
+Using IP Proxy: 190.107.234.139:999 ... 
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 4
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/cali/ ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:57] a:href links got > 2850
+ L[www.metrocuadrado.com:page:58] a:href links got > 2900
+ L[www.metrocuadrado.com:page:59] a:href links got > 2950
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:60] a:href links got > 3000
+ L[www.metrocuadrado.com:page:61] a:href links got > 3050
+ L[www.metrocuadrado.com:page:62] a:href links got > 3100
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:63] a:href links got > 3150
+ L[www.metrocuadrado.com:page:64] a:href links got > 3200
+ L[www.metrocuadrado.com:page:65] a:href links got > 3250
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[www.metrocuadrado.com:page:66] a:href links got > 3300
+ L[www.metrocuadrado.com:page:67] a:href links got > 3350
+ L[www.metrocuadrado.com:page:68] a:href links got > 3400
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:69] a:href links got > 3450
+ L[www.metrocuadrado.com:page:70] a:href links got > 3500
+ L[www.metrocuadrado.com:page:71] a:href links got > 3550
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:72] a:href links got > 3600
+ L[www.metrocuadrado.com:page:73] a:href links got > 3650
+ L[www.metrocuadrado.com:page:74] a:href links got > 3700
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:75] a:href links got > 3750
+ L[www.metrocuadrado.com:page:76] a:href links got > 3800
+ L[www.metrocuadrado.com:page:77] a:href links got > 3850
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:78] a:href links got > 3900
+ L[www.metrocuadrado.com:page:79] a:href links got > 3950
+ L[www.metrocuadrado.com:page:80] a:href links got > 4000
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:81] a:href links got > 4050
+ L[www.metrocuadrado.com:page:82] a:href links got > 4100
+ L[www.metrocuadrado.com:page:83] a:href links got > 4150
+ L[www.metrocuadrado.com:page:84] a:href links got > 4200
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[www.metrocuadrado.com:page:85] a:href links got > 4250
+ L[www.metrocuadrado.com:page:86] a:href links got > 4300
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:87] a:href links got > 4350
+ L[www.metrocuadrado.com:page:88] a:href links got > 4365
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/cartagena/ ... 
+Using IP Proxy: 194.8.218.100:8080 ... 
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/riohacha?pagina=1 ... 
+Using IP Proxy: 64.225.97.57:8080 ... 
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+Got it!
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+no page index: must be just one page
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[fincaraiz.com.co:page:Unica] a:href links got > 10
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/santa-marta?pagina=1 ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+Got it!
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[www.metrocuadrado.com:page:57] a:href links got > 2850
+ L[www.metrocuadrado.com:page:58] a:href links got > 2900
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:59] a:href links got > 2950
+ L[www.metrocuadrado.com:page:60] a:href links got > 3000
+ L[www.metrocuadrado.com:page:61] a:href links got > 3050
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:62] a:href links got > 3100
+ L[www.metrocuadrado.com:page:63] a:href links got > 3150
+ L[www.metrocuadrado.com:page:64] a:href links got > 3200
+ L[www.metrocuadrado.com:page:65] a:href links got > 3250
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:66] a:href links got > 3300
+ L[www.metrocuadrado.com:page:67] a:href links got > 3350
+ L[www.metrocuadrado.com:page:68] a:href links got > 3400
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:69] a:href links got > 3450
+ L[www.metrocuadrado.com:page:70] a:href links got > 3500
+ L[www.metrocuadrado.com:page:71] a:href links got > 3514
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/medellin/ ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[fincaraiz.com.co:page:21] a:href links got > 660
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[fincaraiz.com.co:page:22] a:href links got > 660
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[fincaraiz.com.co:page:23] a:href links got > 660
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[fincaraiz.com.co:page:24] a:href links got > 660
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[fincaraiz.com.co:page:25] a:href links got > 660
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[fincaraiz.com.co:page:26] a:href links got > 660
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[fincaraiz.com.co:page:27] a:href links got > 660
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[fincaraiz.com.co:page:28] a:href links got > 660
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[fincaraiz.com.co:page:29] a:href links got > 660
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[fincaraiz.com.co:page:30] a:href links got > 660
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[fincaraiz.com.co:page:31] a:href links got > 660
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[fincaraiz.com.co:page:32] a:href links got > 660
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+ L[fincaraiz.com.co:page:33] a:href links got > 660
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[fincaraiz.com.co:page:34] a:href links got > 660
+ L[www.metrocuadrado.com:page:57] a:href links got > 2850
+ L[fincaraiz.com.co:page:35] a:href links got > 660
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/turbo?pagina=1 ... 
+Using IP Proxy: 190.26.201.194:8080 ... 
+ L[www.metrocuadrado.com:page:58] a:href links got > 2900
+ L[www.metrocuadrado.com:page:59] a:href links got > 2950
+ L[www.metrocuadrado.com:page:60] a:href links got > 3000
+Got it!
+ L[www.metrocuadrado.com:page:61] a:href links got > 3050
+no page index: must be just one page
+ L[www.metrocuadrado.com:page:62] a:href links got > 3100
+ L[fincaraiz.com.co:page:Unica] a:href links got > 0
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/tumaco?pagina=1 ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[www.metrocuadrado.com:page:63] a:href links got > 3150
+ L[www.metrocuadrado.com:page:64] a:href links got > 3200
+ L[www.metrocuadrado.com:page:65] a:href links got > 3250
+Got it!
+ L[www.metrocuadrado.com:page:66] a:href links got > 3300
+no page index: must be just one page
+ L[www.metrocuadrado.com:page:67] a:href links got > 3350
+ L[fincaraiz.com.co:page:Unica] a:href links got > 0
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/mompos?pagina=1 ... 
+Using IP Proxy: 190.26.201.194:8080 ... 
+ L[www.metrocuadrado.com:page:68] a:href links got > 3400
+Got it!
+ L[www.metrocuadrado.com:page:69] a:href links got > 3450
+no page index: must be just one page
+ L[www.metrocuadrado.com:page:70] a:href links got > 3500
+ L[www.metrocuadrado.com:page:71] a:href links got > 3550
+ L[www.metrocuadrado.com:page:72] a:href links got > 3600
+ L[fincaraiz.com.co:page:Unica] a:href links got > 5
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/barrancabermeja?pagina=1 ... 
+Using IP Proxy: 191.102.254.10:8085 ... 
+ L[www.metrocuadrado.com:page:73] a:href links got > 3650
+ L[www.metrocuadrado.com:page:74] a:href links got > 3700
+Got it!
+ L[www.metrocuadrado.com:page:75] a:href links got > 3750
+ L[www.metrocuadrado.com:page:76] a:href links got > 3800
+ L[www.metrocuadrado.com:page:77] a:href links got > 3850
+ L[fincaraiz.com.co:page:1] a:href links got > 26
+ L[www.metrocuadrado.com:page:78] a:href links got > 3900
+ L[www.metrocuadrado.com:page:79] a:href links got > 3950
+ L[www.metrocuadrado.com:page:80] a:href links got > 4000
+ L[fincaraiz.com.co:page:2] a:href links got > 52
+ L[www.metrocuadrado.com:page:81] a:href links got > 4050
+ L[www.metrocuadrado.com:page:82] a:href links got > 4100
+ L[www.metrocuadrado.com:page:83] a:href links got > 4150
+ L[www.metrocuadrado.com:page:84] a:href links got > 4200
+ L[fincaraiz.com.co:page:3] a:href links got > 78
+ L[www.metrocuadrado.com:page:85] a:href links got > 4250
+ L[fincaraiz.com.co:page:4] a:href links got > 82
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/barranquilla?pagina=1 ... 
+Using IP Proxy: 186.96.108.30:8080 ... 
+ L[www.metrocuadrado.com:page:86] a:href links got > 4300
+ L[www.metrocuadrado.com:page:87] a:href links got > 4350
+ L[www.metrocuadrado.com:page:88] a:href links got > 4400
+Got it!
+ L[www.metrocuadrado.com:page:89] a:href links got > 4450
+ L[www.metrocuadrado.com:page:90] a:href links got > 4500
+ L[www.metrocuadrado.com:page:91] a:href links got > 4550
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:92] a:href links got > 4600
+ L[www.metrocuadrado.com:page:93] a:href links got > 4650
+ L[www.metrocuadrado.com:page:94] a:href links got > 4700
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:95] a:href links got > 4750
+ L[www.metrocuadrado.com:page:96] a:href links got > 4800
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:97] a:href links got > 4850
+ L[www.metrocuadrado.com:page:98] a:href links got > 4900
+ L[www.metrocuadrado.com:page:99] a:href links got > 4950
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:100] a:href links got > 5000
+ L[www.metrocuadrado.com:page:101] a:href links got > 5050
+ L[www.metrocuadrado.com:page:102] a:href links got > 5100
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[www.metrocuadrado.com:page:103] a:href links got > 5150
+ L[www.metrocuadrado.com:page:104] a:href links got > 5200
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:105] a:href links got > 5250
+ L[www.metrocuadrado.com:page:106] a:href links got > 5300
+ L[www.metrocuadrado.com:page:107] a:href links got > 5350
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:108] a:href links got > 5400
+ L[www.metrocuadrado.com:page:109] a:href links got > 5450
+ L[www.metrocuadrado.com:page:110] a:href links got > 5500
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:111] a:href links got > 5550
+ L[www.metrocuadrado.com:page:112] a:href links got > 5600
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:113] a:href links got > 5650
+ L[www.metrocuadrado.com:page:114] a:href links got > 5700
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:115] a:href links got > 5750
+ L[www.metrocuadrado.com:page:116] a:href links got > 5800
+ L[www.metrocuadrado.com:page:117] a:href links got > 5850
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:118] a:href links got > 5900
+ L[www.metrocuadrado.com:page:119] a:href links got > 5950
+ L[www.metrocuadrado.com:page:120] a:href links got > 6000
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:121] a:href links got > 6050
+ L[www.metrocuadrado.com:page:122] a:href links got > 6100
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:123] a:href links got > 6150
+ L[www.metrocuadrado.com:page:124] a:href links got > 6200
+ L[www.metrocuadrado.com:page:125] a:href links got > 6250
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:126] a:href links got > 6300
+ L[www.metrocuadrado.com:page:127] a:href links got > 6350
+ L[www.metrocuadrado.com:page:128] a:href links got > 6400
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:129] a:href links got > 6450
+ L[www.metrocuadrado.com:page:130] a:href links got > 6500
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:131] a:href links got > 6550
+ L[www.metrocuadrado.com:page:132] a:href links got > 6600
+ L[www.metrocuadrado.com:page:133] a:href links got > 6650
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:134] a:href links got > 6700
+ L[www.metrocuadrado.com:page:135] a:href links got > 6750
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:136] a:href links got > 6800
+ L[www.metrocuadrado.com:page:137] a:href links got > 6850
+ L[www.metrocuadrado.com:page:138] a:href links got > 6900
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:139] a:href links got > 6950
+ L[www.metrocuadrado.com:page:140] a:href links got > 7000
+ L[www.metrocuadrado.com:page:141] a:href links got > 7050
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:142] a:href links got > 7100
+ L[www.metrocuadrado.com:page:143] a:href links got > 7150
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:144] a:href links got > 7200
+ L[www.metrocuadrado.com:page:145] a:href links got > 7250
+ L[www.metrocuadrado.com:page:146] a:href links got > 7300
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:147] a:href links got > 7350
+ L[www.metrocuadrado.com:page:148] a:href links got > 7400
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:149] a:href links got > 7450
+ L[www.metrocuadrado.com:page:150] a:href links got > 7500
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[www.metrocuadrado.com:page:151] a:href links got > 7550
+ L[www.metrocuadrado.com:page:152] a:href links got > 7600
+ L[www.metrocuadrado.com:page:153] a:href links got > 7650
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:154] a:href links got > 7700
+ L[www.metrocuadrado.com:page:155] a:href links got > 7750
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:156] a:href links got > 7800
+ L[www.metrocuadrado.com:page:157] a:href links got > 7850
+ L[www.metrocuadrado.com:page:158] a:href links got > 7900
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:159] a:href links got > 7950
+ L[www.metrocuadrado.com:page:160] a:href links got > 8000
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:161] a:href links got > 8050
+ L[www.metrocuadrado.com:page:162] a:href links got > 8100
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:163] a:href links got > 8150
+ L[www.metrocuadrado.com:page:164] a:href links got > 8200
+ L[www.metrocuadrado.com:page:165] a:href links got > 8250
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[www.metrocuadrado.com:page:166] a:href links got > 8300
+ L[www.metrocuadrado.com:page:167] a:href links got > 8350
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:168] a:href links got > 8400
+ L[www.metrocuadrado.com:page:169] a:href links got > 8450
+ L[www.metrocuadrado.com:page:170] a:href links got > 8500
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[www.metrocuadrado.com:page:171] a:href links got > 8550
+ L[www.metrocuadrado.com:page:172] a:href links got > 8600
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[www.metrocuadrado.com:page:173] a:href links got > 8650
+ L[www.metrocuadrado.com:page:174] a:href links got > 8700
+ L[www.metrocuadrado.com:page:175] a:href links got > 8750
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[www.metrocuadrado.com:page:176] a:href links got > 8800
+ L[www.metrocuadrado.com:page:177] a:href links got > 8850
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[www.metrocuadrado.com:page:178] a:href links got > 8900
+ L[www.metrocuadrado.com:page:179] a:href links got > 8950
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[www.metrocuadrado.com:page:180] a:href links got > 9000
+ L[www.metrocuadrado.com:page:181] a:href links got > 9050
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[www.metrocuadrado.com:page:182] a:href links got > 9100
+ L[www.metrocuadrado.com:page:183] a:href links got > 9150
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[www.metrocuadrado.com:page:184] a:href links got > 9200
+ L[www.metrocuadrado.com:page:185] a:href links got > 9250
+ L[www.metrocuadrado.com:page:186] a:href links got > 9300
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[www.metrocuadrado.com:page:187] a:href links got > 9350
+ L[www.metrocuadrado.com:page:188] a:href links got > 9400
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/buenaventura?pagina=1 ... 
+Using IP Proxy: 45.167.125.61:9992 ... 
+ L[www.metrocuadrado.com:page:189] a:href links got > 9450
+ L[www.metrocuadrado.com:page:190] a:href links got > 9500
+Got it!
+ L[www.metrocuadrado.com:page:191] a:href links got > 9550
+no page index: must be just one page
+ L[www.metrocuadrado.com:page:192] a:href links got > 9600
+ L[fincaraiz.com.co:page:Unica] a:href links got > 6
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/cali?pagina=1 ... 
+Using IP Proxy: 191.102.254.10:8085 ... 
+ L[www.metrocuadrado.com:page:193] a:href links got > 9650
+ L[www.metrocuadrado.com:page:194] a:href links got > 9700
+Got it!
+ L[www.metrocuadrado.com:page:195] a:href links got > 9750
+ L[www.metrocuadrado.com:page:196] a:href links got > 9800
+ L[www.metrocuadrado.com:page:197] a:href links got > 9850
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:198] a:href links got > 9900
+ L[www.metrocuadrado.com:page:199] a:href links got > 9950
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:200] a:href links got > 10000
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/bogota/ ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[www.metrocuadrado.com:page:57] a:href links got > 2850
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:58] a:href links got > 2900
+ L[www.metrocuadrado.com:page:59] a:href links got > 2950
+ L[www.metrocuadrado.com:page:60] a:href links got > 3000
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:61] a:href links got > 3050
+ L[www.metrocuadrado.com:page:62] a:href links got > 3100
+ L[www.metrocuadrado.com:page:63] a:href links got > 3150
+ L[www.metrocuadrado.com:page:64] a:href links got > 3200
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:65] a:href links got > 3250
+ L[www.metrocuadrado.com:page:66] a:href links got > 3300
+ L[www.metrocuadrado.com:page:67] a:href links got > 3350
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:68] a:href links got > 3400
+ L[www.metrocuadrado.com:page:69] a:href links got > 3450
+ L[www.metrocuadrado.com:page:70] a:href links got > 3500
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[www.metrocuadrado.com:page:71] a:href links got > 3550
+ L[www.metrocuadrado.com:page:72] a:href links got > 3600
+ L[www.metrocuadrado.com:page:73] a:href links got > 3650
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:74] a:href links got > 3700
+ L[www.metrocuadrado.com:page:75] a:href links got > 3750
+ L[www.metrocuadrado.com:page:76] a:href links got > 3800
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:77] a:href links got > 3850
+ L[www.metrocuadrado.com:page:78] a:href links got > 3900
+ L[www.metrocuadrado.com:page:79] a:href links got > 3950
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:80] a:href links got > 4000
+ L[www.metrocuadrado.com:page:81] a:href links got > 4050
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:82] a:href links got > 4100
+ L[www.metrocuadrado.com:page:83] a:href links got > 4150
+ L[www.metrocuadrado.com:page:84] a:href links got > 4200
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:85] a:href links got > 4250
+ L[www.metrocuadrado.com:page:86] a:href links got > 4300
+ L[www.metrocuadrado.com:page:87] a:href links got > 4350
+ L[www.metrocuadrado.com:page:88] a:href links got > 4400
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[www.metrocuadrado.com:page:89] a:href links got > 4450
+ L[www.metrocuadrado.com:page:90] a:href links got > 4500
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:91] a:href links got > 4550
+ L[www.metrocuadrado.com:page:92] a:href links got > 4600
+ L[www.metrocuadrado.com:page:93] a:href links got > 4650
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[www.metrocuadrado.com:page:94] a:href links got > 4700
+ L[www.metrocuadrado.com:page:95] a:href links got > 4750
+ L[www.metrocuadrado.com:page:96] a:href links got > 4800
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[www.metrocuadrado.com:page:97] a:href links got > 4850
+ L[www.metrocuadrado.com:page:98] a:href links got > 4900
+ L[www.metrocuadrado.com:page:99] a:href links got > 4950
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[www.metrocuadrado.com:page:100] a:href links got > 5000
+ L[www.metrocuadrado.com:page:101] a:href links got > 5050
+ L[www.metrocuadrado.com:page:102] a:href links got > 5100
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[www.metrocuadrado.com:page:103] a:href links got > 5150
+ L[www.metrocuadrado.com:page:104] a:href links got > 5200
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[www.metrocuadrado.com:page:105] a:href links got > 5250
+ L[www.metrocuadrado.com:page:106] a:href links got > 5300
+ L[www.metrocuadrado.com:page:107] a:href links got > 5350
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[www.metrocuadrado.com:page:108] a:href links got > 5400
+ L[www.metrocuadrado.com:page:109] a:href links got > 5450
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[www.metrocuadrado.com:page:110] a:href links got > 5500
+ L[www.metrocuadrado.com:page:111] a:href links got > 5550
+ L[www.metrocuadrado.com:page:112] a:href links got > 5600
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[www.metrocuadrado.com:page:113] a:href links got > 5650
+ L[www.metrocuadrado.com:page:114] a:href links got > 5700
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/cartagena?pagina=1 ... 
+Using IP Proxy: 190.107.234.139:999 ... 
+ L[www.metrocuadrado.com:page:115] a:href links got > 5750
+ L[www.metrocuadrado.com:page:116] a:href links got > 5800
+ L[www.metrocuadrado.com:page:117] a:href links got > 5850
+Got it!
+ L[www.metrocuadrado.com:page:118] a:href links got > 5900
+ L[www.metrocuadrado.com:page:119] a:href links got > 5950
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:120] a:href links got > 6000
+ L[www.metrocuadrado.com:page:121] a:href links got > 6050
+ L[www.metrocuadrado.com:page:122] a:href links got > 6100
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:123] a:href links got > 6150
+ L[www.metrocuadrado.com:page:124] a:href links got > 6200
+ L[www.metrocuadrado.com:page:125] a:href links got > 6250
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:126] a:href links got > 6300
+ L[www.metrocuadrado.com:page:127] a:href links got > 6350
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:128] a:href links got > 6400
+ L[www.metrocuadrado.com:page:129] a:href links got > 6450
+ L[www.metrocuadrado.com:page:130] a:href links got > 6500
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[www.metrocuadrado.com:page:131] a:href links got > 6550
+ L[www.metrocuadrado.com:page:132] a:href links got > 6600
+ L[www.metrocuadrado.com:page:133] a:href links got > 6650
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:134] a:href links got > 6700
+ L[www.metrocuadrado.com:page:135] a:href links got > 6750
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:136] a:href links got > 6800
+ L[www.metrocuadrado.com:page:137] a:href links got > 6850
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:138] a:href links got > 6900
+ L[www.metrocuadrado.com:page:139] a:href links got > 6950
+ L[www.metrocuadrado.com:page:140] a:href links got > 7000
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:141] a:href links got > 7050
+ L[www.metrocuadrado.com:page:142] a:href links got > 7100
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:143] a:href links got > 7150
+ L[www.metrocuadrado.com:page:144] a:href links got > 7200
+ L[www.metrocuadrado.com:page:145] a:href links got > 7250
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:146] a:href links got > 7300
+ L[www.metrocuadrado.com:page:147] a:href links got > 7350
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:148] a:href links got > 7400
+ L[www.metrocuadrado.com:page:149] a:href links got > 7450
+ L[www.metrocuadrado.com:page:150] a:href links got > 7500
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:151] a:href links got > 7550
+ L[www.metrocuadrado.com:page:152] a:href links got > 7600
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[www.metrocuadrado.com:page:153] a:href links got > 7650
+ L[www.metrocuadrado.com:page:154] a:href links got > 7700
+ L[www.metrocuadrado.com:page:155] a:href links got > 7750
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[www.metrocuadrado.com:page:156] a:href links got > 7800
+ L[www.metrocuadrado.com:page:157] a:href links got > 7850
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[www.metrocuadrado.com:page:158] a:href links got > 7900
+ L[www.metrocuadrado.com:page:159] a:href links got > 7950
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[www.metrocuadrado.com:page:160] a:href links got > 8000
+ L[www.metrocuadrado.com:page:161] a:href links got > 8050
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[www.metrocuadrado.com:page:162] a:href links got > 8100
+ L[www.metrocuadrado.com:page:163] a:href links got > 8150
+ L[www.metrocuadrado.com:page:164] a:href links got > 8200
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[www.metrocuadrado.com:page:165] a:href links got > 8250
+ L[www.metrocuadrado.com:page:166] a:href links got > 8300
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[www.metrocuadrado.com:page:167] a:href links got > 8350
+ L[www.metrocuadrado.com:page:168] a:href links got > 8400
+ L[www.metrocuadrado.com:page:169] a:href links got > 8450
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[www.metrocuadrado.com:page:170] a:href links got > 8500
+ L[www.metrocuadrado.com:page:171] a:href links got > 8550
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[www.metrocuadrado.com:page:172] a:href links got > 8600
+ L[www.metrocuadrado.com:page:173] a:href links got > 8650
+ L[www.metrocuadrado.com:page:174] a:href links got > 8700
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[www.metrocuadrado.com:page:175] a:href links got > 8750
+ L[www.metrocuadrado.com:page:176] a:href links got > 8800
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[www.metrocuadrado.com:page:177] a:href links got > 8850
+ L[www.metrocuadrado.com:page:178] a:href links got > 8900
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[www.metrocuadrado.com:page:179] a:href links got > 8950
+ L[www.metrocuadrado.com:page:180] a:href links got > 9000
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[www.metrocuadrado.com:page:181] a:href links got > 9050
+ L[www.metrocuadrado.com:page:182] a:href links got > 9100
+ L[www.metrocuadrado.com:page:183] a:href links got > 9150
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[www.metrocuadrado.com:page:184] a:href links got > 9200
+ L[www.metrocuadrado.com:page:185] a:href links got > 9250
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[www.metrocuadrado.com:page:186] a:href links got > 9300
+ L[www.metrocuadrado.com:page:187] a:href links got > 9350
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[www.metrocuadrado.com:page:188] a:href links got > 9400
+ L[www.metrocuadrado.com:page:189] a:href links got > 9450
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[www.metrocuadrado.com:page:190] a:href links got > 9500
+ L[www.metrocuadrado.com:page:191] a:href links got > 9550
+ L[www.metrocuadrado.com:page:192] a:href links got > 9600
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[www.metrocuadrado.com:page:193] a:href links got > 9650
+ L[fincaraiz.com.co:page:32] a:href links got > 1023
+ L[fincaraiz.com.co:page:33] a:href links got > 1023
+ L[www.metrocuadrado.com:page:194] a:href links got > 9700
+ L[www.metrocuadrado.com:page:195] a:href links got > 9750
+ L[www.metrocuadrado.com:page:196] a:href links got > 9800
+ L[fincaraiz.com.co:page:34] a:href links got > 1056
+ L[www.metrocuadrado.com:page:197] a:href links got > 9850
+ L[fincaraiz.com.co:page:35] a:href links got > 1089
+ L[www.metrocuadrado.com:page:198] a:href links got > 9900
+ L[www.metrocuadrado.com:page:199] a:href links got > 9950
+ L[www.metrocuadrado.com:page:200] a:href links got > 10000
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/riohacha/ ... 
+Using IP Proxy: 157.100.12.138:999 ... 
+ L[fincaraiz.com.co:page:36] a:href links got > 1122
+ L[fincaraiz.com.co:page:37] a:href links got > 1155
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 1
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/santa-marta/ ... 
+Using IP Proxy: 201.184.124.218:999 ... 
+ L[fincaraiz.com.co:page:38] a:href links got > 1188
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[fincaraiz.com.co:page:39] a:href links got > 1221
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[fincaraiz.com.co:page:40] a:href links got > 1254
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/medellin?pagina=1 ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+Got it!
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 767
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/turbo/ ... 
+Using IP Proxy: 45.167.125.61:9992 ... 
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 66
+Got it!
+ L[fincaraiz.com.co:page:4] a:href links got > 66
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/tumaco/ ... 
+Using IP Proxy: 157.100.12.138:999 ... 
+ L[fincaraiz.com.co:page:5] a:href links got > 99
+Got it!
+ L[fincaraiz.com.co:page:6] a:href links got > 99
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+ L[fincaraiz.com.co:page:7] a:href links got > 99
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/mompos/ ... 
+Using IP Proxy: 191.102.254.10:8085 ... 
+ L[fincaraiz.com.co:page:8] a:href links got > 99
+ L[fincaraiz.com.co:page:9] a:href links got > 99
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+ L[fincaraiz.com.co:page:10] a:href links got > 132
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/barrancabermeja/ ... 
+Using IP Proxy: 190.107.234.139:999 ... 
+ L[fincaraiz.com.co:page:11] a:href links got > 165
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 4
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/barranquilla/ ... 
+Using IP Proxy: 201.184.124.218:999 ... 
+ L[fincaraiz.com.co:page:12] a:href links got > 198
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[fincaraiz.com.co:page:13] a:href links got > 231
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 262
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/buenaventura/ ... 
+Using IP Proxy: 186.96.108.30:8080 ... 
+ L[fincaraiz.com.co:page:14] a:href links got > 264
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 5
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/cali/ ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+ L[fincaraiz.com.co:page:15] a:href links got > 297
+ L[fincaraiz.com.co:page:16] a:href links got > 330
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 144
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/cartagena/ ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[fincaraiz.com.co:page:17] a:href links got > 363
+Got it!
+ L[fincaraiz.com.co:page:18] a:href links got > 396
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 155
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/medellin/ ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[fincaraiz.com.co:page:19] a:href links got > 429
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[fincaraiz.com.co:page:20] a:href links got > 462
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[fincaraiz.com.co:page:21] a:href links got > 495
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[fincaraiz.com.co:page:22] a:href links got > 528
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[fincaraiz.com.co:page:23] a:href links got > 561
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[fincaraiz.com.co:page:24] a:href links got > 594
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 901
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/bogota/ ... 
+Using IP Proxy: 45.167.125.97:9992 ... 
+ L[fincaraiz.com.co:page:25] a:href links got > 627
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 50
+ L[fincaraiz.com.co:page:26] a:href links got > 660
+ L[www.metrocuadrado.com:page:2] a:href links got > 100
+ L[www.metrocuadrado.com:page:3] a:href links got > 150
+ L[www.metrocuadrado.com:page:4] a:href links got > 200
+ L[fincaraiz.com.co:page:27] a:href links got > 693
+ L[www.metrocuadrado.com:page:5] a:href links got > 250
+ L[www.metrocuadrado.com:page:6] a:href links got > 300
+ L[www.metrocuadrado.com:page:7] a:href links got > 350
+ L[www.metrocuadrado.com:page:8] a:href links got > 400
+ L[fincaraiz.com.co:page:28] a:href links got > 726
+ L[www.metrocuadrado.com:page:9] a:href links got > 450
+ L[www.metrocuadrado.com:page:10] a:href links got > 500
+ L[www.metrocuadrado.com:page:11] a:href links got > 550
+ L[www.metrocuadrado.com:page:12] a:href links got > 600
+ L[fincaraiz.com.co:page:29] a:href links got > 759
+ L[www.metrocuadrado.com:page:13] a:href links got > 650
+ L[www.metrocuadrado.com:page:14] a:href links got > 700
+ L[www.metrocuadrado.com:page:15] a:href links got > 750
+ L[www.metrocuadrado.com:page:16] a:href links got > 800
+ L[fincaraiz.com.co:page:30] a:href links got > 792
+ L[www.metrocuadrado.com:page:17] a:href links got > 850
+ L[www.metrocuadrado.com:page:18] a:href links got > 900
+ L[www.metrocuadrado.com:page:19] a:href links got > 950
+ L[fincaraiz.com.co:page:31] a:href links got > 825
+ L[www.metrocuadrado.com:page:20] a:href links got > 1000
+ L[www.metrocuadrado.com:page:21] a:href links got > 1050
+ L[www.metrocuadrado.com:page:22] a:href links got > 1100
+ L[www.metrocuadrado.com:page:23] a:href links got > 1150
+ L[fincaraiz.com.co:page:32] a:href links got > 858
+ L[www.metrocuadrado.com:page:24] a:href links got > 1200
+ L[www.metrocuadrado.com:page:25] a:href links got > 1250
+ L[www.metrocuadrado.com:page:26] a:href links got > 1300
+ L[fincaraiz.com.co:page:33] a:href links got > 891
+ L[www.metrocuadrado.com:page:27] a:href links got > 1350
+ L[www.metrocuadrado.com:page:28] a:href links got > 1400
+ L[www.metrocuadrado.com:page:29] a:href links got > 1450
+ L[www.metrocuadrado.com:page:30] a:href links got > 1500
+ L[fincaraiz.com.co:page:34] a:href links got > 924
+ L[www.metrocuadrado.com:page:31] a:href links got > 1550
+ L[www.metrocuadrado.com:page:32] a:href links got > 1600
+ L[www.metrocuadrado.com:page:33] a:href links got > 1650
+ L[fincaraiz.com.co:page:35] a:href links got > 957
+ L[www.metrocuadrado.com:page:34] a:href links got > 1700
+ L[www.metrocuadrado.com:page:35] a:href links got > 1750
+ L[www.metrocuadrado.com:page:36] a:href links got > 1800
+ L[www.metrocuadrado.com:page:37] a:href links got > 1850
+ L[fincaraiz.com.co:page:36] a:href links got > 990
+ L[www.metrocuadrado.com:page:38] a:href links got > 1900
+ L[www.metrocuadrado.com:page:39] a:href links got > 1950
+ L[www.metrocuadrado.com:page:40] a:href links got > 2000
+ L[www.metrocuadrado.com:page:41] a:href links got > 2050
+ L[fincaraiz.com.co:page:37] a:href links got > 1023
+ L[www.metrocuadrado.com:page:42] a:href links got > 2100
+ L[www.metrocuadrado.com:page:43] a:href links got > 2150
+ L[www.metrocuadrado.com:page:44] a:href links got > 2200
+ L[fincaraiz.com.co:page:38] a:href links got > 1056
+ L[www.metrocuadrado.com:page:45] a:href links got > 2250
+ L[www.metrocuadrado.com:page:46] a:href links got > 2300
+ L[www.metrocuadrado.com:page:47] a:href links got > 2350
+ L[www.metrocuadrado.com:page:48] a:href links got > 2400
+ L[fincaraiz.com.co:page:39] a:href links got > 1089
+ L[www.metrocuadrado.com:page:49] a:href links got > 2450
+ L[www.metrocuadrado.com:page:50] a:href links got > 2500
+ L[www.metrocuadrado.com:page:51] a:href links got > 2550
+ L[fincaraiz.com.co:page:40] a:href links got > 1122
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/bogota?pagina=1 ... 
+Using IP Proxy: 201.184.124.218:999 ... 
+ L[www.metrocuadrado.com:page:52] a:href links got > 2600
+ L[www.metrocuadrado.com:page:53] a:href links got > 2650
+ L[www.metrocuadrado.com:page:54] a:href links got > 2700
+Got it!
+ L[www.metrocuadrado.com:page:55] a:href links got > 2750
+ L[www.metrocuadrado.com:page:56] a:href links got > 2800
+ L[www.metrocuadrado.com:page:57] a:href links got > 2850
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[www.metrocuadrado.com:page:58] a:href links got > 2900
+ L[www.metrocuadrado.com:page:59] a:href links got > 2950
+ L[www.metrocuadrado.com:page:60] a:href links got > 3000
+ L[www.metrocuadrado.com:page:61] a:href links got > 3050
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[www.metrocuadrado.com:page:62] a:href links got > 3100
+ L[www.metrocuadrado.com:page:63] a:href links got > 3150
+ L[www.metrocuadrado.com:page:64] a:href links got > 3200
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[www.metrocuadrado.com:page:65] a:href links got > 3250
+ L[www.metrocuadrado.com:page:66] a:href links got > 3300
+ L[www.metrocuadrado.com:page:67] a:href links got > 3350
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[www.metrocuadrado.com:page:68] a:href links got > 3400
+ L[www.metrocuadrado.com:page:69] a:href links got > 3450
+ L[www.metrocuadrado.com:page:70] a:href links got > 3500
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[www.metrocuadrado.com:page:71] a:href links got > 3550
+ L[www.metrocuadrado.com:page:72] a:href links got > 3600
+ L[www.metrocuadrado.com:page:73] a:href links got > 3650
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[www.metrocuadrado.com:page:74] a:href links got > 3700
+ L[www.metrocuadrado.com:page:75] a:href links got > 3750
+ L[www.metrocuadrado.com:page:76] a:href links got > 3800
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[www.metrocuadrado.com:page:77] a:href links got > 3850
+ L[www.metrocuadrado.com:page:78] a:href links got > 3900
+ L[www.metrocuadrado.com:page:79] a:href links got > 3950
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[www.metrocuadrado.com:page:80] a:href links got > 4000
+ L[www.metrocuadrado.com:page:81] a:href links got > 4050
+ L[www.metrocuadrado.com:page:82] a:href links got > 4100
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[www.metrocuadrado.com:page:83] a:href links got > 4150
+ L[www.metrocuadrado.com:page:84] a:href links got > 4200
+ L[www.metrocuadrado.com:page:85] a:href links got > 4250
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[www.metrocuadrado.com:page:86] a:href links got > 4300
+ L[www.metrocuadrado.com:page:87] a:href links got > 4350
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[www.metrocuadrado.com:page:88] a:href links got > 4400
+ L[www.metrocuadrado.com:page:89] a:href links got > 4450
+ L[www.metrocuadrado.com:page:90] a:href links got > 4500
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[www.metrocuadrado.com:page:91] a:href links got > 4550
+ L[www.metrocuadrado.com:page:92] a:href links got > 4600
+ L[www.metrocuadrado.com:page:93] a:href links got > 4650
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[www.metrocuadrado.com:page:94] a:href links got > 4700
+ L[fincaraiz.com.co:page:14] a:href links got > 429
+ L[www.metrocuadrado.com:page:95] a:href links got > 4750
+ L[www.metrocuadrado.com:page:96] a:href links got > 4800
+ L[www.metrocuadrado.com:page:97] a:href links got > 4850
+ L[fincaraiz.com.co:page:15] a:href links got > 462
+ L[www.metrocuadrado.com:page:98] a:href links got > 4900
+ L[www.metrocuadrado.com:page:99] a:href links got > 4950
+ L[fincaraiz.com.co:page:16] a:href links got > 495
+ L[www.metrocuadrado.com:page:100] a:href links got > 5000
+ L[www.metrocuadrado.com:page:101] a:href links got > 5050
+ L[www.metrocuadrado.com:page:102] a:href links got > 5100
+ L[fincaraiz.com.co:page:17] a:href links got > 528
+ L[www.metrocuadrado.com:page:103] a:href links got > 5150
+ L[www.metrocuadrado.com:page:104] a:href links got > 5200
+ L[www.metrocuadrado.com:page:105] a:href links got > 5250
+ L[fincaraiz.com.co:page:18] a:href links got > 561
+ L[www.metrocuadrado.com:page:106] a:href links got > 5300
+ L[www.metrocuadrado.com:page:107] a:href links got > 5350
+ L[fincaraiz.com.co:page:19] a:href links got > 594
+ L[www.metrocuadrado.com:page:108] a:href links got > 5400
+ L[www.metrocuadrado.com:page:109] a:href links got > 5450
+ L[www.metrocuadrado.com:page:110] a:href links got > 5500
+ L[fincaraiz.com.co:page:20] a:href links got > 627
+ L[www.metrocuadrado.com:page:111] a:href links got > 5550
+ L[www.metrocuadrado.com:page:112] a:href links got > 5600
+ L[www.metrocuadrado.com:page:113] a:href links got > 5650
+ L[fincaraiz.com.co:page:21] a:href links got > 660
+ L[www.metrocuadrado.com:page:114] a:href links got > 5700
+ L[www.metrocuadrado.com:page:115] a:href links got > 5750
+ L[fincaraiz.com.co:page:22] a:href links got > 693
+ L[www.metrocuadrado.com:page:116] a:href links got > 5800
+ L[www.metrocuadrado.com:page:117] a:href links got > 5850
+ L[www.metrocuadrado.com:page:118] a:href links got > 5900
+ L[fincaraiz.com.co:page:23] a:href links got > 726
+ L[www.metrocuadrado.com:page:119] a:href links got > 5950
+ L[www.metrocuadrado.com:page:120] a:href links got > 5992
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/riohacha/ ... 
+Using IP Proxy: 157.100.12.138:999 ... 
+ L[fincaraiz.com.co:page:24] a:href links got > 759
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+ L[fincaraiz.com.co:page:25] a:href links got > 792
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/santa-marta/ ... 
+Using IP Proxy: 190.216.107.194:999 ... 
+ L[fincaraiz.com.co:page:26] a:href links got > 825
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 30
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/turbo/ ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+ L[fincaraiz.com.co:page:27] a:href links got > 858
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 0
+ L[fincaraiz.com.co:page:28] a:href links got > 891
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/tumaco/ ... 
+Using IP Proxy: 201.184.124.218:999 ... 
+ L[fincaraiz.com.co:page:29] a:href links got > 924
+Got it!
+ L[www.metrocuadrado.com:page:1] a:href links got > 1
+Appending links for https://www.metrocuadrado.com ... 
+ L[fincaraiz.com.co:page:30] a:href links got > 957
+ L[fincaraiz.com.co:page:31] a:href links got > 990
+ L[fincaraiz.com.co:page:32] a:href links got > 1023
+ L[fincaraiz.com.co:page:33] a:href links got > 1056
+ L[fincaraiz.com.co:page:34] a:href links got > 1089
+ L[fincaraiz.com.co:page:35] a:href links got > 1122
+ L[fincaraiz.com.co:page:36] a:href links got > 1155
+ L[fincaraiz.com.co:page:37] a:href links got > 1188
+ L[fincaraiz.com.co:page:38] a:href links got > 1221
+ L[fincaraiz.com.co:page:39] a:href links got > 1254
+ L[fincaraiz.com.co:page:40] a:href links got > 1287
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/riohacha?pagina=1 ... 
+Using IP Proxy: 194.8.218.100:8080 ... 
+Got it!
+no page index: must be just one page
+ L[fincaraiz.com.co:page:Unica] a:href links got > 25
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/santa-marta?pagina=1 ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/turbo?pagina=1 ... 
+Using IP Proxy: 157.100.12.138:999 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/tumaco?pagina=1 ... 
+Using IP Proxy: 190.26.201.194:8080 ... 
+Got it!
+no page index: must be just one page
+ L[fincaraiz.com.co:page:Unica] a:href links got > 25
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/mompos?pagina=1 ... 
+Using IP Proxy: 190.107.234.139:999 ... 
+Got it!
+no page index: must be just one page
+ L[fincaraiz.com.co:page:Unica] a:href links got > 25
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/barrancabermeja?pagina=1 ... 
+Using IP Proxy: 64.225.97.57:8080 ... 
+Got it!
+no page index: must be just one page
+ L[fincaraiz.com.co:page:Unica] a:href links got > 2
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/barranquilla?pagina=1 ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[fincaraiz.com.co:page:17] a:href links got > 539
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/buenaventura?pagina=1 ... 
+Using IP Proxy: 117.251.103.186:8080 ... 
+Got it!
+no page index: must be just one page
+ L[fincaraiz.com.co:page:Unica] a:href links got > 6
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/cali?pagina=1 ... 
+Using IP Proxy: 198.52.97.210:59394 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[fincaraiz.com.co:page:15] a:href links got > 471
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/cartagena?pagina=1 ... 
+Using IP Proxy: 68.183.242.248:3128 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 32
+ L[fincaraiz.com.co:page:2] a:href links got > 64
+ L[fincaraiz.com.co:page:3] a:href links got > 96
+ L[fincaraiz.com.co:page:4] a:href links got > 128
+ L[fincaraiz.com.co:page:5] a:href links got > 160
+ L[fincaraiz.com.co:page:6] a:href links got > 192
+ L[fincaraiz.com.co:page:7] a:href links got > 224
+ L[fincaraiz.com.co:page:8] a:href links got > 256
+ L[fincaraiz.com.co:page:9] a:href links got > 288
+ L[fincaraiz.com.co:page:10] a:href links got > 320
+ L[fincaraiz.com.co:page:11] a:href links got > 352
+ L[fincaraiz.com.co:page:12] a:href links got > 384
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/medellin?pagina=1 ... 
+Using IP Proxy: 190.26.201.194:8080 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/bogota?pagina=1 ... 
+Using IP Proxy: 190.216.107.194:999 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/riohacha?pagina=1 ... 
+Using IP Proxy: 51.79.50.31:9300 ... 
+Got it!
+no page index: must be just one page
+ L[fincaraiz.com.co:page:Unica] a:href links got > 2
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/santa-marta?pagina=1 ... 
+Using IP Proxy: 64.225.97.57:8080 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 32
+ L[fincaraiz.com.co:page:2] a:href links got > 47
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/turbo?pagina=1 ... 
+Using IP Proxy: 186.96.108.30:8080 ... 
+Got it!
+ L[fincaraiz.com.co:page:1] a:href links got > 33
+ L[fincaraiz.com.co:page:2] a:href links got > 66
+ L[fincaraiz.com.co:page:3] a:href links got > 99
+ L[fincaraiz.com.co:page:4] a:href links got > 132
+ L[fincaraiz.com.co:page:5] a:href links got > 165
+ L[fincaraiz.com.co:page:6] a:href links got > 198
+ L[fincaraiz.com.co:page:7] a:href links got > 231
+ L[fincaraiz.com.co:page:8] a:href links got > 264
+ L[fincaraiz.com.co:page:9] a:href links got > 297
+ L[fincaraiz.com.co:page:10] a:href links got > 330
+ L[fincaraiz.com.co:page:11] a:href links got > 363
+ L[fincaraiz.com.co:page:12] a:href links got > 396
+ L[fincaraiz.com.co:page:13] a:href links got > 429
+ L[fincaraiz.com.co:page:14] a:href links got > 462
+ L[fincaraiz.com.co:page:15] a:href links got > 495
+ L[fincaraiz.com.co:page:16] a:href links got > 528
+ L[fincaraiz.com.co:page:17] a:href links got > 561
+ L[fincaraiz.com.co:page:18] a:href links got > 594
+ L[fincaraiz.com.co:page:19] a:href links got > 627
+ L[fincaraiz.com.co:page:20] a:href links got > 660
+ L[fincaraiz.com.co:page:21] a:href links got > 693
+ L[fincaraiz.com.co:page:22] a:href links got > 726
+ L[fincaraiz.com.co:page:23] a:href links got > 759
+ L[fincaraiz.com.co:page:24] a:href links got > 792
+ L[fincaraiz.com.co:page:25] a:href links got > 825
+ L[fincaraiz.com.co:page:26] a:href links got > 858
+ L[fincaraiz.com.co:page:27] a:href links got > 891
+ L[fincaraiz.com.co:page:28] a:href links got > 924
+ L[fincaraiz.com.co:page:29] a:href links got > 957
+ L[fincaraiz.com.co:page:30] a:href links got > 990
+ L[fincaraiz.com.co:page:31] a:href links got > 1023
+ L[fincaraiz.com.co:page:32] a:href links got > 1056
+ L[fincaraiz.com.co:page:33] a:href links got > 1089
+ L[fincaraiz.com.co:page:34] a:href links got > 1122
+ L[fincaraiz.com.co:page:35] a:href links got > 1155
+ L[fincaraiz.com.co:page:36] a:href links got > 1188
+ L[fincaraiz.com.co:page:37] a:href links got > 1221
+ L[fincaraiz.com.co:page:38] a:href links got > 1254
+ L[fincaraiz.com.co:page:39] a:href links got > 1287
+ L[fincaraiz.com.co:page:40] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/oficinas/venta/tumaco?pagina=1 ... 
+Using IP Proxy: 186.96.108.30:8080 ... 
+Got it!
+no page index: must be just one page
+ L[fincaraiz.com.co:page:Unica] a:href links got > 1
+Appending links for https://fincaraiz.com.co ... 
+[OK] All the things went good.
