@@ -20,9 +20,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 options = webdriver.ChromeOptions()
 options.page_load_strategy = 'normal'
 options.add_argument('--incognito')
-options.add_argument('--window-position=0,0')
+options.add_argument('--window-position=1920,0')
 options.add_argument('--window-size=0,0')
-options.add_argument('--blink-settings=imagesEnabled=false')
+#options.add_argument('--blink-settings=imagesEnabled=false')
 #options.add_argument('--headless')
 
 local_proxy_options = webdriver.ChromeOptions()
@@ -61,9 +61,9 @@ via = 'venta'
 
 ### Metro Cuadrado tag classes
 # 'li' tag of every item
-item_list_class = "sc-gPEVay dibcyk card-result-img"
+mecu_list_class = "sc-gPEVay dibcyk card-result-img"
 # 'a' tag contained in 'li' tag, used to redirect to the post page
-item_link_class = "sc-bdVaJa ebNrSm"
+mecu_link_class = "sc-bdVaJa ebNrSm"
 # 'ul' page numbers list
 page_number_class = "sc-dVhcbM kVlaFh Pagination-w2fdu0-0 cxBThU paginator justify-content-center align-items-baseline pagination"
 # 'a' page link number: this will allow to get last page of each searching
@@ -76,6 +76,19 @@ page_active_class = "page-item active disabled"
 finra_link_class = "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4"
 # 'button' tags to click on
 finra_page_number_class = "MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-rounded"
+
+
+### PuntoPropiedad tag_classes
+# 'li' tags
+punpro_list_box_class = "ad featured"
+# 'a' tag contined inside of 'li' tags 
+punpro_link_class = "detail-redirection"
+# 'ul' tag that contain all the page index
+punpro_page_index_class = "pagination"
+punpro_page_current_class = "current"
+punpro_page_next_class = "next"
+
+
 
 
 ### Functions Scope ###
@@ -107,7 +120,7 @@ def try_get(__url): # this function try 3 times with different proxies, if none 
         
         # setting options for each retry
         if (attempts != 3):
-            proxy = proxyr.roll_proxy(proxyr._proxies, module="se")
+            #proxy = proxyr.roll_proxy(proxyr._proxies, module="se")
             #options.add_argument(f"--proxy-server={proxy}")
             __driver = webdriver.Chrome(options=options, service=Service(executable_path=ChromeDriverManager().install()))
             __driver.minimize_window()
@@ -157,10 +170,10 @@ def collect_metrocuadrado(__data):    # this gather links for scraping from 'met
             while (True):
                 
                 # finding list of items
-                li_tags = driver.find_elements(By.CLASS_NAME, clattr(item_list_class))
+                li_tags = driver.find_elements(By.CLASS_NAME, clattr(mecu_list_class))
                 # finding links of items, I mean "href" attributes
                 for li in li_tags:
-                    item_to_append = li.find_element(By.CLASS_NAME, clattr(item_link_class))
+                    item_to_append = li.find_element(By.CLASS_NAME, clattr(mecu_link_class))
                     a_tags.append(item_to_append.get_attribute("href"))
 
                 # writing log for more info about process
@@ -206,8 +219,6 @@ def collect_metrocuadrado(__data):    # this gather links for scraping from 'met
 
 def collect_fincaraiz(__data):
     
-
-
     if (__data == None):
         raise AttributeError("You haven't passed '__data' argument")
 
@@ -301,35 +312,68 @@ def collect_puntopropiedad(__data):
 
     if (__data == None):
         raise AttributeError("You haven't passed '__data' argument")
-    # setting the url structure
-    finra_url = "%s/%ss/%s/%s" % (baseurl[1], facility[0], via, cities[9])
     
-    # trying the connection
-    driver = try_get(finra_url)
+    for facility_item in facility:
+        for city_item in cities:
+            # setting the url structure
+            punpro_url = "%s/%s/%ss/%s" % (baseurl[2], via, facility_item, city_item)
+            
+            # trying the connection
+            driver = try_get(punpro_url)
 
-    # declaring the variables that we'll use, and the 'data' dictionary that will be returned
-    current_page = 0
-    a_tags = []
+            # declaring the variables that we'll use, and the 'data' dictionary that will be returned
+            a_tags = []
 
-    
-    # gathering data and writing into gather.dat
-    while (False):
-        pass
+            
+            # gathering data and writing into gather.dat
+            while (True):
+                # finding li elements in DOM
+                li_tags = driver.find_elements(By.CLASS_NAME, clattr(punpro_list_box_class))
+                # finding a tags in li elements
+                for li in li_tags:
+                    item_to_append = li.find_element(By.CLASS_NAME, clattr(punpro_link_class))
+                    a_tags.append(item_to_append.get_attribute("href"))
 
+                # getting the page index
+                page_current = ""
+                page_next = ""
+                page_text = ""
+                try:
+                    page_box = driver.find_element(By.CLASS_NAME, clattr(punpro_page_index_class))
+                    page_index = page_box.find_elements(By.TAG_NAME, "li")
+                    for page in page_index:
+                        if (page.get_attribute("class") == punpro_page_next_class):
+                            page_next = page.find_element(By.TAG_NAME, "span")
+                        if (page.get_attribute("class") == punpro_page_current_class):
+                            page_current = page.find_element(By.TAG_NAME, "span")
+                            page_text = page_current.text
+                except:
+                    page_text = "1"
+                    write_log("Warning: Just has found only one page ... ")
 
+                # writing log for more info about process
+                info = f" L[{baseurl[2].split('/')[-1]} : page : {page_text} : {city_item}] a:href links got > {len(a_tags)}"
+                write_log(info)
+                
+                # click in the next page 
+                try:
+                    driver.execute_script("arguments[0].click();", page_next)
+                except:
+                    break
+                
 
-    # closing the browser session
-    driver.quit()
+            # closing the browser session
+            driver.quit()
 
-    # Appending info to data variable to save in 'gather.dat'
-    write_log(f"Appending links for {baseurl[0]} ... ")
-    
-    for a in a_tags:
-        __data['href'].append(a)
-        __data['facility'].append(facility_item)
-        __data['city'].append(city_item)
-        __data['website'].append(baseurl[0]) 
-        __data['code'].append(a.split("/")[-1])
+            # Appending info to data variable to save in 'gather.dat'
+            write_log(f"Appending links for {baseurl[2]} ... ")
+            
+            for a in a_tags:
+                __data['href'].append(a)
+                __data['facility'].append(facility_item)
+                __data['city'].append(city_item)
+                __data['website'].append(baseurl[2]) 
+                __data['code'].append(a.split("/")[-1])
 
 
 
@@ -360,8 +404,12 @@ if __name__=="__main__":
     task2 = Thread(target=collect_fincaraiz, args=([data]))
     task2.start()
 
+    task3 = Thread(target=collect_puntopropiedad, args=([data]))
+    task3.start()
+
     task1.join(timeout=float(21800))
     task2.join(timeout=float(21800))
+    task3.join(timeout=float(21800))
     
     
     # Saving to CSV file
