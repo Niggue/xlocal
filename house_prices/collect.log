@@ -1251,3 +1251,1857 @@ Got it!
  L[www.metrocuadrado.com : page : 81 : cali] a:href links got > 4050
  L[www.puntopropiedad.com : page :  : cali] a:href links got > 1856
  L[www.metrocuadrado.com : page : 82 : cali] a:href links got > 4100
+ L[www.metrocuadrado.com : page : 83 : cali] a:href links got > 4150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1870
+ L[www.metrocuadrado.com : page : 84 : cali] a:href links got > 4200
+ L[fincaraiz.com.co : page : 36 : medellin] a:href links got > 1188
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1882
+ L[www.metrocuadrado.com : page : 85 : cali] a:href links got > 4250
+ L[www.metrocuadrado.com : page : 86 : cali] a:href links got > 4300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1895
+ L[www.metrocuadrado.com : page : 87 : cali] a:href links got > 4350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1908
+ L[www.metrocuadrado.com : page : 88 : cali] a:href links got > 4373
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/cartagena/ ... 
+ L[fincaraiz.com.co : page : 37 : medellin] a:href links got > 1221
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1919
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1932
+Got it!
+ L[fincaraiz.com.co : page : 38 : medellin] a:href links got > 1254
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1946
+ L[www.metrocuadrado.com : page : 1 : cartagena] a:href links got > 50
+ L[www.metrocuadrado.com : page : 2 : cartagena] a:href links got > 100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1959
+ L[www.metrocuadrado.com : page : 3 : cartagena] a:href links got > 150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1971
+ L[www.metrocuadrado.com : page : 4 : cartagena] a:href links got > 200
+ L[www.metrocuadrado.com : page : 5 : cartagena] a:href links got > 250
+ L[fincaraiz.com.co : page : 39 : medellin] a:href links got > 1287
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1984
+ L[www.metrocuadrado.com : page : 6 : cartagena] a:href links got > 300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 1998
+ L[www.metrocuadrado.com : page : 7 : cartagena] a:href links got > 350
+ L[www.metrocuadrado.com : page : 8 : cartagena] a:href links got > 400
+ L[www.metrocuadrado.com : page : 9 : cartagena] a:href links got > 450
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2010
+ L[fincaraiz.com.co : page : 40 : medellin] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/bogota?pagina=1 ... 
+ L[www.metrocuadrado.com : page : 10 : cartagena] a:href links got > 500
+ L[www.metrocuadrado.com : page : 11 : cartagena] a:href links got > 550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2024
+ L[www.metrocuadrado.com : page : 12 : cartagena] a:href links got > 600
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2038
+ L[www.metrocuadrado.com : page : 13 : cartagena] a:href links got > 650
+ L[www.metrocuadrado.com : page : 14 : cartagena] a:href links got > 700
+Got it!
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2053
+ L[www.metrocuadrado.com : page : 15 : cartagena] a:href links got > 750
+ L[www.metrocuadrado.com : page : 16 : cartagena] a:href links got > 800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2064
+ L[www.metrocuadrado.com : page : 17 : cartagena] a:href links got > 850
+ L[www.metrocuadrado.com : page : 18 : cartagena] a:href links got > 900
+ L[fincaraiz.com.co : page : 1 : bogota] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2078
+ L[www.metrocuadrado.com : page : 19 : cartagena] a:href links got > 950
+ L[www.metrocuadrado.com : page : 20 : cartagena] a:href links got > 1000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2092
+ L[www.metrocuadrado.com : page : 21 : cartagena] a:href links got > 1050
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2106
+ L[www.metrocuadrado.com : page : 22 : cartagena] a:href links got > 1100
+ L[fincaraiz.com.co : page : 2 : bogota] a:href links got > 66
+ L[www.metrocuadrado.com : page : 23 : cartagena] a:href links got > 1150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2120
+ L[www.metrocuadrado.com : page : 24 : cartagena] a:href links got > 1200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2132
+ L[www.metrocuadrado.com : page : 25 : cartagena] a:href links got > 1250
+ L[www.metrocuadrado.com : page : 26 : cartagena] a:href links got > 1300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2142
+ L[www.metrocuadrado.com : page : 27 : cartagena] a:href links got > 1350
+ L[fincaraiz.com.co : page : 3 : bogota] a:href links got > 99
+ L[www.metrocuadrado.com : page : 28 : cartagena] a:href links got > 1400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2157
+ L[www.metrocuadrado.com : page : 29 : cartagena] a:href links got > 1450
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2172
+ L[www.metrocuadrado.com : page : 30 : cartagena] a:href links got > 1500
+ L[www.metrocuadrado.com : page : 31 : cartagena] a:href links got > 1550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2184
+ L[fincaraiz.com.co : page : 4 : bogota] a:href links got > 132
+ L[www.metrocuadrado.com : page : 32 : cartagena] a:href links got > 1600
+ L[www.metrocuadrado.com : page : 33 : cartagena] a:href links got > 1650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2192
+ L[www.metrocuadrado.com : page : 34 : cartagena] a:href links got > 1700
+ L[www.metrocuadrado.com : page : 35 : cartagena] a:href links got > 1750
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2205
+ L[www.metrocuadrado.com : page : 36 : cartagena] a:href links got > 1800
+ L[fincaraiz.com.co : page : 5 : bogota] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2218
+ L[www.metrocuadrado.com : page : 37 : cartagena] a:href links got > 1850
+ L[www.metrocuadrado.com : page : 38 : cartagena] a:href links got > 1900
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2231
+ L[www.metrocuadrado.com : page : 39 : cartagena] a:href links got > 1950
+ L[www.metrocuadrado.com : page : 40 : cartagena] a:href links got > 2000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2242
+ L[www.metrocuadrado.com : page : 41 : cartagena] a:href links got > 2050
+ L[fincaraiz.com.co : page : 6 : bogota] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2254
+ L[www.metrocuadrado.com : page : 42 : cartagena] a:href links got > 2100
+ L[www.metrocuadrado.com : page : 43 : cartagena] a:href links got > 2150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2264
+ L[www.metrocuadrado.com : page : 44 : cartagena] a:href links got > 2200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2273
+ L[www.metrocuadrado.com : page : 45 : cartagena] a:href links got > 2250
+ L[fincaraiz.com.co : page : 7 : bogota] a:href links got > 231
+ L[www.metrocuadrado.com : page : 46 : cartagena] a:href links got > 2300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2276
+ L[www.metrocuadrado.com : page : 47 : cartagena] a:href links got > 2350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2288
+ L[www.metrocuadrado.com : page : 48 : cartagena] a:href links got > 2400
+ L[www.metrocuadrado.com : page : 49 : cartagena] a:href links got > 2450
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2302
+ L[fincaraiz.com.co : page : 8 : bogota] a:href links got > 264
+ L[www.metrocuadrado.com : page : 50 : cartagena] a:href links got > 2500
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2317
+ L[www.metrocuadrado.com : page : 51 : cartagena] a:href links got > 2550
+ L[www.metrocuadrado.com : page : 52 : cartagena] a:href links got > 2600
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2332
+ L[www.metrocuadrado.com : page : 53 : cartagena] a:href links got > 2650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2345
+ L[fincaraiz.com.co : page : 9 : bogota] a:href links got > 297
+ L[www.metrocuadrado.com : page : 54 : cartagena] a:href links got > 2700
+ L[www.metrocuadrado.com : page : 55 : cartagena] a:href links got > 2750
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2358
+ L[www.metrocuadrado.com : page : 56 : cartagena] a:href links got > 2800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2371
+ L[www.metrocuadrado.com : page : 57 : cartagena] a:href links got > 2850
+ L[www.metrocuadrado.com : page : 58 : cartagena] a:href links got > 2900
+ L[fincaraiz.com.co : page : 10 : bogota] a:href links got > 330
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2382
+ L[www.metrocuadrado.com : page : 59 : cartagena] a:href links got > 2950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2396
+ L[www.metrocuadrado.com : page : 60 : cartagena] a:href links got > 3000
+ L[www.metrocuadrado.com : page : 61 : cartagena] a:href links got > 3050
+ L[www.metrocuadrado.com : page : 62 : cartagena] a:href links got > 3100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2409
+ L[fincaraiz.com.co : page : 11 : bogota] a:href links got > 363
+ L[www.metrocuadrado.com : page : 63 : cartagena] a:href links got > 3150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2423
+ L[www.metrocuadrado.com : page : 64 : cartagena] a:href links got > 3200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2436
+ L[www.metrocuadrado.com : page : 65 : cartagena] a:href links got > 3250
+ L[www.metrocuadrado.com : page : 66 : cartagena] a:href links got > 3300
+ L[fincaraiz.com.co : page : 12 : bogota] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2450
+ L[www.metrocuadrado.com : page : 67 : cartagena] a:href links got > 3350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2463
+ L[www.metrocuadrado.com : page : 68 : cartagena] a:href links got > 3400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2478
+ L[www.metrocuadrado.com : page : 69 : cartagena] a:href links got > 3450
+ L[fincaraiz.com.co : page : 13 : bogota] a:href links got > 429
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2492
+ L[www.metrocuadrado.com : page : 70 : cartagena] a:href links got > 3500
+ L[www.metrocuadrado.com : page : 71 : cartagena] a:href links got > 3515
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/medellin/ ... 
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2506
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2516
+ L[fincaraiz.com.co : page : 14 : bogota] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2528
+Got it!
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2541
+ L[www.metrocuadrado.com : page : 1 : medellin] a:href links got > 50
+ L[www.metrocuadrado.com : page : 2 : medellin] a:href links got > 100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2553
+ L[www.metrocuadrado.com : page : 3 : medellin] a:href links got > 150
+ L[fincaraiz.com.co : page : 15 : bogota] a:href links got > 495
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2568
+ L[www.metrocuadrado.com : page : 4 : medellin] a:href links got > 200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2581
+ L[www.metrocuadrado.com : page : 5 : medellin] a:href links got > 250
+ L[www.metrocuadrado.com : page : 6 : medellin] a:href links got > 300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2594
+ L[fincaraiz.com.co : page : 16 : bogota] a:href links got > 528
+ L[www.metrocuadrado.com : page : 7 : medellin] a:href links got > 350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2606
+ L[www.metrocuadrado.com : page : 8 : medellin] a:href links got > 400
+ L[www.metrocuadrado.com : page : 9 : medellin] a:href links got > 450
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2620
+ L[www.metrocuadrado.com : page : 10 : medellin] a:href links got > 500
+ L[www.metrocuadrado.com : page : 11 : medellin] a:href links got > 550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2633
+ L[fincaraiz.com.co : page : 17 : bogota] a:href links got > 561
+ L[www.metrocuadrado.com : page : 12 : medellin] a:href links got > 600
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2647
+ L[www.metrocuadrado.com : page : 13 : medellin] a:href links got > 650
+ L[www.metrocuadrado.com : page : 14 : medellin] a:href links got > 700
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2660
+ L[www.metrocuadrado.com : page : 15 : medellin] a:href links got > 750
+ L[www.metrocuadrado.com : page : 16 : medellin] a:href links got > 800
+ L[fincaraiz.com.co : page : 18 : bogota] a:href links got > 594
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2673
+ L[www.metrocuadrado.com : page : 17 : medellin] a:href links got > 850
+ L[www.metrocuadrado.com : page : 18 : medellin] a:href links got > 900
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2685
+ L[www.metrocuadrado.com : page : 19 : medellin] a:href links got > 950
+ L[www.metrocuadrado.com : page : 20 : medellin] a:href links got > 1000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2695
+ L[www.metrocuadrado.com : page : 21 : medellin] a:href links got > 1050
+ L[fincaraiz.com.co : page : 19 : bogota] a:href links got > 627
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2709
+ L[www.metrocuadrado.com : page : 22 : medellin] a:href links got > 1100
+ L[www.metrocuadrado.com : page : 23 : medellin] a:href links got > 1150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2723
+ L[www.metrocuadrado.com : page : 24 : medellin] a:href links got > 1200
+ L[www.metrocuadrado.com : page : 25 : medellin] a:href links got > 1250
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2734
+ L[fincaraiz.com.co : page : 20 : bogota] a:href links got > 660
+ L[www.metrocuadrado.com : page : 26 : medellin] a:href links got > 1300
+ L[www.metrocuadrado.com : page : 27 : medellin] a:href links got > 1350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2747
+ L[www.metrocuadrado.com : page : 28 : medellin] a:href links got > 1400
+ L[www.metrocuadrado.com : page : 29 : medellin] a:href links got > 1450
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2758
+ L[fincaraiz.com.co : page : 21 : bogota] a:href links got > 693
+ L[www.metrocuadrado.com : page : 30 : medellin] a:href links got > 1500
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2771
+ L[www.metrocuadrado.com : page : 31 : medellin] a:href links got > 1550
+ L[www.metrocuadrado.com : page : 32 : medellin] a:href links got > 1600
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2783
+ L[www.metrocuadrado.com : page : 33 : medellin] a:href links got > 1650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2794
+ L[www.metrocuadrado.com : page : 34 : medellin] a:href links got > 1700
+ L[fincaraiz.com.co : page : 22 : bogota] a:href links got > 726
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2795
+ L[www.metrocuadrado.com : page : 35 : medellin] a:href links got > 1750
+ L[www.metrocuadrado.com : page : 36 : medellin] a:href links got > 1800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2808
+ L[www.metrocuadrado.com : page : 37 : medellin] a:href links got > 1850
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2819
+ L[www.metrocuadrado.com : page : 38 : medellin] a:href links got > 1900
+ L[fincaraiz.com.co : page : 23 : bogota] a:href links got > 759
+ L[www.metrocuadrado.com : page : 39 : medellin] a:href links got > 1950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2829
+ L[www.metrocuadrado.com : page : 40 : medellin] a:href links got > 2000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2837
+ L[www.metrocuadrado.com : page : 41 : medellin] a:href links got > 2050
+ L[www.metrocuadrado.com : page : 42 : medellin] a:href links got > 2100
+ L[fincaraiz.com.co : page : 24 : bogota] a:href links got > 792
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2849
+ L[www.metrocuadrado.com : page : 43 : medellin] a:href links got > 2150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2860
+ L[www.metrocuadrado.com : page : 44 : medellin] a:href links got > 2200
+ L[www.metrocuadrado.com : page : 45 : medellin] a:href links got > 2250
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2872
+ L[www.metrocuadrado.com : page : 46 : medellin] a:href links got > 2300
+ L[fincaraiz.com.co : page : 25 : bogota] a:href links got > 825
+ L[www.metrocuadrado.com : page : 47 : medellin] a:href links got > 2350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2884
+ L[www.metrocuadrado.com : page : 48 : medellin] a:href links got > 2400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2897
+ L[www.metrocuadrado.com : page : 49 : medellin] a:href links got > 2450
+ L[www.metrocuadrado.com : page : 50 : medellin] a:href links got > 2500
+ L[fincaraiz.com.co : page : 26 : bogota] a:href links got > 858
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2906
+ L[www.metrocuadrado.com : page : 51 : medellin] a:href links got > 2550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2920
+ L[www.metrocuadrado.com : page : 52 : medellin] a:href links got > 2600
+ L[www.metrocuadrado.com : page : 53 : medellin] a:href links got > 2650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2935
+ L[www.metrocuadrado.com : page : 54 : medellin] a:href links got > 2700
+ L[fincaraiz.com.co : page : 27 : bogota] a:href links got > 891
+ L[www.metrocuadrado.com : page : 55 : medellin] a:href links got > 2750
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2947
+ L[www.metrocuadrado.com : page : 56 : medellin] a:href links got > 2800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2961
+ L[www.metrocuadrado.com : page : 57 : medellin] a:href links got > 2850
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2974
+ L[www.metrocuadrado.com : page : 58 : medellin] a:href links got > 2900
+ L[fincaraiz.com.co : page : 28 : bogota] a:href links got > 924
+ L[www.metrocuadrado.com : page : 59 : medellin] a:href links got > 2950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2985
+ L[www.metrocuadrado.com : page : 60 : medellin] a:href links got > 3000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 2999
+ L[www.metrocuadrado.com : page : 61 : medellin] a:href links got > 3050
+ L[fincaraiz.com.co : page : 29 : bogota] a:href links got > 957
+ L[www.metrocuadrado.com : page : 62 : medellin] a:href links got > 3100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3013
+ L[www.metrocuadrado.com : page : 63 : medellin] a:href links got > 3150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3027
+ L[www.metrocuadrado.com : page : 64 : medellin] a:href links got > 3200
+ L[www.metrocuadrado.com : page : 65 : medellin] a:href links got > 3250
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3039
+ L[fincaraiz.com.co : page : 30 : bogota] a:href links got > 990
+ L[www.metrocuadrado.com : page : 66 : medellin] a:href links got > 3300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3052
+ L[www.metrocuadrado.com : page : 67 : medellin] a:href links got > 3350
+ L[www.metrocuadrado.com : page : 68 : medellin] a:href links got > 3400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3066
+ L[www.metrocuadrado.com : page : 69 : medellin] a:href links got > 3450
+ L[fincaraiz.com.co : page : 31 : bogota] a:href links got > 1023
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3080
+ L[www.metrocuadrado.com : page : 70 : medellin] a:href links got > 3500
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3087
+ L[www.metrocuadrado.com : page : 71 : medellin] a:href links got > 3550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3101
+ L[www.metrocuadrado.com : page : 72 : medellin] a:href links got > 3600
+ L[fincaraiz.com.co : page : 32 : bogota] a:href links got > 1056
+ L[www.metrocuadrado.com : page : 73 : medellin] a:href links got > 3650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3112
+ L[www.metrocuadrado.com : page : 74 : medellin] a:href links got > 3700
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3120
+ L[www.metrocuadrado.com : page : 75 : medellin] a:href links got > 3750
+ L[www.metrocuadrado.com : page : 76 : medellin] a:href links got > 3800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3130
+ L[fincaraiz.com.co : page : 33 : bogota] a:href links got > 1089
+ L[www.metrocuadrado.com : page : 77 : medellin] a:href links got > 3850
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3141
+ L[www.metrocuadrado.com : page : 78 : medellin] a:href links got > 3900
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3152
+ L[www.metrocuadrado.com : page : 79 : medellin] a:href links got > 3950
+ L[www.metrocuadrado.com : page : 80 : medellin] a:href links got > 4000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3166
+ L[fincaraiz.com.co : page : 34 : bogota] a:href links got > 1122
+ L[www.metrocuadrado.com : page : 81 : medellin] a:href links got > 4050
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3177
+ L[www.metrocuadrado.com : page : 82 : medellin] a:href links got > 4100
+ L[www.metrocuadrado.com : page : 83 : medellin] a:href links got > 4150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3191
+ L[fincaraiz.com.co : page : 35 : bogota] a:href links got > 1155
+ L[www.metrocuadrado.com : page : 84 : medellin] a:href links got > 4200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3203
+ L[www.metrocuadrado.com : page : 85 : medellin] a:href links got > 4250
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3216
+ L[www.metrocuadrado.com : page : 86 : medellin] a:href links got > 4300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3226
+ L[www.metrocuadrado.com : page : 87 : medellin] a:href links got > 4350
+ L[fincaraiz.com.co : page : 36 : bogota] a:href links got > 1188
+ L[www.metrocuadrado.com : page : 88 : medellin] a:href links got > 4400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3236
+ L[www.metrocuadrado.com : page : 89 : medellin] a:href links got > 4450
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3247
+ L[www.metrocuadrado.com : page : 90 : medellin] a:href links got > 4500
+ L[fincaraiz.com.co : page : 37 : bogota] a:href links got > 1221
+ L[www.metrocuadrado.com : page : 91 : medellin] a:href links got > 4550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3261
+ L[www.metrocuadrado.com : page : 92 : medellin] a:href links got > 4600
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3275
+ L[www.metrocuadrado.com : page : 93 : medellin] a:href links got > 4650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3284
+ L[www.metrocuadrado.com : page : 94 : medellin] a:href links got > 4700
+ L[fincaraiz.com.co : page : 38 : bogota] a:href links got > 1254
+ L[www.metrocuadrado.com : page : 95 : medellin] a:href links got > 4750
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3296
+ L[www.metrocuadrado.com : page : 96 : medellin] a:href links got > 4800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3304
+ L[www.metrocuadrado.com : page : 97 : medellin] a:href links got > 4850
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3315
+ L[fincaraiz.com.co : page : 39 : bogota] a:href links got > 1287
+ L[www.metrocuadrado.com : page : 98 : medellin] a:href links got > 4900
+ L[www.metrocuadrado.com : page : 99 : medellin] a:href links got > 4950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3324
+ L[www.metrocuadrado.com : page : 100 : medellin] a:href links got > 5000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3337
+ L[www.metrocuadrado.com : page : 101 : medellin] a:href links got > 5050
+ L[fincaraiz.com.co : page : 40 : bogota] a:href links got > 1320
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/riohacha?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3351
+ L[www.metrocuadrado.com : page : 102 : medellin] a:href links got > 5100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3361
+ L[www.metrocuadrado.com : page : 103 : medellin] a:href links got > 5150
+Got it!
+ L[www.metrocuadrado.com : page : 104 : medellin] a:href links got > 5200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3370
+no page index: must be just one page
+ L[www.metrocuadrado.com : page : 105 : medellin] a:href links got > 5250
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3381
+ L[www.metrocuadrado.com : page : 106 : medellin] a:href links got > 5300
+ L[fincaraiz.com.co:page:Unica] a:href links got > 9
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/santa-marta?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3392
+ L[www.metrocuadrado.com : page : 107 : medellin] a:href links got > 5350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3404
+ L[www.metrocuadrado.com : page : 108 : medellin] a:href links got > 5400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3418
+ L[www.metrocuadrado.com : page : 109 : medellin] a:href links got > 5450
+Got it!
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3429
+ L[www.metrocuadrado.com : page : 110 : medellin] a:href links got > 5500
+ L[www.metrocuadrado.com : page : 111 : medellin] a:href links got > 5550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3439
+ L[fincaraiz.com.co : page : 1 : santa-marta] a:href links got > 33
+ L[www.metrocuadrado.com : page : 112 : medellin] a:href links got > 5600
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3450
+ L[www.metrocuadrado.com : page : 113 : medellin] a:href links got > 5650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3461
+ L[www.metrocuadrado.com : page : 114 : medellin] a:href links got > 5700
+ L[fincaraiz.com.co : page : 2 : santa-marta] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3470
+ L[www.metrocuadrado.com : page : 115 : medellin] a:href links got > 5750
+ L[www.metrocuadrado.com : page : 116 : medellin] a:href links got > 5800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3480
+ L[www.metrocuadrado.com : page : 117 : medellin] a:href links got > 5850
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3490
+ L[fincaraiz.com.co : page : 3 : santa-marta] a:href links got > 99
+ L[www.metrocuadrado.com : page : 118 : medellin] a:href links got > 5900
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3503
+ L[www.metrocuadrado.com : page : 119 : medellin] a:href links got > 5950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3515
+ L[www.metrocuadrado.com : page : 120 : medellin] a:href links got > 6000
+ L[fincaraiz.com.co : page : 4 : santa-marta] a:href links got > 132
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3525
+ L[www.metrocuadrado.com : page : 121 : medellin] a:href links got > 6050
+ L[www.metrocuadrado.com : page : 122 : medellin] a:href links got > 6100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3536
+ L[www.metrocuadrado.com : page : 123 : medellin] a:href links got > 6150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3547
+ L[fincaraiz.com.co : page : 5 : santa-marta] a:href links got > 165
+ L[www.metrocuadrado.com : page : 124 : medellin] a:href links got > 6200
+ L[www.metrocuadrado.com : page : 125 : medellin] a:href links got > 6250
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3559
+ L[www.metrocuadrado.com : page : 126 : medellin] a:href links got > 6300
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3570
+ L[www.metrocuadrado.com : page : 127 : medellin] a:href links got > 6350
+ L[fincaraiz.com.co : page : 6 : santa-marta] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3583
+ L[www.metrocuadrado.com : page : 128 : medellin] a:href links got > 6400
+ L[www.metrocuadrado.com : page : 129 : medellin] a:href links got > 6450
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3593
+ L[www.metrocuadrado.com : page : 130 : medellin] a:href links got > 6500
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3604
+ L[fincaraiz.com.co : page : 7 : santa-marta] a:href links got > 231
+ L[www.metrocuadrado.com : page : 131 : medellin] a:href links got > 6550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3613
+ L[www.metrocuadrado.com : page : 132 : medellin] a:href links got > 6600
+ L[www.metrocuadrado.com : page : 133 : medellin] a:href links got > 6650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3625
+ L[www.metrocuadrado.com : page : 134 : medellin] a:href links got > 6700
+ L[fincaraiz.com.co : page : 8 : santa-marta] a:href links got > 264
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3635
+ L[www.metrocuadrado.com : page : 135 : medellin] a:href links got > 6750
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3647
+ L[www.metrocuadrado.com : page : 136 : medellin] a:href links got > 6800
+ L[www.metrocuadrado.com : page : 137 : medellin] a:href links got > 6850
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3659
+ L[fincaraiz.com.co : page : 9 : santa-marta] a:href links got > 297
+ L[www.metrocuadrado.com : page : 138 : medellin] a:href links got > 6900
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3672
+ L[www.metrocuadrado.com : page : 139 : medellin] a:href links got > 6950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3682
+ L[www.metrocuadrado.com : page : 140 : medellin] a:href links got > 7000
+ L[fincaraiz.com.co : page : 10 : santa-marta] a:href links got > 330
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3697
+ L[www.metrocuadrado.com : page : 141 : medellin] a:href links got > 7050
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3704
+ L[www.metrocuadrado.com : page : 142 : medellin] a:href links got > 7100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3714
+ L[www.metrocuadrado.com : page : 143 : medellin] a:href links got > 7150
+ L[fincaraiz.com.co : page : 11 : santa-marta] a:href links got > 363
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3724
+ L[www.metrocuadrado.com : page : 144 : medellin] a:href links got > 7200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3733
+ L[www.metrocuadrado.com : page : 145 : medellin] a:href links got > 7250
+ L[www.metrocuadrado.com : page : 146 : medellin] a:href links got > 7300
+ L[fincaraiz.com.co : page : 12 : santa-marta] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3745
+ L[www.metrocuadrado.com : page : 147 : medellin] a:href links got > 7350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3757
+ L[www.metrocuadrado.com : page : 148 : medellin] a:href links got > 7400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3769
+ L[www.metrocuadrado.com : page : 149 : medellin] a:href links got > 7450
+ L[fincaraiz.com.co : page : 13 : santa-marta] a:href links got > 429
+ L[www.metrocuadrado.com : page : 150 : medellin] a:href links got > 7500
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3784
+ L[www.metrocuadrado.com : page : 151 : medellin] a:href links got > 7550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3797
+ L[www.metrocuadrado.com : page : 152 : medellin] a:href links got > 7600
+ L[fincaraiz.com.co : page : 14 : santa-marta] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3811
+ L[www.metrocuadrado.com : page : 153 : medellin] a:href links got > 7650
+ L[www.metrocuadrado.com : page : 154 : medellin] a:href links got > 7700
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3824
+ L[fincaraiz.com.co : page : 15 : santa-marta] a:href links got > 495
+ L[www.metrocuadrado.com : page : 155 : medellin] a:href links got > 7750
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3835
+ L[www.metrocuadrado.com : page : 156 : medellin] a:href links got > 7800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3849
+ L[www.metrocuadrado.com : page : 157 : medellin] a:href links got > 7850
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3859
+ L[www.metrocuadrado.com : page : 158 : medellin] a:href links got > 7900
+ L[fincaraiz.com.co : page : 16 : santa-marta] a:href links got > 528
+ L[www.metrocuadrado.com : page : 159 : medellin] a:href links got > 7950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3869
+ L[www.metrocuadrado.com : page : 160 : medellin] a:href links got > 8000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3881
+ L[fincaraiz.com.co : page : 17 : santa-marta] a:href links got > 561
+ L[www.metrocuadrado.com : page : 161 : medellin] a:href links got > 8050
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3891
+ L[www.metrocuadrado.com : page : 162 : medellin] a:href links got > 8100
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3902
+ L[www.metrocuadrado.com : page : 163 : medellin] a:href links got > 8150
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3912
+ L[fincaraiz.com.co : page : 18 : santa-marta] a:href links got > 594
+ L[www.metrocuadrado.com : page : 164 : medellin] a:href links got > 8200
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3926
+ L[www.metrocuadrado.com : page : 165 : medellin] a:href links got > 8250
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3940
+ L[www.metrocuadrado.com : page : 166 : medellin] a:href links got > 8300
+ L[fincaraiz.com.co : page : 19 : santa-marta] a:href links got > 627
+ L[www.metrocuadrado.com : page : 167 : medellin] a:href links got > 8350
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3951
+ L[www.metrocuadrado.com : page : 168 : medellin] a:href links got > 8400
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3962
+ L[www.metrocuadrado.com : page : 169 : medellin] a:href links got > 8450
+ L[fincaraiz.com.co : page : 20 : santa-marta] a:href links got > 660
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3971
+ L[www.metrocuadrado.com : page : 170 : medellin] a:href links got > 8500
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3978
+ L[www.metrocuadrado.com : page : 171 : medellin] a:href links got > 8550
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 3989
+ L[www.metrocuadrado.com : page : 172 : medellin] a:href links got > 8600
+ L[fincaraiz.com.co : page : 21 : santa-marta] a:href links got > 693
+ L[www.metrocuadrado.com : page : 173 : medellin] a:href links got > 8650
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4001
+ L[www.metrocuadrado.com : page : 174 : medellin] a:href links got > 8700
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4011
+ L[www.metrocuadrado.com : page : 175 : medellin] a:href links got > 8750
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4024
+ L[fincaraiz.com.co : page : 22 : santa-marta] a:href links got > 726
+ L[www.metrocuadrado.com : page : 176 : medellin] a:href links got > 8800
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4035
+ L[www.metrocuadrado.com : page : 177 : medellin] a:href links got > 8850
+ L[fincaraiz.com.co : page : 23 : santa-marta] a:href links got > 759
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4044
+ L[www.metrocuadrado.com : page : 178 : medellin] a:href links got > 8900
+ L[www.metrocuadrado.com : page : 179 : medellin] a:href links got > 8950
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4055
+ L[www.metrocuadrado.com : page : 180 : medellin] a:href links got > 9000
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4067
+ L[fincaraiz.com.co : page : 24 : santa-marta] a:href links got > 792
+ L[www.metrocuadrado.com : page : 181 : medellin] a:href links got > 9050
+ L[www.puntopropiedad.com : page :  : cali] a:href links got > 4074
+Appending links for https://www.puntopropiedad.com ... 
+ >>> Trying GET method for link https://www.puntopropiedad.com/venta/casas/cartagena ... 
+ L[www.metrocuadrado.com : page : 182 : medellin] a:href links got > 9100
+Got it!
+ L[fincaraiz.com.co : page : 25 : santa-marta] a:href links got > 825
+ L[www.metrocuadrado.com : page : 183 : medellin] a:href links got > 9150
+Warning: Just has found only one page ... 
+ L[www.puntopropiedad.com : page : 1 : cartagena] a:href links got > 0
+Appending links for https://www.puntopropiedad.com ... 
+ >>> Trying GET method for link https://www.puntopropiedad.com/venta/casas/medellin ... 
+ L[www.metrocuadrado.com : page : 184 : medellin] a:href links got > 9200
+ L[www.metrocuadrado.com : page : 185 : medellin] a:href links got > 9250
+Got it!
+ L[fincaraiz.com.co : page : 26 : santa-marta] a:href links got > 858
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 15
+ L[www.metrocuadrado.com : page : 186 : medellin] a:href links got > 9300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 30
+ L[www.metrocuadrado.com : page : 187 : medellin] a:href links got > 9350
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 45
+ L[www.metrocuadrado.com : page : 188 : medellin] a:href links got > 9400
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 58
+ L[fincaraiz.com.co : page : 27 : santa-marta] a:href links got > 891
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 65
+ L[www.metrocuadrado.com : page : 189 : medellin] a:href links got > 9450
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 79
+ L[www.metrocuadrado.com : page : 190 : medellin] a:href links got > 9500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 91
+ L[fincaraiz.com.co : page : 28 : santa-marta] a:href links got > 924
+ L[www.metrocuadrado.com : page : 191 : medellin] a:href links got > 9550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 106
+ L[www.metrocuadrado.com : page : 192 : medellin] a:href links got > 9600
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 121
+ L[www.metrocuadrado.com : page : 193 : medellin] a:href links got > 9650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 136
+ L[fincaraiz.com.co : page : 29 : santa-marta] a:href links got > 957
+ L[www.metrocuadrado.com : page : 194 : medellin] a:href links got > 9700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 151
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 164
+ L[www.metrocuadrado.com : page : 195 : medellin] a:href links got > 9750
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 178
+ L[www.metrocuadrado.com : page : 196 : medellin] a:href links got > 9800
+ L[fincaraiz.com.co : page : 30 : santa-marta] a:href links got > 990
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 193
+ L[www.metrocuadrado.com : page : 197 : medellin] a:href links got > 9850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 208
+ L[www.metrocuadrado.com : page : 198 : medellin] a:href links got > 9900
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 223
+ L[fincaraiz.com.co : page : 31 : santa-marta] a:href links got > 1023
+ L[www.metrocuadrado.com : page : 199 : medellin] a:href links got > 9950
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 238
+ L[www.metrocuadrado.com : page : 200 : medellin] a:href links got > 10000
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/bogota/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 252
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 267
+ L[fincaraiz.com.co : page : 32 : santa-marta] a:href links got > 1056
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 282
+Got it!
+ L[www.metrocuadrado.com : page : 1 : bogota] a:href links got > 50
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 297
+ L[www.metrocuadrado.com : page : 2 : bogota] a:href links got > 100
+ L[fincaraiz.com.co : page : 33 : santa-marta] a:href links got > 1089
+ L[www.metrocuadrado.com : page : 3 : bogota] a:href links got > 150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 312
+ L[www.metrocuadrado.com : page : 4 : bogota] a:href links got > 200
+ L[www.metrocuadrado.com : page : 5 : bogota] a:href links got > 250
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 326
+ L[www.metrocuadrado.com : page : 6 : bogota] a:href links got > 300
+ L[fincaraiz.com.co : page : 34 : santa-marta] a:href links got > 1122
+ L[www.metrocuadrado.com : page : 7 : bogota] a:href links got > 350
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 341
+ L[www.metrocuadrado.com : page : 8 : bogota] a:href links got > 400
+ L[www.metrocuadrado.com : page : 9 : bogota] a:href links got > 450
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 356
+ L[www.metrocuadrado.com : page : 10 : bogota] a:href links got > 500
+ L[www.metrocuadrado.com : page : 11 : bogota] a:href links got > 550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 371
+ L[fincaraiz.com.co : page : 35 : santa-marta] a:href links got > 1152
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/turbo?pagina=1 ... 
+ L[www.metrocuadrado.com : page : 12 : bogota] a:href links got > 600
+ L[www.metrocuadrado.com : page : 13 : bogota] a:href links got > 650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 386
+ L[www.metrocuadrado.com : page : 14 : bogota] a:href links got > 700
+ L[www.metrocuadrado.com : page : 15 : bogota] a:href links got > 750
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 401
+Got it!
+ L[www.metrocuadrado.com : page : 16 : bogota] a:href links got > 800
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 416
+ L[www.metrocuadrado.com : page : 17 : bogota] a:href links got > 850
+ L[www.metrocuadrado.com : page : 18 : bogota] a:href links got > 900
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 431
+ L[www.metrocuadrado.com : page : 19 : bogota] a:href links got > 950
+ L[fincaraiz.com.co : page : 1 : turbo] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 446
+ L[www.metrocuadrado.com : page : 20 : bogota] a:href links got > 1000
+ L[www.metrocuadrado.com : page : 21 : bogota] a:href links got > 1050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 460
+ L[www.metrocuadrado.com : page : 22 : bogota] a:href links got > 1100
+ L[www.metrocuadrado.com : page : 23 : bogota] a:href links got > 1150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 475
+ L[fincaraiz.com.co : page : 2 : turbo] a:href links got > 66
+ L[www.metrocuadrado.com : page : 24 : bogota] a:href links got > 1200
+ L[www.metrocuadrado.com : page : 25 : bogota] a:href links got > 1250
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 490
+ L[www.metrocuadrado.com : page : 26 : bogota] a:href links got > 1300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 505
+ L[www.metrocuadrado.com : page : 27 : bogota] a:href links got > 1350
+ L[www.metrocuadrado.com : page : 28 : bogota] a:href links got > 1400
+ L[fincaraiz.com.co : page : 3 : turbo] a:href links got > 99
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 520
+ L[www.metrocuadrado.com : page : 29 : bogota] a:href links got > 1450
+ L[www.metrocuadrado.com : page : 30 : bogota] a:href links got > 1500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 535
+ L[www.metrocuadrado.com : page : 31 : bogota] a:href links got > 1550
+ L[www.metrocuadrado.com : page : 32 : bogota] a:href links got > 1600
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 550
+ L[fincaraiz.com.co : page : 4 : turbo] a:href links got > 132
+ L[www.metrocuadrado.com : page : 33 : bogota] a:href links got > 1650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 565
+ L[www.metrocuadrado.com : page : 34 : bogota] a:href links got > 1700
+ L[www.metrocuadrado.com : page : 35 : bogota] a:href links got > 1750
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 580
+ L[www.metrocuadrado.com : page : 36 : bogota] a:href links got > 1800
+ L[fincaraiz.com.co : page : 5 : turbo] a:href links got > 165
+ L[www.metrocuadrado.com : page : 37 : bogota] a:href links got > 1850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 595
+ L[www.metrocuadrado.com : page : 38 : bogota] a:href links got > 1900
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 610
+ L[www.metrocuadrado.com : page : 39 : bogota] a:href links got > 1950
+ L[www.metrocuadrado.com : page : 40 : bogota] a:href links got > 2000
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 625
+ L[fincaraiz.com.co : page : 6 : turbo] a:href links got > 198
+ L[www.metrocuadrado.com : page : 41 : bogota] a:href links got > 2050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 640
+ L[www.metrocuadrado.com : page : 42 : bogota] a:href links got > 2100
+ L[www.metrocuadrado.com : page : 43 : bogota] a:href links got > 2150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 655
+ L[www.metrocuadrado.com : page : 44 : bogota] a:href links got > 2200
+ L[fincaraiz.com.co : page : 7 : turbo] a:href links got > 231
+ L[www.metrocuadrado.com : page : 45 : bogota] a:href links got > 2250
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 670
+ L[www.metrocuadrado.com : page : 46 : bogota] a:href links got > 2300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 685
+ L[www.metrocuadrado.com : page : 47 : bogota] a:href links got > 2350
+ L[www.metrocuadrado.com : page : 48 : bogota] a:href links got > 2400
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 700
+ L[www.metrocuadrado.com : page : 49 : bogota] a:href links got > 2450
+ L[fincaraiz.com.co : page : 8 : turbo] a:href links got > 264
+ L[www.metrocuadrado.com : page : 50 : bogota] a:href links got > 2500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 715
+ L[www.metrocuadrado.com : page : 51 : bogota] a:href links got > 2550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 730
+ L[www.metrocuadrado.com : page : 52 : bogota] a:href links got > 2600
+ L[www.metrocuadrado.com : page : 53 : bogota] a:href links got > 2650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 745
+ L[www.metrocuadrado.com : page : 54 : bogota] a:href links got > 2700
+ L[fincaraiz.com.co : page : 9 : turbo] a:href links got > 297
+ L[www.metrocuadrado.com : page : 55 : bogota] a:href links got > 2750
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 760
+ L[www.metrocuadrado.com : page : 56 : bogota] a:href links got > 2800
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 775
+ L[www.metrocuadrado.com : page : 57 : bogota] a:href links got > 2850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 790
+ L[www.metrocuadrado.com : page : 58 : bogota] a:href links got > 2900
+ L[www.metrocuadrado.com : page : 59 : bogota] a:href links got > 2950
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 805
+ L[fincaraiz.com.co : page : 10 : turbo] a:href links got > 330
+ L[www.metrocuadrado.com : page : 60 : bogota] a:href links got > 3000
+ L[www.metrocuadrado.com : page : 61 : bogota] a:href links got > 3050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 820
+ L[www.metrocuadrado.com : page : 62 : bogota] a:href links got > 3100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 835
+ L[www.metrocuadrado.com : page : 63 : bogota] a:href links got > 3150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 850
+ L[fincaraiz.com.co : page : 11 : turbo] a:href links got > 363
+ L[www.metrocuadrado.com : page : 64 : bogota] a:href links got > 3200
+ L[www.metrocuadrado.com : page : 65 : bogota] a:href links got > 3250
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 865
+ L[www.metrocuadrado.com : page : 66 : bogota] a:href links got > 3300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 880
+ L[www.metrocuadrado.com : page : 67 : bogota] a:href links got > 3350
+ L[fincaraiz.com.co : page : 12 : turbo] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 895
+ L[www.metrocuadrado.com : page : 68 : bogota] a:href links got > 3400
+ L[www.metrocuadrado.com : page : 69 : bogota] a:href links got > 3450
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 910
+ L[www.metrocuadrado.com : page : 70 : bogota] a:href links got > 3500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 925
+ L[www.metrocuadrado.com : page : 71 : bogota] a:href links got > 3550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 940
+ L[fincaraiz.com.co : page : 13 : turbo] a:href links got > 429
+ L[www.metrocuadrado.com : page : 72 : bogota] a:href links got > 3600
+ L[www.metrocuadrado.com : page : 73 : bogota] a:href links got > 3650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 955
+ L[www.metrocuadrado.com : page : 74 : bogota] a:href links got > 3700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 970
+ L[www.metrocuadrado.com : page : 75 : bogota] a:href links got > 3750
+ L[fincaraiz.com.co : page : 14 : turbo] a:href links got > 462
+ L[www.metrocuadrado.com : page : 76 : bogota] a:href links got > 3800
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 976
+ L[www.metrocuadrado.com : page : 77 : bogota] a:href links got > 3850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 986
+ L[www.metrocuadrado.com : page : 78 : bogota] a:href links got > 3900
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 994
+ L[fincaraiz.com.co : page : 15 : turbo] a:href links got > 495
+ L[www.metrocuadrado.com : page : 79 : bogota] a:href links got > 3950
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1004
+ L[www.metrocuadrado.com : page : 80 : bogota] a:href links got > 4000
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1011
+ L[www.metrocuadrado.com : page : 81 : bogota] a:href links got > 4050
+ L[www.metrocuadrado.com : page : 82 : bogota] a:href links got > 4100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1020
+ L[fincaraiz.com.co : page : 16 : turbo] a:href links got > 528
+ L[www.metrocuadrado.com : page : 83 : bogota] a:href links got > 4150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1029
+ L[www.metrocuadrado.com : page : 84 : bogota] a:href links got > 4200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1035
+ L[www.metrocuadrado.com : page : 85 : bogota] a:href links got > 4250
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1043
+ L[www.metrocuadrado.com : page : 86 : bogota] a:href links got > 4300
+ L[fincaraiz.com.co : page : 17 : turbo] a:href links got > 561
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1051
+ L[www.metrocuadrado.com : page : 87 : bogota] a:href links got > 4350
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1060
+ L[www.metrocuadrado.com : page : 88 : bogota] a:href links got > 4400
+ L[www.metrocuadrado.com : page : 89 : bogota] a:href links got > 4450
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1071
+ L[fincaraiz.com.co : page : 18 : turbo] a:href links got > 594
+ L[www.metrocuadrado.com : page : 90 : bogota] a:href links got > 4500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1076
+ L[www.metrocuadrado.com : page : 91 : bogota] a:href links got > 4550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1082
+ L[www.metrocuadrado.com : page : 92 : bogota] a:href links got > 4600
+ L[www.metrocuadrado.com : page : 93 : bogota] a:href links got > 4650
+ L[fincaraiz.com.co : page : 19 : turbo] a:href links got > 627
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1088
+ L[www.metrocuadrado.com : page : 94 : bogota] a:href links got > 4700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1099
+ L[www.metrocuadrado.com : page : 95 : bogota] a:href links got > 4750
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1101
+ L[www.metrocuadrado.com : page : 96 : bogota] a:href links got > 4800
+ L[fincaraiz.com.co : page : 20 : turbo] a:href links got > 660
+ L[www.metrocuadrado.com : page : 97 : bogota] a:href links got > 4850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1108
+ L[www.metrocuadrado.com : page : 98 : bogota] a:href links got > 4900
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1119
+ L[www.metrocuadrado.com : page : 99 : bogota] a:href links got > 4950
+ L[fincaraiz.com.co : page : 21 : turbo] a:href links got > 693
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1126
+ L[www.metrocuadrado.com : page : 100 : bogota] a:href links got > 5000
+ L[www.metrocuadrado.com : page : 101 : bogota] a:href links got > 5050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1133
+ L[www.metrocuadrado.com : page : 102 : bogota] a:href links got > 5100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1138
+ L[fincaraiz.com.co : page : 22 : turbo] a:href links got > 726
+ L[www.metrocuadrado.com : page : 103 : bogota] a:href links got > 5150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1146
+ L[www.metrocuadrado.com : page : 104 : bogota] a:href links got > 5200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1153
+ L[www.metrocuadrado.com : page : 105 : bogota] a:href links got > 5250
+ L[fincaraiz.com.co : page : 23 : turbo] a:href links got > 759
+ L[www.metrocuadrado.com : page : 106 : bogota] a:href links got > 5300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1163
+ L[www.metrocuadrado.com : page : 107 : bogota] a:href links got > 5350
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1168
+ L[www.metrocuadrado.com : page : 108 : bogota] a:href links got > 5400
+ L[fincaraiz.com.co : page : 24 : turbo] a:href links got > 792
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1171
+ L[www.metrocuadrado.com : page : 109 : bogota] a:href links got > 5450
+ L[www.metrocuadrado.com : page : 110 : bogota] a:href links got > 5500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1178
+ L[www.metrocuadrado.com : page : 111 : bogota] a:href links got > 5550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1186
+ L[fincaraiz.com.co : page : 25 : turbo] a:href links got > 825
+ L[www.metrocuadrado.com : page : 112 : bogota] a:href links got > 5600
+ L[www.metrocuadrado.com : page : 113 : bogota] a:href links got > 5650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1192
+ L[www.metrocuadrado.com : page : 114 : bogota] a:href links got > 5700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1201
+ L[www.metrocuadrado.com : page : 115 : bogota] a:href links got > 5750
+ L[fincaraiz.com.co : page : 26 : turbo] a:href links got > 858
+ L[www.metrocuadrado.com : page : 116 : bogota] a:href links got > 5800
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1208
+ L[www.metrocuadrado.com : page : 117 : bogota] a:href links got > 5850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1219
+ L[www.metrocuadrado.com : page : 118 : bogota] a:href links got > 5900
+ L[fincaraiz.com.co : page : 27 : turbo] a:href links got > 891
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1228
+ L[www.metrocuadrado.com : page : 119 : bogota] a:href links got > 5950
+ L[www.metrocuadrado.com : page : 120 : bogota] a:href links got > 6000
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1235
+ L[www.metrocuadrado.com : page : 121 : bogota] a:href links got > 6050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1243
+ L[fincaraiz.com.co : page : 28 : turbo] a:href links got > 924
+ L[www.metrocuadrado.com : page : 122 : bogota] a:href links got > 6100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1247
+ L[www.metrocuadrado.com : page : 123 : bogota] a:href links got > 6150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1255
+ L[www.metrocuadrado.com : page : 124 : bogota] a:href links got > 6200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1259
+ L[fincaraiz.com.co : page : 29 : turbo] a:href links got > 957
+ L[www.metrocuadrado.com : page : 125 : bogota] a:href links got > 6250
+ L[www.metrocuadrado.com : page : 126 : bogota] a:href links got > 6300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1267
+ L[www.metrocuadrado.com : page : 127 : bogota] a:href links got > 6350
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1276
+ L[www.metrocuadrado.com : page : 128 : bogota] a:href links got > 6400
+ L[fincaraiz.com.co : page : 30 : turbo] a:href links got > 990
+ L[www.metrocuadrado.com : page : 129 : bogota] a:href links got > 6450
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1281
+ L[www.metrocuadrado.com : page : 130 : bogota] a:href links got > 6500
+ L[www.metrocuadrado.com : page : 131 : bogota] a:href links got > 6550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1291
+ L[fincaraiz.com.co : page : 31 : turbo] a:href links got > 1023
+ L[www.metrocuadrado.com : page : 132 : bogota] a:href links got > 6600
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1300
+ L[www.metrocuadrado.com : page : 133 : bogota] a:href links got > 6650
+ L[www.metrocuadrado.com : page : 134 : bogota] a:href links got > 6700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1311
+ L[www.metrocuadrado.com : page : 135 : bogota] a:href links got > 6750
+ L[fincaraiz.com.co : page : 32 : turbo] a:href links got > 1056
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1323
+ L[www.metrocuadrado.com : page : 136 : bogota] a:href links got > 6800
+ L[www.metrocuadrado.com : page : 137 : bogota] a:href links got > 6850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1335
+ L[www.metrocuadrado.com : page : 138 : bogota] a:href links got > 6900
+ L[fincaraiz.com.co : page : 33 : turbo] a:href links got > 1089
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1346
+ L[www.metrocuadrado.com : page : 139 : bogota] a:href links got > 6950
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1358
+ L[www.metrocuadrado.com : page : 140 : bogota] a:href links got > 7000
+ L[fincaraiz.com.co : page : 34 : turbo] a:href links got > 1122
+ L[www.metrocuadrado.com : page : 141 : bogota] a:href links got > 7050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1372
+ L[www.metrocuadrado.com : page : 142 : bogota] a:href links got > 7100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1380
+ L[www.metrocuadrado.com : page : 143 : bogota] a:href links got > 7150
+ L[www.metrocuadrado.com : page : 144 : bogota] a:href links got > 7200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1387
+ L[fincaraiz.com.co : page : 35 : turbo] a:href links got > 1155
+ L[www.metrocuadrado.com : page : 145 : bogota] a:href links got > 7250
+ L[fincaraiz.com.co : page : 36 : turbo] a:href links got > 1155
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1396
+ L[www.metrocuadrado.com : page : 146 : bogota] a:href links got > 7300
+ L[www.metrocuadrado.com : page : 147 : bogota] a:href links got > 7350
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1403
+ L[www.metrocuadrado.com : page : 148 : bogota] a:href links got > 7400
+ L[www.metrocuadrado.com : page : 149 : bogota] a:href links got > 7450
+ L[fincaraiz.com.co : page : 37 : turbo] a:href links got > 1188
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1411
+ L[www.metrocuadrado.com : page : 150 : bogota] a:href links got > 7500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1416
+ L[www.metrocuadrado.com : page : 151 : bogota] a:href links got > 7550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1420
+ L[www.metrocuadrado.com : page : 152 : bogota] a:href links got > 7600
+ L[fincaraiz.com.co : page : 38 : turbo] a:href links got > 1221
+ L[www.metrocuadrado.com : page : 153 : bogota] a:href links got > 7650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1424
+ L[www.metrocuadrado.com : page : 154 : bogota] a:href links got > 7700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1431
+ L[www.metrocuadrado.com : page : 155 : bogota] a:href links got > 7750
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1438
+ L[www.metrocuadrado.com : page : 156 : bogota] a:href links got > 7800
+ L[fincaraiz.com.co : page : 39 : turbo] a:href links got > 1254
+ L[fincaraiz.com.co : page : 40 : turbo] a:href links got > 1254
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/casas/venta/tumaco?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1441
+ L[www.metrocuadrado.com : page : 157 : bogota] a:href links got > 7850
+ L[www.metrocuadrado.com : page : 158 : bogota] a:href links got > 7900
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1443
+Got it!
+ L[www.metrocuadrado.com : page : 159 : bogota] a:href links got > 7950
+no page index: must be just one page
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1448
+ L[www.metrocuadrado.com : page : 160 : bogota] a:href links got > 8000
+ L[fincaraiz.com.co:page:Unica] a:href links got > 3
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/mompos?pagina=1 ... 
+ L[www.metrocuadrado.com : page : 161 : bogota] a:href links got > 8050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1457
+ L[www.metrocuadrado.com : page : 162 : bogota] a:href links got > 8100
+Got it!
+no page index: must be just one page
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1468
+ L[www.metrocuadrado.com : page : 163 : bogota] a:href links got > 8150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1479
+ L[fincaraiz.com.co:page:Unica] a:href links got > 5
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/barrancabermeja?pagina=1 ... 
+ L[www.metrocuadrado.com : page : 164 : bogota] a:href links got > 8200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1489
+ L[www.metrocuadrado.com : page : 165 : bogota] a:href links got > 8250
+ L[www.metrocuadrado.com : page : 166 : bogota] a:href links got > 8300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1493
+Got it!
+ L[www.metrocuadrado.com : page : 167 : bogota] a:href links got > 8350
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1500
+ L[www.metrocuadrado.com : page : 168 : bogota] a:href links got > 8400
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1509
+ L[fincaraiz.com.co : page : 1 : barrancabermeja] a:href links got > 26
+ L[www.metrocuadrado.com : page : 169 : bogota] a:href links got > 8450
+ L[fincaraiz.com.co : page : 2 : barrancabermeja] a:href links got > 26
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1513
+ L[www.metrocuadrado.com : page : 170 : bogota] a:href links got > 8500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1518
+ L[fincaraiz.com.co : page : 3 : barrancabermeja] a:href links got > 26
+ L[www.metrocuadrado.com : page : 171 : bogota] a:href links got > 8550
+ L[fincaraiz.com.co : page : 4 : barrancabermeja] a:href links got > 26
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/barranquilla?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1521
+ L[www.metrocuadrado.com : page : 172 : bogota] a:href links got > 8600
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1526
+ L[www.metrocuadrado.com : page : 173 : bogota] a:href links got > 8650
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1531
+ L[www.metrocuadrado.com : page : 174 : bogota] a:href links got > 8700
+Got it!
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1535
+ L[www.metrocuadrado.com : page : 175 : bogota] a:href links got > 8750
+ L[www.metrocuadrado.com : page : 176 : bogota] a:href links got > 8800
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1539
+ L[fincaraiz.com.co : page : 1 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 177 : bogota] a:href links got > 8850
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1544
+ L[fincaraiz.com.co : page : 2 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 178 : bogota] a:href links got > 8900
+ L[fincaraiz.com.co : page : 3 : barranquilla] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1551
+ L[www.metrocuadrado.com : page : 179 : bogota] a:href links got > 8950
+ L[fincaraiz.com.co : page : 4 : barranquilla] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1562
+ L[www.metrocuadrado.com : page : 180 : bogota] a:href links got > 9000
+ L[fincaraiz.com.co : page : 5 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 181 : bogota] a:href links got > 9050
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1567
+ L[fincaraiz.com.co : page : 6 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 182 : bogota] a:href links got > 9100
+ L[fincaraiz.com.co : page : 7 : barranquilla] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1578
+ L[www.metrocuadrado.com : page : 183 : bogota] a:href links got > 9150
+ L[fincaraiz.com.co : page : 8 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 184 : bogota] a:href links got > 9200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1586
+ L[fincaraiz.com.co : page : 9 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 185 : bogota] a:href links got > 9250
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1589
+ L[fincaraiz.com.co : page : 10 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 186 : bogota] a:href links got > 9300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1594
+ L[fincaraiz.com.co : page : 11 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 187 : bogota] a:href links got > 9350
+ L[fincaraiz.com.co : page : 12 : barranquilla] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1597
+ L[www.metrocuadrado.com : page : 188 : bogota] a:href links got > 9400
+ L[fincaraiz.com.co : page : 13 : barranquilla] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1603
+ L[fincaraiz.com.co : page : 14 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 189 : bogota] a:href links got > 9450
+ L[www.metrocuadrado.com : page : 190 : bogota] a:href links got > 9500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1612
+ L[fincaraiz.com.co : page : 15 : barranquilla] a:href links got > 33
+ L[www.metrocuadrado.com : page : 191 : bogota] a:href links got > 9550
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1614
+ L[www.metrocuadrado.com : page : 192 : bogota] a:href links got > 9600
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1615
+ L[www.metrocuadrado.com : page : 193 : bogota] a:href links got > 9650
+ L[fincaraiz.com.co : page : 16 : barranquilla] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1624
+ L[www.metrocuadrado.com : page : 194 : bogota] a:href links got > 9700
+ L[fincaraiz.com.co : page : 17 : barranquilla] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1628
+ L[www.metrocuadrado.com : page : 195 : bogota] a:href links got > 9750
+ L[fincaraiz.com.co : page : 18 : barranquilla] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1635
+ L[www.metrocuadrado.com : page : 196 : bogota] a:href links got > 9800
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1638
+ L[www.metrocuadrado.com : page : 197 : bogota] a:href links got > 9850
+ L[www.metrocuadrado.com : page : 198 : bogota] a:href links got > 9900
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1644
+ L[fincaraiz.com.co : page : 19 : barranquilla] a:href links got > 99
+ L[fincaraiz.com.co : page : 20 : barranquilla] a:href links got > 99
+ L[www.metrocuadrado.com : page : 199 : bogota] a:href links got > 9950
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1647
+ L[www.metrocuadrado.com : page : 200 : bogota] a:href links got > 9950
+ L[fincaraiz.com.co : page : 21 : barranquilla] a:href links got > 99
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/riohacha/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1655
+ L[fincaraiz.com.co : page : 22 : barranquilla] a:href links got > 99
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1663
+ L[fincaraiz.com.co : page : 23 : barranquilla] a:href links got > 99
+Got it!
+ L[www.metrocuadrado.com : page : 1 : riohacha] a:href links got > 1
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/santa-marta/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1669
+ L[fincaraiz.com.co : page : 24 : barranquilla] a:href links got > 99
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1674
+ L[fincaraiz.com.co : page : 25 : barranquilla] a:href links got > 99
+ L[fincaraiz.com.co : page : 26 : barranquilla] a:href links got > 99
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1684
+ L[fincaraiz.com.co : page : 27 : barranquilla] a:href links got > 99
+Got it!
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1692
+ L[www.metrocuadrado.com : page : 1 : santa-marta] a:href links got > 50
+ L[fincaraiz.com.co : page : 28 : barranquilla] a:href links got > 99
+ L[www.metrocuadrado.com : page : 2 : santa-marta] a:href links got > 100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1699
+ L[www.metrocuadrado.com : page : 3 : santa-marta] a:href links got > 150
+ L[fincaraiz.com.co : page : 29 : barranquilla] a:href links got > 99
+ L[www.metrocuadrado.com : page : 4 : santa-marta] a:href links got > 200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1705
+ L[fincaraiz.com.co : page : 30 : barranquilla] a:href links got > 99
+ L[www.metrocuadrado.com : page : 5 : santa-marta] a:href links got > 250
+ L[www.metrocuadrado.com : page : 6 : santa-marta] a:href links got > 300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1711
+ L[www.metrocuadrado.com : page : 7 : santa-marta] a:href links got > 350
+ L[www.metrocuadrado.com : page : 8 : santa-marta] a:href links got > 400
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1717
+ L[www.metrocuadrado.com : page : 9 : santa-marta] a:href links got > 450
+ L[www.metrocuadrado.com : page : 10 : santa-marta] a:href links got > 500
+ L[fincaraiz.com.co : page : 31 : barranquilla] a:href links got > 132
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1724
+ L[www.metrocuadrado.com : page : 11 : santa-marta] a:href links got > 550
+ L[www.metrocuadrado.com : page : 12 : santa-marta] a:href links got > 600
+ L[fincaraiz.com.co : page : 32 : barranquilla] a:href links got > 132
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1731
+ L[www.metrocuadrado.com : page : 13 : santa-marta] a:href links got > 650
+ L[fincaraiz.com.co : page : 33 : barranquilla] a:href links got > 132
+ L[www.metrocuadrado.com : page : 14 : santa-marta] a:href links got > 700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1739
+ L[www.metrocuadrado.com : page : 15 : santa-marta] a:href links got > 750
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1749
+ L[www.metrocuadrado.com : page : 16 : santa-marta] a:href links got > 765
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/turbo/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1754
+Got it!
+ L[www.metrocuadrado.com : page : 1 : turbo] a:href links got > 0
+ L[fincaraiz.com.co : page : 34 : barranquilla] a:href links got > 165
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/apartamento/venta/tumaco/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1754
+ L[fincaraiz.com.co : page : 35 : barranquilla] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1758
+ L[fincaraiz.com.co : page : 36 : barranquilla] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1766
+Got it!
+ L[fincaraiz.com.co : page : 37 : barranquilla] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1773
+ L[www.metrocuadrado.com : page : 1 : tumaco] a:href links got > 0
+ L[fincaraiz.com.co : page : 38 : barranquilla] a:href links got > 165
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/mompos/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1781
+ L[fincaraiz.com.co : page : 39 : barranquilla] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1789
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1797
+Got it!
+ L[www.metrocuadrado.com : page : 1 : mompos] a:href links got > 0
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1807
+ L[fincaraiz.com.co : page : 40 : barranquilla] a:href links got > 198
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/buenaventura?pagina=1 ... 
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/barrancabermeja/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1818
+Got it!
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1833
+no page index: must be just one page
+Got it!
+ L[www.metrocuadrado.com : page : 1 : barrancabermeja] a:href links got > 4
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/barranquilla/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1846
+ L[fincaraiz.com.co:page:Unica] a:href links got > 6
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/cali?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1856
+Got it!
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1865
+ L[www.metrocuadrado.com : page : 1 : barranquilla] a:href links got > 50
+Got it!
+ L[www.metrocuadrado.com : page : 2 : barranquilla] a:href links got > 100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1869
+ L[www.metrocuadrado.com : page : 3 : barranquilla] a:href links got > 150
+ L[www.metrocuadrado.com : page : 4 : barranquilla] a:href links got > 200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1876
+ L[fincaraiz.com.co : page : 1 : cali] a:href links got > 33
+ L[www.metrocuadrado.com : page : 5 : barranquilla] a:href links got > 250
+ L[www.metrocuadrado.com : page : 6 : barranquilla] a:href links got > 262
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/buenaventura/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1887
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1896
+ L[fincaraiz.com.co : page : 2 : cali] a:href links got > 66
+Got it!
+ L[www.metrocuadrado.com : page : 1 : buenaventura] a:href links got > 5
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/cali/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1905
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1908
+ L[fincaraiz.com.co : page : 3 : cali] a:href links got > 99
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1911
+Got it!
+ L[www.metrocuadrado.com : page : 1 : cali] a:href links got > 50
+ L[www.metrocuadrado.com : page : 2 : cali] a:href links got > 100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1921
+ L[www.metrocuadrado.com : page : 3 : cali] a:href links got > 144
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/cartagena/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1930
+ L[fincaraiz.com.co : page : 4 : cali] a:href links got > 132
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1940
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1952
+Got it!
+ L[www.metrocuadrado.com : page : 1 : cartagena] a:href links got > 50
+ L[fincaraiz.com.co : page : 5 : cali] a:href links got > 165
+ L[www.metrocuadrado.com : page : 2 : cartagena] a:href links got > 100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1961
+ L[fincaraiz.com.co : page : 6 : cali] a:href links got > 165
+ L[www.metrocuadrado.com : page : 3 : cartagena] a:href links got > 150
+ L[www.metrocuadrado.com : page : 4 : cartagena] a:href links got > 155
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/medellin/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1966
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1978
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1991
+ L[fincaraiz.com.co : page : 7 : cali] a:href links got > 198
+Got it!
+ L[www.metrocuadrado.com : page : 1 : medellin] a:href links got > 50
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 1999
+ L[fincaraiz.com.co : page : 8 : cali] a:href links got > 198
+ L[www.metrocuadrado.com : page : 2 : medellin] a:href links got > 100
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2004
+ L[www.metrocuadrado.com : page : 3 : medellin] a:href links got > 150
+ L[www.metrocuadrado.com : page : 4 : medellin] a:href links got > 200
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2012
+ L[www.metrocuadrado.com : page : 5 : medellin] a:href links got > 250
+ L[fincaraiz.com.co : page : 9 : cali] a:href links got > 231
+ L[www.metrocuadrado.com : page : 6 : medellin] a:href links got > 300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2017
+ L[www.metrocuadrado.com : page : 7 : medellin] a:href links got > 350
+ L[fincaraiz.com.co : page : 10 : cali] a:href links got > 231
+ L[www.metrocuadrado.com : page : 8 : medellin] a:href links got > 400
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2027
+ L[fincaraiz.com.co : page : 11 : cali] a:href links got > 231
+ L[www.metrocuadrado.com : page : 9 : medellin] a:href links got > 450
+ L[www.metrocuadrado.com : page : 10 : medellin] a:href links got > 500
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2039
+ L[www.metrocuadrado.com : page : 11 : medellin] a:href links got > 550
+ L[www.metrocuadrado.com : page : 12 : medellin] a:href links got > 600
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2051
+ L[www.metrocuadrado.com : page : 13 : medellin] a:href links got > 650
+ L[fincaraiz.com.co : page : 12 : cali] a:href links got > 264
+ L[www.metrocuadrado.com : page : 14 : medellin] a:href links got > 700
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2058
+ L[www.metrocuadrado.com : page : 15 : medellin] a:href links got > 750
+ L[fincaraiz.com.co : page : 13 : cali] a:href links got > 264
+ L[www.metrocuadrado.com : page : 16 : medellin] a:href links got > 800
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2069
+ L[www.metrocuadrado.com : page : 17 : medellin] a:href links got > 850
+ L[www.metrocuadrado.com : page : 18 : medellin] a:href links got > 900
+ L[www.metrocuadrado.com : page : 19 : medellin] a:href links got > 904
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/bogota/ ... 
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2073
+ L[fincaraiz.com.co : page : 14 : cali] a:href links got > 297
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2077
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2085
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2089
+Got it!
+ L[fincaraiz.com.co : page : 15 : cali] a:href links got > 330
+ L[www.metrocuadrado.com : page : 1 : bogota] a:href links got > 50
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2091
+ L[www.metrocuadrado.com : page : 2 : bogota] a:href links got > 100
+ L[fincaraiz.com.co : page : 16 : cali] a:href links got > 330
+ L[www.metrocuadrado.com : page : 3 : bogota] a:href links got > 150
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2093
+ L[www.metrocuadrado.com : page : 4 : bogota] a:href links got > 200
+ L[fincaraiz.com.co : page : 17 : cali] a:href links got > 330
+ L[www.metrocuadrado.com : page : 5 : bogota] a:href links got > 250
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2097
+ L[www.metrocuadrado.com : page : 6 : bogota] a:href links got > 300
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2099
+ L[www.metrocuadrado.com : page : 7 : bogota] a:href links got > 350
+ L[www.metrocuadrado.com : page : 8 : bogota] a:href links got > 400
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2100
+ L[www.metrocuadrado.com : page : 9 : bogota] a:href links got > 450
+ L[fincaraiz.com.co : page : 18 : cali] a:href links got > 363
+ L[www.puntopropiedad.com : page :  : medellin] a:href links got > 2104
+Appending links for https://www.puntopropiedad.com ... 
+ >>> Trying GET method for link https://www.puntopropiedad.com/venta/casas/bogota ... 
+ L[www.metrocuadrado.com : page : 10 : bogota] a:href links got > 500
+ L[www.metrocuadrado.com : page : 11 : bogota] a:href links got > 550
+ L[fincaraiz.com.co : page : 19 : cali] a:href links got > 363
+ L[www.metrocuadrado.com : page : 12 : bogota] a:href links got > 600
+ L[fincaraiz.com.co : page : 20 : cali] a:href links got > 363
+Got it!
+ L[www.metrocuadrado.com : page : 13 : bogota] a:href links got > 650
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 13
+ L[www.metrocuadrado.com : page : 14 : bogota] a:href links got > 700
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 28
+ L[www.metrocuadrado.com : page : 15 : bogota] a:href links got > 750
+ L[www.metrocuadrado.com : page : 16 : bogota] a:href links got > 800
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 43
+ L[www.metrocuadrado.com : page : 17 : bogota] a:href links got > 850
+ L[fincaraiz.com.co : page : 21 : cali] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 58
+ L[www.metrocuadrado.com : page : 18 : bogota] a:href links got > 900
+ L[www.metrocuadrado.com : page : 19 : bogota] a:href links got > 950
+ L[fincaraiz.com.co : page : 22 : cali] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 73
+ L[www.metrocuadrado.com : page : 20 : bogota] a:href links got > 1000
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 85
+ L[fincaraiz.com.co : page : 23 : cali] a:href links got > 396
+ L[www.metrocuadrado.com : page : 21 : bogota] a:href links got > 1050
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 99
+ L[www.metrocuadrado.com : page : 22 : bogota] a:href links got > 1100
+ L[www.metrocuadrado.com : page : 23 : bogota] a:href links got > 1150
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 112
+ L[www.metrocuadrado.com : page : 24 : bogota] a:href links got > 1200
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 119
+ L[www.metrocuadrado.com : page : 25 : bogota] a:href links got > 1250
+ L[fincaraiz.com.co : page : 24 : cali] a:href links got > 429
+ L[www.metrocuadrado.com : page : 26 : bogota] a:href links got > 1300
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 133
+ L[www.metrocuadrado.com : page : 27 : bogota] a:href links got > 1350
+ L[fincaraiz.com.co : page : 25 : cali] a:href links got > 429
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 146
+ L[www.metrocuadrado.com : page : 28 : bogota] a:href links got > 1400
+ L[fincaraiz.com.co : page : 26 : cali] a:href links got > 429
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 161
+ L[www.metrocuadrado.com : page : 29 : bogota] a:href links got > 1450
+ L[www.metrocuadrado.com : page : 30 : bogota] a:href links got > 1500
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 174
+ L[fincaraiz.com.co : page : 27 : cali] a:href links got > 429
+ L[www.metrocuadrado.com : page : 31 : bogota] a:href links got > 1550
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 188
+ L[www.metrocuadrado.com : page : 32 : bogota] a:href links got > 1600
+ L[fincaraiz.com.co : page : 28 : cali] a:href links got > 429
+ L[www.metrocuadrado.com : page : 33 : bogota] a:href links got > 1650
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 203
+ L[fincaraiz.com.co : page : 29 : cali] a:href links got > 429
+ L[www.metrocuadrado.com : page : 34 : bogota] a:href links got > 1700
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 218
+ L[fincaraiz.com.co : page : 30 : cali] a:href links got > 429
+ L[www.metrocuadrado.com : page : 35 : bogota] a:href links got > 1750
+ L[www.metrocuadrado.com : page : 36 : bogota] a:href links got > 1800
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 224
+ L[fincaraiz.com.co : page : 31 : cali] a:href links got > 429
+ L[www.metrocuadrado.com : page : 37 : bogota] a:href links got > 1850
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 236
+ L[fincaraiz.com.co : page : 32 : cali] a:href links got > 429
+ L[www.metrocuadrado.com : page : 38 : bogota] a:href links got > 1900
+ L[www.metrocuadrado.com : page : 39 : bogota] a:href links got > 1950
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 249
+ L[www.metrocuadrado.com : page : 40 : bogota] a:href links got > 2000
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 262
+ L[www.metrocuadrado.com : page : 41 : bogota] a:href links got > 2050
+ L[fincaraiz.com.co : page : 33 : cali] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 275
+ L[www.metrocuadrado.com : page : 42 : bogota] a:href links got > 2100
+ L[www.metrocuadrado.com : page : 43 : bogota] a:href links got > 2150
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 290
+ L[www.metrocuadrado.com : page : 44 : bogota] a:href links got > 2200
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 305
+ L[www.metrocuadrado.com : page : 45 : bogota] a:href links got > 2250
+ L[fincaraiz.com.co : page : 34 : cali] a:href links got > 495
+ L[www.metrocuadrado.com : page : 46 : bogota] a:href links got > 2300
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 317
+ L[www.metrocuadrado.com : page : 47 : bogota] a:href links got > 2350
+ L[fincaraiz.com.co : page : 35 : cali] a:href links got > 495
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 332
+ L[www.metrocuadrado.com : page : 48 : bogota] a:href links got > 2400
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 344
+ L[www.metrocuadrado.com : page : 49 : bogota] a:href links got > 2450
+ L[www.metrocuadrado.com : page : 50 : bogota] a:href links got > 2500
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 358
+ L[www.metrocuadrado.com : page : 51 : bogota] a:href links got > 2550
+ L[fincaraiz.com.co : page : 36 : cali] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 373
+ L[www.metrocuadrado.com : page : 52 : bogota] a:href links got > 2600
+ L[fincaraiz.com.co : page : 37 : cali] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 387
+ L[www.metrocuadrado.com : page : 53 : bogota] a:href links got > 2650
+ L[www.metrocuadrado.com : page : 54 : bogota] a:href links got > 2700
+ L[fincaraiz.com.co : page : 38 : cali] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 401
+ L[www.metrocuadrado.com : page : 55 : bogota] a:href links got > 2750
+ L[fincaraiz.com.co : page : 39 : cali] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 416
+ L[www.metrocuadrado.com : page : 56 : bogota] a:href links got > 2800
+ L[www.metrocuadrado.com : page : 57 : bogota] a:href links got > 2850
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 431
+ L[www.metrocuadrado.com : page : 58 : bogota] a:href links got > 2900
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 444
+ L[www.metrocuadrado.com : page : 59 : bogota] a:href links got > 2950
+ L[fincaraiz.com.co : page : 40 : cali] a:href links got > 561
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/cartagena?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 458
+ L[www.metrocuadrado.com : page : 60 : bogota] a:href links got > 3000
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 470
+ L[www.metrocuadrado.com : page : 61 : bogota] a:href links got > 3050
+ L[www.metrocuadrado.com : page : 62 : bogota] a:href links got > 3100
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 483
+ L[www.metrocuadrado.com : page : 63 : bogota] a:href links got > 3150
+Got it!
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 495
+ L[www.metrocuadrado.com : page : 64 : bogota] a:href links got > 3200
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 510
+ L[www.metrocuadrado.com : page : 65 : bogota] a:href links got > 3250
+ L[www.metrocuadrado.com : page : 66 : bogota] a:href links got > 3300
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 525
+ L[fincaraiz.com.co : page : 1 : cartagena] a:href links got > 33
+ L[www.metrocuadrado.com : page : 67 : bogota] a:href links got > 3350
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 537
+ L[fincaraiz.com.co : page : 2 : cartagena] a:href links got > 33
+ L[www.metrocuadrado.com : page : 68 : bogota] a:href links got > 3400
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 551
+ L[fincaraiz.com.co : page : 3 : cartagena] a:href links got > 33
+ L[www.metrocuadrado.com : page : 69 : bogota] a:href links got > 3450
+ L[fincaraiz.com.co : page : 4 : cartagena] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 565
+ L[www.metrocuadrado.com : page : 70 : bogota] a:href links got > 3500
+ L[fincaraiz.com.co : page : 5 : cartagena] a:href links got > 33
+ L[www.metrocuadrado.com : page : 71 : bogota] a:href links got > 3550
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 580
+ L[www.metrocuadrado.com : page : 72 : bogota] a:href links got > 3600
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 595
+ L[fincaraiz.com.co : page : 6 : cartagena] a:href links got > 33
+ L[www.metrocuadrado.com : page : 73 : bogota] a:href links got > 3650
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 610
+ L[www.metrocuadrado.com : page : 74 : bogota] a:href links got > 3700
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 625
+ L[www.metrocuadrado.com : page : 75 : bogota] a:href links got > 3750
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 639
+ L[www.metrocuadrado.com : page : 76 : bogota] a:href links got > 3800
+ L[fincaraiz.com.co : page : 7 : cartagena] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 654
+ L[www.metrocuadrado.com : page : 77 : bogota] a:href links got > 3850
+ L[www.metrocuadrado.com : page : 78 : bogota] a:href links got > 3900
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 669
+ L[www.metrocuadrado.com : page : 79 : bogota] a:href links got > 3950
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 683
+ L[fincaraiz.com.co : page : 8 : cartagena] a:href links got > 99
+ L[www.metrocuadrado.com : page : 80 : bogota] a:href links got > 4000
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 698
+ L[fincaraiz.com.co : page : 9 : cartagena] a:href links got > 99
+ L[www.metrocuadrado.com : page : 81 : bogota] a:href links got > 4050
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 713
+ L[www.metrocuadrado.com : page : 82 : bogota] a:href links got > 4100
+ L[fincaraiz.com.co : page : 10 : cartagena] a:href links got > 99
+ L[www.metrocuadrado.com : page : 83 : bogota] a:href links got > 4150
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 728
+ L[www.metrocuadrado.com : page : 84 : bogota] a:href links got > 4200
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 743
+ L[www.metrocuadrado.com : page : 85 : bogota] a:href links got > 4250
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 757
+ L[fincaraiz.com.co : page : 11 : cartagena] a:href links got > 132
+ L[www.metrocuadrado.com : page : 86 : bogota] a:href links got > 4300
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 772
+ L[www.metrocuadrado.com : page : 87 : bogota] a:href links got > 4350
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 786
+ L[www.metrocuadrado.com : page : 88 : bogota] a:href links got > 4400
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 800
+ L[www.metrocuadrado.com : page : 89 : bogota] a:href links got > 4450
+ L[fincaraiz.com.co : page : 12 : cartagena] a:href links got > 165
+ L[www.metrocuadrado.com : page : 90 : bogota] a:href links got > 4500
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 815
+ L[www.metrocuadrado.com : page : 91 : bogota] a:href links got > 4550
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 830
+ L[www.metrocuadrado.com : page : 92 : bogota] a:href links got > 4600
+ L[www.metrocuadrado.com : page : 93 : bogota] a:href links got > 4650
+ L[fincaraiz.com.co : page : 13 : cartagena] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 845
+ L[www.metrocuadrado.com : page : 94 : bogota] a:href links got > 4700
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 860
+ L[www.metrocuadrado.com : page : 95 : bogota] a:href links got > 4750
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 874
+ L[www.metrocuadrado.com : page : 96 : bogota] a:href links got > 4800
+ L[fincaraiz.com.co : page : 14 : cartagena] a:href links got > 231
+ L[www.metrocuadrado.com : page : 97 : bogota] a:href links got > 4850
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 889
+ L[fincaraiz.com.co : page : 15 : cartagena] a:href links got > 231
+ L[www.metrocuadrado.com : page : 98 : bogota] a:href links got > 4900
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 903
+ L[www.metrocuadrado.com : page : 99 : bogota] a:href links got > 4950
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 916
+ L[www.metrocuadrado.com : page : 100 : bogota] a:href links got > 5000
+ L[fincaraiz.com.co : page : 16 : cartagena] a:href links got > 264
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 927
+ L[www.metrocuadrado.com : page : 101 : bogota] a:href links got > 5050
+ L[www.metrocuadrado.com : page : 102 : bogota] a:href links got > 5100
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 941
+ L[www.metrocuadrado.com : page : 103 : bogota] a:href links got > 5150
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 955
+ L[fincaraiz.com.co : page : 17 : cartagena] a:href links got > 297
+ L[www.metrocuadrado.com : page : 104 : bogota] a:href links got > 5200
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 970
+ L[fincaraiz.com.co : page : 18 : cartagena] a:href links got > 297
+ L[www.metrocuadrado.com : page : 105 : bogota] a:href links got > 5250
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 984
+ L[fincaraiz.com.co : page : 19 : cartagena] a:href links got > 297
+ L[www.metrocuadrado.com : page : 106 : bogota] a:href links got > 5300
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 998
+ L[fincaraiz.com.co : page : 20 : cartagena] a:href links got > 297
+ L[www.metrocuadrado.com : page : 107 : bogota] a:href links got > 5350
+ L[fincaraiz.com.co : page : 21 : cartagena] a:href links got > 297
+ L[www.metrocuadrado.com : page : 108 : bogota] a:href links got > 5400
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1013
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1028
+ L[www.metrocuadrado.com : page : 109 : bogota] a:href links got > 5450
+ L[www.metrocuadrado.com : page : 110 : bogota] a:href links got > 5500
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1043
+ L[www.metrocuadrado.com : page : 111 : bogota] a:href links got > 5550
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1056
+ L[fincaraiz.com.co : page : 22 : cartagena] a:href links got > 330
+ L[www.metrocuadrado.com : page : 112 : bogota] a:href links got > 5600
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1066
+ L[www.metrocuadrado.com : page : 113 : bogota] a:href links got > 5650
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1080
+ L[www.metrocuadrado.com : page : 114 : bogota] a:href links got > 5700
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1095
+ L[www.metrocuadrado.com : page : 115 : bogota] a:href links got > 5750
+ L[fincaraiz.com.co : page : 23 : cartagena] a:href links got > 363
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1102
+ L[www.metrocuadrado.com : page : 116 : bogota] a:href links got > 5800
+ L[www.metrocuadrado.com : page : 117 : bogota] a:href links got > 5850
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1112
+ L[www.metrocuadrado.com : page : 118 : bogota] a:href links got > 5900
+ L[fincaraiz.com.co : page : 24 : cartagena] a:href links got > 396
+ L[www.metrocuadrado.com : page : 119 : bogota] a:href links got > 5950
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1121
+ L[www.metrocuadrado.com : page : 120 : bogota] a:href links got > 5991
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/riohacha/ ... 
+ L[fincaraiz.com.co : page : 25 : cartagena] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1136
+ L[fincaraiz.com.co : page : 26 : cartagena] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1149
+ L[fincaraiz.com.co : page : 27 : cartagena] a:href links got > 396
+ L[fincaraiz.com.co : page : 28 : cartagena] a:href links got > 396
+Got it!
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1161
+ L[www.metrocuadrado.com : page : 1 : riohacha] a:href links got > 0
+ L[fincaraiz.com.co : page : 29 : cartagena] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1176
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/santa-marta/ ... 
+ L[fincaraiz.com.co : page : 30 : cartagena] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1186
+ L[fincaraiz.com.co : page : 31 : cartagena] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1199
+ L[fincaraiz.com.co : page : 32 : cartagena] a:href links got > 396
+Got it!
+ L[www.metrocuadrado.com : page : 1 : santa-marta] a:href links got > 30
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/turbo/ ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1210
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1223
+Got it!
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1236
+ L[fincaraiz.com.co : page : 33 : cartagena] a:href links got > 429
+ L[www.metrocuadrado.com : page : 1 : turbo] a:href links got > 0
+Appending links for https://www.metrocuadrado.com ... 
+ >>> Trying GET method for link https://www.metrocuadrado.com/oficina/venta/tumaco/ ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1244
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1255
+ L[fincaraiz.com.co : page : 34 : cartagena] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1266
+Got it!
+ L[www.metrocuadrado.com : page : 1 : tumaco] a:href links got > 1
+Appending links for https://www.metrocuadrado.com ... 
+ L[fincaraiz.com.co : page : 35 : cartagena] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1280
+ L[fincaraiz.com.co : page : 36 : cartagena] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1294
+ L[fincaraiz.com.co : page : 37 : cartagena] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1308
+ L[fincaraiz.com.co : page : 38 : cartagena] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1322
+ L[fincaraiz.com.co : page : 39 : cartagena] a:href links got > 462
+ L[fincaraiz.com.co : page : 40 : cartagena] a:href links got > 462
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/medellin?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1336
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1351
+Got it!
+no page index: must be just one page
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1366
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1380
+ L[fincaraiz.com.co:page:Unica] a:href links got > 33
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/bogota?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1395
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1410
+Got it!
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1425
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1440
+ L[fincaraiz.com.co : page : 1 : bogota] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1455
+ L[fincaraiz.com.co : page : 2 : bogota] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1470
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1485
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1499
+ L[fincaraiz.com.co : page : 3 : bogota] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1514
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1529
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1544
+ L[fincaraiz.com.co : page : 4 : bogota] a:href links got > 99
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1559
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1574
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1589
+ L[fincaraiz.com.co : page : 5 : bogota] a:href links got > 132
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1604
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1619
+ L[fincaraiz.com.co : page : 6 : bogota] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1634
+ L[fincaraiz.com.co : page : 7 : bogota] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1649
+ L[fincaraiz.com.co : page : 8 : bogota] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1664
+ L[fincaraiz.com.co : page : 9 : bogota] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1679
+ L[fincaraiz.com.co : page : 10 : bogota] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1694
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1709
+ L[fincaraiz.com.co : page : 11 : bogota] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1724
+ L[fincaraiz.com.co : page : 12 : bogota] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1739
+ L[fincaraiz.com.co : page : 13 : bogota] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1754
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1769
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1784
+ L[fincaraiz.com.co : page : 14 : bogota] a:href links got > 231
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1799
+ L[fincaraiz.com.co : page : 15 : bogota] a:href links got > 231
+ L[fincaraiz.com.co : page : 16 : bogota] a:href links got > 231
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1814
+ L[fincaraiz.com.co : page : 17 : bogota] a:href links got > 231
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1829
+ L[fincaraiz.com.co : page : 18 : bogota] a:href links got > 231
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1838
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1848
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1855
+ L[fincaraiz.com.co : page : 19 : bogota] a:href links got > 264
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1863
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1874
+ L[fincaraiz.com.co : page : 20 : bogota] a:href links got > 297
+ L[fincaraiz.com.co : page : 21 : bogota] a:href links got > 297
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1882
+ L[fincaraiz.com.co : page : 22 : bogota] a:href links got > 297
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1889
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1897
+ L[fincaraiz.com.co : page : 23 : bogota] a:href links got > 330
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1903
+ L[fincaraiz.com.co : page : 24 : bogota] a:href links got > 330
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1911
+ L[fincaraiz.com.co : page : 25 : bogota] a:href links got > 330
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1921
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1927
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1935
+ L[fincaraiz.com.co : page : 26 : bogota] a:href links got > 363
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1943
+ L[fincaraiz.com.co : page : 27 : bogota] a:href links got > 363
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1952
+ L[fincaraiz.com.co : page : 28 : bogota] a:href links got > 363
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1963
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1973
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1984
+ L[fincaraiz.com.co : page : 29 : bogota] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1989
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 1999
+ L[fincaraiz.com.co : page : 30 : bogota] a:href links got > 429
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2008
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2014
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2023
+ L[fincaraiz.com.co : page : 31 : bogota] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2030
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2038
+ L[fincaraiz.com.co : page : 32 : bogota] a:href links got > 495
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2046
+ L[fincaraiz.com.co : page : 33 : bogota] a:href links got > 495
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2055
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2063
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2070
+ L[fincaraiz.com.co : page : 34 : bogota] a:href links got > 528
+ L[fincaraiz.com.co : page : 35 : bogota] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2079
+ L[fincaraiz.com.co : page : 36 : bogota] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2088
+ L[fincaraiz.com.co : page : 37 : bogota] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2099
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2107
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2115
+ L[fincaraiz.com.co : page : 38 : bogota] a:href links got > 561
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2121
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2128
+ L[fincaraiz.com.co : page : 39 : bogota] a:href links got > 594
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2134
+ L[fincaraiz.com.co : page : 40 : bogota] a:href links got > 594
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/riohacha?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2144
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2153
+Got it!
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2159
+no page index: must be just one page
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2170
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2179
+ L[fincaraiz.com.co:page:Unica] a:href links got > 25
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/santa-marta?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2186
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2194
+Got it!
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2203
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2211
+ L[fincaraiz.com.co : page : 1 : santa-marta] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2217
+ L[fincaraiz.com.co : page : 2 : santa-marta] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2228
+ L[fincaraiz.com.co : page : 3 : santa-marta] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2235
+ L[fincaraiz.com.co : page : 4 : santa-marta] a:href links got > 33
+ L[fincaraiz.com.co : page : 5 : santa-marta] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2245
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2251
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2261
+ L[fincaraiz.com.co : page : 6 : santa-marta] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2268
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2275
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2283
+ L[fincaraiz.com.co : page : 7 : santa-marta] a:href links got > 99
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2292
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2299
+ L[fincaraiz.com.co : page : 8 : santa-marta] a:href links got > 132
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2311
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2321
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2328
+ L[fincaraiz.com.co : page : 9 : santa-marta] a:href links got > 165
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2341
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2347
+ L[fincaraiz.com.co : page : 10 : santa-marta] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2355
+ L[fincaraiz.com.co : page : 11 : santa-marta] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2363
+ L[fincaraiz.com.co : page : 12 : santa-marta] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2373
+ L[fincaraiz.com.co : page : 13 : santa-marta] a:href links got > 198
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2382
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2392
+ L[fincaraiz.com.co : page : 14 : santa-marta] a:href links got > 231
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2397
+ L[fincaraiz.com.co : page : 15 : santa-marta] a:href links got > 231
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2400
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2405
+ L[fincaraiz.com.co : page : 16 : santa-marta] a:href links got > 264
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2415
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2424
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2429
+ L[fincaraiz.com.co : page : 17 : santa-marta] a:href links got > 297
+ L[fincaraiz.com.co : page : 18 : santa-marta] a:href links got > 297
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2435
+ L[fincaraiz.com.co : page : 19 : santa-marta] a:href links got > 297
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2444
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2453
+ L[fincaraiz.com.co : page : 20 : santa-marta] a:href links got > 330
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2462
+ L[fincaraiz.com.co : page : 21 : santa-marta] a:href links got > 330
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2475
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2487
+ L[fincaraiz.com.co : page : 22 : santa-marta] a:href links got > 363
+ L[fincaraiz.com.co : page : 23 : santa-marta] a:href links got > 363
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2500
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2509
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2521
+ L[fincaraiz.com.co : page : 24 : santa-marta] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2534
+ L[fincaraiz.com.co : page : 25 : santa-marta] a:href links got > 396
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2544
+ L[fincaraiz.com.co : page : 26 : santa-marta] a:href links got > 429
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2551
+ L[fincaraiz.com.co : page : 27 : santa-marta] a:href links got > 429
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2558
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2564
+ L[fincaraiz.com.co : page : 28 : santa-marta] a:href links got > 462
+ L[fincaraiz.com.co : page : 29 : santa-marta] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2571
+ L[fincaraiz.com.co : page : 30 : santa-marta] a:href links got > 462
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2583
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2594
+ L[fincaraiz.com.co : page : 31 : santa-marta] a:href links got > 495
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2601
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2612
+ L[fincaraiz.com.co : page : 32 : santa-marta] a:href links got > 528
+ L[fincaraiz.com.co : page : 33 : santa-marta] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2620
+ L[fincaraiz.com.co : page : 34 : santa-marta] a:href links got > 528
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2628
+ L[fincaraiz.com.co : page : 35 : santa-marta] a:href links got > 561
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2637
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2646
+ L[fincaraiz.com.co : page : 36 : santa-marta] a:href links got > 594
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2657
+ L[fincaraiz.com.co : page : 37 : santa-marta] a:href links got > 594
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2666
+ L[fincaraiz.com.co : page : 38 : santa-marta] a:href links got > 594
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2673
+ L[fincaraiz.com.co : page : 39 : santa-marta] a:href links got > 594
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2677
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2680
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2684
+ L[fincaraiz.com.co : page : 40 : santa-marta] a:href links got > 627
+Appending links for https://fincaraiz.com.co ... 
+ >>> Trying GET method for link https://fincaraiz.com.co/apartamentos/venta/turbo?pagina=1 ... 
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2687
+Got it!
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2690
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2692
+ L[fincaraiz.com.co : page : 1 : turbo] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2697
+ L[fincaraiz.com.co : page : 2 : turbo] a:href links got > 33
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2702
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2708
+ L[fincaraiz.com.co : page : 3 : turbo] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2710
+ L[fincaraiz.com.co : page : 4 : turbo] a:href links got > 66
+ L[fincaraiz.com.co : page : 5 : turbo] a:href links got > 66
+ L[www.puntopropiedad.com : page :  : bogota] a:href links got > 2712
+ L[fincaraiz.com.co : page : 6 : turbo] a:href links got > 66
+ L[fincaraiz.com.co : page : 7 : turbo] a:href links got > 66
+ L[www.puntopropiedad.com : page : 243 : bogota] a:href links got > 2714
+ L[www.puntopropiedad.com : page : 244 : bogota] a:href links got > 2716
+ L[fincaraiz.com.co : page : 8 : turbo] a:href links got > 66
+ L[www.puntopropiedad.com : page : 245 : bogota] a:href links got > 2717
+ L[www.puntopropiedad.com : page : 246 : bogota] a:href links got > 2718
+ L[www.puntopropiedad.com : page : 247 : bogota] a:href links got > 2719
+ L[www.puntopropiedad.com : page : 248 : bogota] a:href links got > 2723
+ L[fincaraiz.com.co : page : 9 : turbo] a:href links got > 99
+ L[www.puntopropiedad.com : page : 249 : bogota] a:href links got > 2725
+ L[www.puntopropiedad.com : page : 250 : bogota] a:href links got > 2727
+ L[www.puntopropiedad.com : page : 251 : bogota] a:href links got > 2729
+ L[fincaraiz.com.co : page : 10 : turbo] a:href links got > 132
+ L[www.puntopropiedad.com : page : 252 : bogota] a:href links got > 2732
+ L[www.puntopropiedad.com : page : 253 : bogota] a:href links got > 2742
+ L[fincaraiz.com.co : page : 11 : turbo] a:href links got > 165
+ L[www.puntopropiedad.com : page : 254 : bogota] a:href links got > 2755
+ L[www.puntopropiedad.com : page : 255 : bogota] a:href links got > 2766
+ L[fincaraiz.com.co : page : 12 : turbo] a:href links got > 198
+ L[www.puntopropiedad.com : page : 256 : bogota] a:href links got > 2778
+ L[www.puntopropiedad.com : page : 257 : bogota] a:href links got > 2788
+ L[fincaraiz.com.co : page : 13 : turbo] a:href links got > 231
+ L[www.puntopropiedad.com : page : 258 : bogota] a:href links got > 2793
+ L[www.puntopropiedad.com : page : 259 : bogota] a:href links got > 2801
+ L[www.puntopropiedad.com : page : 260 : bogota] a:href links got > 2811
+ L[fincaraiz.com.co : page : 14 : turbo] a:href links got > 264
+ L[fincaraiz.com.co : page : 15 : turbo] a:href links got > 264
+ L[www.puntopropiedad.com : page : 261 : bogota] a:href links got > 2822
+ L[fincaraiz.com.co : page : 16 : turbo] a:href links got > 264
+ L[fincaraiz.com.co : page : 17 : turbo] a:href links got > 264
+ L[www.puntopropiedad.com : page : 262 : bogota] a:href links got > 2830
+ L[www.puntopropiedad.com : page : 263 : bogota] a:href links got > 2836
+ L[www.puntopropiedad.com : page : 264 : bogota] a:href links got > 2848
+ L[fincaraiz.com.co : page : 18 : turbo] a:href links got > 297
+ L[www.puntopropiedad.com : page : 265 : bogota] a:href links got > 2859
+ L[www.puntopropiedad.com : page : 266 : bogota] a:href links got > 2866
+ L[fincaraiz.com.co : page : 19 : turbo] a:href links got > 330
+ L[www.puntopropiedad.com : page : 267 : bogota] a:href links got > 2875
+ L[fincaraiz.com.co : page : 20 : turbo] a:href links got > 363
+ L[www.puntopropiedad.com : page : 268 : bogota] a:href links got > 2881
+ L[www.puntopropiedad.com : page : 269 : bogota] a:href links got > 2887
+ L[fincaraiz.com.co : page : 21 : turbo] a:href links got > 396
+ L[www.puntopropiedad.com : page : 270 : bogota] a:href links got > 2890
+ L[fincaraiz.com.co : page : 22 : turbo] a:href links got > 429
+ L[www.puntopropiedad.com : page : 271 : bogota] a:href links got > 2896
+ L[fincaraiz.com.co : page : 23 : turbo] a:href links got > 429
+ L[www.puntopropiedad.com : page : 272 : bogota] a:href links got > 2901
+ L[www.puntopropiedad.com : page : 273 : bogota] a:href links got > 2907
+ L[fincaraiz.com.co : page : 24 : turbo] a:href links got > 462
+ L[www.puntopropiedad.com : page : 274 : bogota] a:href links got > 2912
+ L[fincaraiz.com.co : page : 25 : turbo] a:href links got > 462
+ L[fincaraiz.com.co : page : 26 : turbo] a:href links got > 462
+ L[www.puntopropiedad.com : page : 275 : bogota] a:href links got > 2920
+ L[fincaraiz.com.co : page : 27 : turbo] a:href links got > 462
+ L[www.puntopropiedad.com : page : 276 : bogota] a:href links got > 2924
+ L[fincaraiz.com.co : page : 28 : turbo] a:href links got > 462
+ L[fincaraiz.com.co : page : 29 : turbo] a:href links got > 462
+ L[www.puntopropiedad.com : page : 277 : bogota] a:href links got > 2933
+ L[fincaraiz.com.co : page : 30 : turbo] a:href links got > 462
+ L[www.puntopropiedad.com : page : 278 : bogota] a:href links got > 2940
+ L[www.puntopropiedad.com : page : 279 : bogota] a:href links got > 2946
+ L[www.puntopropiedad.com : page : 280 : bogota] a:href links got > 2953
+ L[www.puntopropiedad.com : page : 281 : bogota] a:href links got > 2959
+ L[fincaraiz.com.co : page : 31 : turbo] a:href links got > 495
+ L[fincaraiz.com.co : page : 32 : turbo] a:href links got > 495
+ L[www.puntopropiedad.com : page : 282 : bogota] a:href links got > 2966
+ L[www.puntopropiedad.com : page : 283 : bogota] a:href links got > 2972
+ L[www.puntopropiedad.com : page : 284 : bogota] a:href links got > 2982
+ L[fincaraiz.com.co : page : 33 : turbo] a:href links got > 528
+ L[www.puntopropiedad.com : page : 285 : bogota] a:href links got > 2990
+ L[www.puntopropiedad.com : page : 286 : bogota] a:href links got > 2997
+ L[fincaraiz.com.co : page : 34 : turbo] a:href links got > 561
+ L[www.puntopropiedad.com : page : 287 : bogota] a:href links got > 3004
+ L[fincaraiz.com.co : page : 35 : turbo] a:href links got > 561
+ L[fincaraiz.com.co : page : 36 : turbo] a:href links got > 561
+ L[www.puntopropiedad.com : page : 288 : bogota] a:href links got > 3011
+ L[www.puntopropiedad.com : page : 289 : bogota] a:href links got > 3016
+ L[fincaraiz.com.co : page : 37 : turbo] a:href links got > 594
+ L[www.puntopropiedad.com : page : 290 : bogota] a:href links got > 3025
+ L[www.puntopropiedad.com : page : 291 : bogota] a:href links got > 3033
+ L[fincaraiz.com.co : page : 38 : turbo] a:href links got > 627
+ L[www.puntopropiedad.com : page : 292 : bogota] a:href links got > 3044
+ L[www.puntopropiedad.com : page : 293 : bogota] a:href links got > 3054
+ L[www.puntopropiedad.com : page : 294 : bogota] a:href links got > 3062
+ L[fincaraiz.com.co : page : 39 : turbo] a:href links got > 660
+Appending links for https://www.puntopropiedad.com ... 
+ >>> Trying GET method for link https://www.puntopropiedad.com/venta/casas/riohacha ... 

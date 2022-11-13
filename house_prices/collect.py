@@ -169,6 +169,7 @@ def collect_metrocuadrado(__data):    # this gather links for scraping from 'met
             # gathering data and writing into gather.dat
             while (True):
                 
+                time.sleep(0.5)
                 # finding list of items
                 li_tags = driver.find_elements(By.CLASS_NAME, clattr(mecu_list_class))
                 # finding links of items, I mean "href" attributes
@@ -246,7 +247,8 @@ def collect_fincaraiz(__data):
             if (page_index != False):
 
                 for pg in range(1, (last_page + 1)):
-                    
+
+                    time.sleep(0.5)
                     # setting the url structure
                     finra_url = "%s/%ss/%s/%s?pagina=%d" % (baseurl[1], facility_item, via, city_item, pg)
                     # passing toward next page
@@ -327,6 +329,8 @@ def collect_puntopropiedad(__data):
             
             # gathering data and writing into gather.dat
             while (True):
+
+                time.sleep(0.5)
                 # finding li elements in DOM
                 li_tags = driver.find_elements(By.CLASS_NAME, clattr(punpro_list_box_class))
                 # finding a tags in li elements
