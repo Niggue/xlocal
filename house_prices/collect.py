@@ -20,15 +20,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 options = webdriver.ChromeOptions()
 options.page_load_strategy = 'normal'
 options.add_argument('--incognito')
-options.add_argument('--window-position=1920,0')
-options.add_argument('--window-size=0,0')
+options.add_argument('--window-position=960,0')
+options.add_argument('--window-size=960,1080')
 #options.add_argument('--blink-settings=imagesEnabled=false')
 #options.add_argument('--headless')
 
 local_proxy_options = webdriver.ChromeOptions()
 local_proxy_options.add_argument('--incognito')
-local_proxy_options.add_argument('--window-position=0,0')
-local_proxy_options.add_argument('--window-size=0,0')
+local_proxy_options.add_argument('--window-position=960,0')
+local_proxy_options.add_argument('--window-size=960,1080')
 local_proxy_options.add_argument('--blink-settings=imagesEnabled=false')
 #local_proxy_options.add_argument('--headless')
 
@@ -169,7 +169,7 @@ def collect_metrocuadrado(__data):    # this gather links for scraping from 'met
             # gathering data and writing into gather.dat
             while (True):
                 
-                time.sleep(0.5)
+                time.sleep(1)
                 # finding list of items
                 li_tags = driver.find_elements(By.CLASS_NAME, clattr(mecu_list_class))
                 # finding links of items, I mean "href" attributes
@@ -248,7 +248,7 @@ def collect_fincaraiz(__data):
 
                 for pg in range(1, (last_page + 1)):
 
-                    time.sleep(0.5)
+                    time.sleep(1)
                     # setting the url structure
                     finra_url = "%s/%ss/%s/%s?pagina=%d" % (baseurl[1], facility_item, via, city_item, pg)
                     # passing toward next page
@@ -271,7 +271,7 @@ def collect_fincaraiz(__data):
                     write_log(info)
             
             else:
-    
+
                 write_log("no page index: must be just one page")
                 # setting the url structure
                 finra_url = "%s/%ss/%s/%s?pagina=%d" % (baseurl[1], facility_item, via, city_item, int(1))
@@ -292,7 +292,6 @@ def collect_fincaraiz(__data):
                 
                 info = f" L[{baseurl[1].split('/')[-1]}:page:Unica] a:href links got > {len(a_tags)}"
                 write_log(info)
-
 
             # closing the browser session
             driver.quit()
@@ -330,7 +329,7 @@ def collect_puntopropiedad(__data):
             # gathering data and writing into gather.dat
             while (True):
 
-                time.sleep(0.5)
+                time.sleep(1)
                 # finding li elements in DOM
                 li_tags = driver.find_elements(By.CLASS_NAME, clattr(punpro_list_box_class))
                 # finding a tags in li elements
