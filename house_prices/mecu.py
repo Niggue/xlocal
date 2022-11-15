@@ -141,10 +141,15 @@ if __name__ == '__main__':
     old = old.lstrip("Entre ").rstrip(" años")
     old = old.replace(" y ", "~")
     
+    built_area = __cards2[15].text
+    built_area = built_area.split(" ")[0]
+
+    private_area = __cards2[15].text
+    private_area = private_area.split(" ")[0]
     
 
 
-    print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old))
+    print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area))
     
 
     write_log(f"POSTCODE:[{mecu['code'].values[20]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}]")
