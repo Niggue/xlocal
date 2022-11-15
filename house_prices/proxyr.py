@@ -1,9 +1,8 @@
 import sys
-import collect
 import csv
 import random
-from bs4 import BeautifulSoup as besoup
 import requests
+from bs4 import BeautifulSoup as besoup
 
 
 ### functions Scope ###
@@ -17,17 +16,15 @@ def roll_proxy(proxy_list, module="bs"):
         proxy_bs = {
             'https':proxy_list[random.randint(0,len(proxy_list)-1)]
         }
-        msg = f"Using IP Proxy: {proxy_bs} ... "
-        collect.write_log(msg)
+        print(f"Using IP Proxy: {proxy_bs} ... ")
         return proxy_bs
 
     elif module == "se": 
         proxy_se = proxy_list[random.randint(0,len(proxy_list)-1)]
-        msg = f"Using IP Proxy: {proxy_se} ... "
-        collect.write_log(msg)
+        print(f"Using IP Proxy: {proxy_se} ... ")
         return proxy_se
 
-
+test_proxy = {'https':'173.249.198.244:8080'}
 
 ### Attributes Scope ###
 #---------------------------------------------------------------------------------------------------------------------------------------- 
@@ -39,7 +36,7 @@ _proxies = []
 with open("../proxies.csv", newline="") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
     for row in reader:
-        data_to_append = str("%s:%s" % (row[0], row[1]))
+        data_to_append = str("https://%s:%s" % (row[0], row[1]))
         _proxies.append(data_to_append)    
 
 # seeking the connnection (original)
