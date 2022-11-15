@@ -93,7 +93,7 @@ else:
     
     # dictionary that will be populated with data from every iteration in the main scope
     data = {
-        'neigborhood':[],
+        'neighborhood':[],
         'city':[],
         'offer type':[],
         'property':[],
@@ -174,7 +174,7 @@ if __name__ == '__main__':
     
     # appending scraped-data into data dictionary
     write_log("Appending data ...")
-    data['neighborhood'].append(neigborhood)
+    data['neighborhood'].append(neighborhood)
     data['city'].append(mecu['city'].values[20])
     data['offer type'].append(offertype)
     data['property'].append(mecu['facility'].values[20])
@@ -185,8 +185,10 @@ if __name__ == '__main__':
     data['private area'].append(private_area)
     data['stratus'].append(stratus)
     data['price'].append(price)
-    data['price/area'].append(price_area(price, private_area))
+    data['price/area'].append(price_area(float(price), float(private_area)))
     data['old'].append(old)
+
+    print(data)
 
 
 
