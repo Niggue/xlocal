@@ -107,7 +107,7 @@ if __name__ == '__main__':
     os.system("touch ./mecu.log")
 
     # going for every link
-    driver.get(links[0])
+    driver.get(links[20])
     operation_status = 1
     
     # getting the neigborhood
@@ -136,12 +136,18 @@ if __name__ == '__main__':
     price = __cards2[13].text
     price = price.replace("$", "")
     price = price.replace(".", "")
+
+    old = __cards2[14].text
+    old = old.lstrip("Entre ").rstrip(" años")
+    old = old.replace(" y ", "~")
+    
     
 
-    print(repr(neighborhood), repr(rooms), repr(baths), repr(price))
+
+    print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old))
     
 
-    write_log(f"POSTCODE:[{mecu['code'].values[0]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}]")
+    write_log(f"POSTCODE:[{mecu['code'].values[20]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}]")
 
 
 
