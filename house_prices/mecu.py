@@ -144,12 +144,12 @@ if __name__ == '__main__':
     built_area = __cards2[15].text
     built_area = built_area.split(" ")[0]
 
-    private_area = __cards2[15].text
+    private_area = __cards2[16].text
     private_area = private_area.split(" ")[0]
     
+    parking_lot = __cards2[17].text
 
-
-    print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area))
+    print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
     
 
     write_log(f"POSTCODE:[{mecu['code'].values[20]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}]")
