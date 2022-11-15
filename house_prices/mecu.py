@@ -28,8 +28,8 @@ if (post_links.empty):
 else:
     # verifying data integrity and value counting
     baseurl = "https://www.metrocuadrado.com"
-    print(post_links.loc[ post_links['website'] == baseurl, 'website'].count(), " Records from <MetroCuadrado>")
-    print(post_links.loc[ post_links['website'] != baseurl, 'website'].count(), " Records from other sources")
+    print(post_links.loc[post_links['website'] == baseurl, 'website'].count(), " Records from <MetroCuadrado>")
+    print(post_links.loc[post_links['website'] != baseurl, 'website'].count(), " Records from other sources")
     print("Total-----------")
     print(post_links['website'].count(), " Records")
 
