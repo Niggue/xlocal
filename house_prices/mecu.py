@@ -1,7 +1,6 @@
 import os
-from pyspark import pandas
+import pandas
 from collect import clattr
-#from pyspark.sql import SparkSession
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -12,12 +11,6 @@ import warnings
 warnings.filterwarnings('ignore', module='pyspark')
 
 
-
-
-    ### Creating PySpark Session ###
-#========================================================================================================================
-
-#spark = SparkSession.builder.getOrCreate()
 
 
     ### Creating WebDriver ###
@@ -37,6 +30,8 @@ driver.implicitly_wait(1)
 driver.minimize_window()
 
 
+
+
     ### tag classes to find in site ###
 #========================================================================================================================
 
@@ -49,8 +44,8 @@ private_area_class = "card-text"#[5]
 built_area_class = "card-text"#[4]
 stratus_class = "H2-kplljn-0 igCxTv card-text"
 price_class = "card-text"#[2]
-#price_area = lambda price, area: (price/area)
-#offertype = "Venta"
+price_area = lambda price, area: (price/area)
+offertype = "Venta"
 #property
 old_class = "card-text"#[3]
 
@@ -68,7 +63,7 @@ def write_log(__message="\n", __logfile="./mecu.log"):
     ### Catching all the Post data from Metro Cuadrado ###
 #========================================================================================================================
 
-post_links = pandas.read_csv(path='./collect.dat')
+post_links = pandas.read_csv('./collect.dat')
 
 if (post_links.empty):
     raise Exception("CsvFileEmpty: The csv file has no information.")
@@ -96,6 +91,24 @@ else:
     links = list(mecu['href'].values)    # this is the final list to scrap every link previously obtained from collect.py
 
     
+    # dictionary that will be populated with data from every iteration in the main scope
+    data = {
+        'neigborhood':[],
+        'city':[],
+        'offer type':[],
+        'property':[],
+        'rooms':[],
+        'baths':[],
+        'parking lots':[],
+        'private area':[],
+        'built area':[],
+        'stratus':[],
+        'price':[],
+        'price/area':[],
+        'old':[]
+    }
+
+
 
 
     ### Main execution ###
@@ -104,7 +117,8 @@ else:
 if __name__ == '__main__':
     
     # opening the log file where we'll write all the process information
-    os.system("touch ./mecu.log")
+    os.system("rm ./mecu.log ./mecu.dat")
+    os.system("touch ./mecu.log ./mecu.dat")
 
     # going for every link
     driver.get(links[20])
@@ -119,11 +133,12 @@ if __name__ == '__main__':
     # getting main cards
     __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
     __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
-
-    i = 0
-    for c in __cards2:
-        print(i,"->", c.text)
-        i += 1
+    
+    # this allowd me to see where the data were when i scraped the page
+    #i = 0
+    #for c in __cards2:
+    #    print(i,"->", c.text)
+    #    i += 1
     
     rooms = __cards[1].text
     rooms = rooms.splitlines()[0]
@@ -150,11 +165,28 @@ if __name__ == '__main__':
     parking_lot = __cards2[17].text
 
     stratus = __cards2[4].text
-
+    
+    # confirming the struture of information
     print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
     
-
-    write_log(f"POSTCODE:[{mecu['code'].values[20]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}]")
+    # printing the gathering status
+    write_log(f"POSTCODE:[{mecu['code'].values[20]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[20]}")
+    
+    # appending scraped-data into data dictionary
+    write_log("Appending data ...")
+    data['neighborhood'].append(neigborhood)
+    data['city'].append(mecu['city'].values[20])
+    data['offer type'].append(offertype)
+    data['property'].append(mecu['facility'].values[20])
+    data['rooms'].append(rooms)
+    data['baths'].append(baths)
+    data['parking lots'].append(parking_lot)
+    data['built area'].append(built_area)
+    data['private area'].append(private_area)
+    data['stratus'].append(stratus)
+    data['price'].append(price)
+    data['price/area'].append(price_area(price, private_area))
+    data['old'].append(old)
 
 
 
