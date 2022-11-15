@@ -149,6 +149,8 @@ if __name__ == '__main__':
     
     parking_lot = __cards2[17].text
 
+    stratus = __cards2[4].text
+
     print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
     
 
