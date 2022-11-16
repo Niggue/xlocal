@@ -52,10 +52,10 @@ old_class = "card-text"#[3]
 
 
 
-def write_log(__message="\n", __logfile="./mecu.log"):
-    print(__message, "\n")
+def write_log(__message="\n", l='n', __logfile="./mecu.log"):
+    print(__message, end="") if l=='n' else print(__message, "\n")
     with open(__logfile, "a") as file:
-        file.write(__message)
+        file.write(__message + "\n")
 
 
 
@@ -174,13 +174,13 @@ if __name__ == '__main__':
             operation_status = False
         
         # confirming the struture of information
-        print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
+        #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
         
         # printing the gathering status
         write_log(f"POSTCODE:[{mecu['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
         
         # appending scraped-data into data dictionary
-        write_log("Appending data ...")
+        write_log("Appending data ...", l='n')
         data['neighborhood'].append(neighborhood)
         data['city'].append(mecu['city'].values[link].capitalize())
         data['offer type'].append(offertype.capitalize())
@@ -198,7 +198,7 @@ if __name__ == '__main__':
         #print(data)
 
     # saving data to .dat file
-    write_log("Saving data collect to mecu.dat ...")
+    write_log("Saving data collect to mecu.dat ...", l='n')
     try:
         df = pandas.DataFrame(data=data)
         df.to_csv("./mecu.dat", sep=",", na_rep="", header=False) 
