@@ -52,10 +52,18 @@ old_class = "card-text"#[3]
 
 
 
-def write_log(__message="\n", l='n', __logfile="./mecu.log"):
-    print(__message, end="") if l=='n' else print(__message, "\n")
-    with open(__logfile, "a") as file:
-        file.write(__message + "\n")
+def write_log(__message="\n", newl=True, __logfile="./mecu.log"):
+    # printing conditional
+    if (newl):
+        print(__message)
+        # writing logfile
+        with open(__logfile, "a") as file:
+            file.write(__message + "\n")
+    else:
+        print(__message, end="")
+        # writing logfile
+        with open(__logfile, "a") as file:
+            file.write(__message)
 
 
 
@@ -180,7 +188,7 @@ if __name__ == '__main__':
         write_log(f"POSTCODE:[{mecu['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
         
         # appending scraped-data into data dictionary
-        write_log("Appending data ...", l='n')
+        write_log("Appending data ...", newl=False)
         data['neighborhood'].append(neighborhood)
         data['city'].append(mecu['city'].values[link].capitalize())
         data['offer type'].append(offertype.capitalize())
@@ -198,7 +206,7 @@ if __name__ == '__main__':
         #print(data)
 
     # saving data to .dat file
-    write_log("Saving data collect to mecu.dat ...", l='n')
+    write_log("Saving data collect to mecu.dat ...", newl=False)
     try:
         df = pandas.DataFrame(data=data)
         df.to_csv("./mecu.dat", sep=",", na_rep="", header=False) 
