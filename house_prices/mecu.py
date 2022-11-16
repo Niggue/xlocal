@@ -92,8 +92,9 @@ else:
         write_log("No codes Duplicated")
     else:
         lendif = len(mecu['code']) - len(mecu['code'].drop_duplicates())
-        mecu = mecu.drop_duplicates('code')
         write_log(f"{lendif} codes Duplicated")
+        mecu = mecu.drop_duplicates('code')
+        write_log(f"{len(mecu)} codes Stuck")
     
     # getting 'href' links
     links = list(mecu['href'].values)    # this is the final list to scrap every link previously obtained from collect.py

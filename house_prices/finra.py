@@ -92,8 +92,9 @@ else:
         write_log("No codes Duplicated")
     else:
         lendif = len(finra['code']) - len(finra['code'].drop_duplicates())
-        finra = finra.drop_duplicates('code')
         write_log(f"{lendif} codes Duplicated")
+        finra = finra.drop_duplicates('code')
+        write_log(f"{len(finra)} codes Stuck")
     
     # getting 'href' links
     links = list(finra['href'].values)    # this is the final list to scrap every link previously obtained from collect.py
@@ -137,11 +138,7 @@ if __name__ == '__main__':
         operation_status = True
 
         # getting the neigborhood
-        neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
-        neighborhood = neighborhood.text
-        neighborhood = neighborhood.split(",")[1]
-        neighborhood = neighborhood.lstrip()
-        neighborhood = neighborhood.capitalize()
+        neighborhood = driver.find_element(...)
         
         # getting main cards
         try:
