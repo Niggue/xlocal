@@ -44,7 +44,7 @@ private_area_class = "card-text"#[5]
 built_area_class = "card-text"#[4]
 stratus_class = "H2-kplljn-0 igCxTv card-text"
 price_class = "card-text"#[2]
-price_area = lambda price, area: (price/area)
+price_area = lambda price, area: round(price/area)
 offertype = "Venta"
 #property
 old_class = "card-text"#[3]
@@ -120,77 +120,92 @@ if __name__ == '__main__':
     os.system("rm ./mecu.log ./mecu.dat")
     os.system("touch ./mecu.log ./mecu.dat")
 
-    # going for every link
-    driver.get(links[20])
-    operation_status = 1
-    
-    # getting the neigborhood
-    neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
-    neighborhood = neighborhood.text
-    neighborhood = neighborhood.split(",")[-1]
-    neighborhood = neighborhood.lstrip()
-    
-    # getting main cards
-    __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
-    __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
-    
-    # this allowd me to see where the data were when i scraped the page
-    #i = 0
-    #for c in __cards2:
-    #    print(i,"->", c.text)
-    #    i += 1
-    
-    rooms = __cards[1].text
-    rooms = rooms.splitlines()[0]
-    rooms = rooms.split(" ")[0]
+    # starting road through links
+    for link in range(len(links)):
+        # going for every link
+        driver.get(links[link])
+        operation_status = True
 
-    baths = __cards[2].text
-    baths = baths.splitlines()[0]
-    baths = baths.split(" ")[0]
+        # getting the neigborhood
+        neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
+        neighborhood = neighborhood.text
+        neighborhood = neighborhood.split(",")[-1]
+        neighborhood = neighborhood.lstrip()
+        
+        # getting main cards
+        try:
+            __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
+            __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
+        
+        # this allowd me to see where the data were when i scraped the page
+        #i = 0
+        #for c in __cards2:
+        #    print(i,"->", c.text)
+        #    i += 1
+        
+            rooms = __cards[1].text
+            rooms = rooms.splitlines()[0]
+            rooms = rooms.split(" ")[0]
 
-    price = __cards2[13].text
-    price = price.replace("$", "")
-    price = price.replace(".", "")
+            baths = __cards[2].text
+            baths = baths.splitlines()[0]
+            baths = baths.split(" ")[0]
 
-    old = __cards2[14].text
-    old = old.lstrip("Entre ").rstrip(" años")
-    old = old.replace(" y ", "~")
-    
-    built_area = __cards2[15].text
-    built_area = built_area.split(" ")[0]
+            price = __cards2[13].text
+            price = price.replace("$", "")
+            price = price.replace(".", "")
 
-    private_area = __cards2[16].text
-    private_area = private_area.split(" ")[0]
-    
-    parking_lot = __cards2[17].text
+            old = __cards2[14].text
+            old = old.lstrip("Entre ").rstrip(" años")
+            old = old.replace(" y ", "~")
+            
+            built_area = __cards2[15].text
+            built_area = built_area.split(" ")[0]
 
-    stratus = __cards2[4].text
-    
-    # confirming the struture of information
-    print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
-    
-    # printing the gathering status
-    write_log(f"POSTCODE:[{mecu['code'].values[20]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[20]}")
-    
-    # appending scraped-data into data dictionary
-    write_log("Appending data ...")
-    data['neighborhood'].append(neighborhood)
-    data['city'].append(mecu['city'].values[20])
-    data['offer type'].append(offertype)
-    data['property'].append(mecu['facility'].values[20])
-    data['rooms'].append(rooms)
-    data['baths'].append(baths)
-    data['parking lots'].append(parking_lot)
-    data['built area'].append(built_area)
-    data['private area'].append(private_area)
-    data['stratus'].append(stratus)
-    data['price'].append(price)
-    data['price/area'].append(price_area(float(price), float(private_area)))
-    data['old'].append(old)
+            private_area = __cards2[16].text
+            private_area = private_area.split(" ")[0]
+            
+            parking_lot = __cards2[17].text
 
-    print(data)
+            stratus = __cards2[4].text
+            stratus = stratus.splitlines()[0]
+        except:
+            write_log("Something bad has happened at extracting process")
+            operation_status = False
+        
+        # confirming the struture of information
+        print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
+        
+        # printing the gathering status
+        write_log(f"POSTCODE:[{mecu['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
+        
+        # appending scraped-data into data dictionary
+        write_log("Appending data ...")
+        data['neighborhood'].append(neighborhood)
+        data['city'].append(mecu['city'].values[link].capitalize())
+        data['offer type'].append(offertype.capitalize())
+        data['property'].append(mecu['facility'].values[link].capitalize())
+        data['rooms'].append(rooms)
+        data['baths'].append(baths)
+        data['parking lots'].append(parking_lot)
+        data['built area'].append(built_area)
+        data['private area'].append(private_area)
+        data['stratus'].append(stratus)
+        data['price'].append(price)
+        data['price/area'].append(price_area(float(price), float(private_area)))
+        data['old'].append(old)
+        write_log("Data Successfully appended [OK]")
+        #print(data)
 
-
+    # saving data to .dat file
+    write_log("Saving data collect to mecu.dat ...")
+    try:
+        df = pandas.DataFrame(data=data)
+        df.to_csv("./mecu.dat", sep=",", na_rep="", header=False) 
+    except:
+        write("Error: Data Not Saved [FAILURE]")
+    else:
+        write_log("Data Saved to mecu.dat [OK], exiting script ...")
 
 
     driver.quit()
