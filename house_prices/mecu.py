@@ -53,7 +53,7 @@ old_class = "card-text"#[3]
 
 
 def write_log(__message="\n", __logfile="./mecu.log"):
-    print(__message)
+    print(__message, "\n")
     with open(__logfile, "a") as file:
         file.write(__message)
 
@@ -137,11 +137,11 @@ if __name__ == '__main__':
             __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
             __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
         
-        # this allowd me to see where the data were when i scraped the page
-        #i = 0
-        #for c in __cards2:
-        #    print(i,"->", c.text)
-        #    i += 1
+            # this allowd me to see where the data were when i scraped the page
+            #i = 0
+            #for c in __cards2:
+            #    print(i,"->", c.text)
+            #    i += 1
         
             rooms = __cards[1].text
             rooms = rooms.splitlines()[0]
