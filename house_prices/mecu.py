@@ -101,6 +101,7 @@ else:
     
     # dictionary that will be populated with data from every iteration in the main scope
     data = {
+        'code':[],
         'neighborhood':[],
         'city':[],
         'offer type':[],
@@ -127,7 +128,8 @@ if __name__ == '__main__':
     # opening the log file where we'll write all the process information
     os.system("rm ./mecu.log ./mecu.dat")
     os.system("touch ./mecu.log ./mecu.dat")
-
+    
+    __stop=0
     # starting road through links
     for link in range(len(links)):
         # going for every link
@@ -137,7 +139,7 @@ if __name__ == '__main__':
         # getting the neigborhood
         neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
         neighborhood = neighborhood.text
-        neighborhood = neighborhood.split(",")[-1]
+        neighborhood = neighborhood.split(",")[1]
         neighborhood = neighborhood.lstrip()
         
         # getting main cards
@@ -164,8 +166,10 @@ if __name__ == '__main__':
             price = price.replace(".", "")
 
             old = __cards2[14].text
-            old = old.lstrip("Entre ").rstrip(" años")
-            old = old.replace(" y ", "~")
+            if ("Remodelado" not in old):
+                old = old.lstrip("Más de ")
+                old = old.lstrip("Entre ").rstrip(" años")
+                old = old.replace(" y ", "~")
             
             built_area = __cards2[15].text
             built_area = built_area.split(" ")[0]
@@ -188,7 +192,8 @@ if __name__ == '__main__':
         write_log(f"POSTCODE:[{mecu['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
         
         # appending scraped-data into data dictionary
-        write_log("Appending data ...", newl=False)
+        write_log("Appending data ... ", newl=False)
+        data['code'].append(mecu['code'].values[link])
         data['neighborhood'].append(neighborhood)
         data['city'].append(mecu['city'].values[link].capitalize())
         data['offer type'].append(offertype.capitalize())
@@ -205,8 +210,12 @@ if __name__ == '__main__':
         write_log("Data Successfully appended [OK]")
         #print(data)
 
+        __stop += 1    # used to stop the for loop due to test purposes
+        if (__stop == 30):
+            break
+
     # saving data to .dat file
-    write_log("Saving data collect to mecu.dat ...", newl=False)
+    write_log("Saving data collect to mecu.dat ... ", newl=False)
     try:
         df = pandas.DataFrame(data=data)
         df.to_csv("./mecu.dat", sep=",", na_rep="", header=False) 
