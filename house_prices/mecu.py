@@ -141,13 +141,14 @@ if __name__ == '__main__':
         neighborhood = neighborhood.text
         neighborhood = neighborhood.split(",")[1]
         neighborhood = neighborhood.lstrip()
+        neighborhood = neighborhood.capitalize()
         
         # getting main cards
         try:
             __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
             __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
         
-            # this allowd me to see where the data were when i scraped the page
+            # this allowed me to see where the data were when i scraped the page
             #i = 0
             #for c in __cards2:
             #    print(i,"->", c.text)
@@ -178,9 +179,14 @@ if __name__ == '__main__':
             private_area = private_area.split(" ")[0]
             
             parking_lot = __cards2[17].text
+            try:
+                parking_lot = int(parking_lot)
+            except:
+                parking_lot = 0
 
             stratus = __cards2[4].text
             stratus = stratus.splitlines()[0]
+
         except:
             write_log("Something bad has happened at extracting process")
             operation_status = False
@@ -210,7 +216,7 @@ if __name__ == '__main__':
         write_log("Data Successfully appended [OK]")
         #print(data)
 
-        __stop += 1    # used to stop the for loop due to test purposes
+        #__stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):
             break
 
