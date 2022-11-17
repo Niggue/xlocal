@@ -1,3 +1,5 @@
 *.pptx
 cryptocurency/*.pptx
 house_prices/awsdb.json
+*.log
+*/*.log

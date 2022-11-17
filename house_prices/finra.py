@@ -165,7 +165,7 @@ if __name__ == '__main__':
                 old = old.replace(' a ', "~")
                 check = int(old[0])
             except:
-                old = str(0)
+                old = "nan"
             
             built_area = __ptags[built_area_pos].text
             built_area = built_area.split(" ")[0]
