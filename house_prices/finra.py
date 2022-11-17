@@ -35,21 +35,9 @@ driver.minimize_window()
     ### tag classes to find in site ###
 #========================================================================================================================
 
-#city
-neighborhood_class = 'H1-xsrgru-0 jdfXCo mb-2 card-title'
-room_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
-bath_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
-parking_class = "card-text"#[6]
-private_area_class = "card-text"#[5]
-built_area_class = "card-text"#[4]
-stratus_class = "H2-kplljn-0 igCxTv card-text"
-price_class = "card-text"#[2]
+# All the info could be found inside 'p' tags
+offertype = "venta"
 price_area = lambda price, area: round(price/area)
-offertype = "Venta"
-#property
-old_class = "card-text"#[3]
-
-
 
 
 def write_log(__message="\n", newl=True, __logfile="./finra.log"):
@@ -131,65 +119,80 @@ if __name__ == '__main__':
     os.system("touch ./finra.log ./finra.dat")
     
     __stop=0
+
     # starting road through links
     for link in range(len(links)):
-        # going for every link
+        # seeking for every link
         driver.get(links[link])
         operation_status = True
-
-        # getting the neigborhood
-        neighborhood = driver.find_element(...)
         
         # getting main cards
         try:
-            __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
-            __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
+            __ptags = driver.find_elements(By.TAG_NAME, "p")
         
-            # this allowed me to see where the data were when i scraped the page
-            #i = 0
-            #for c in __cards2:
-            #    print(i,"->", c.text)
-            #    i += 1
-        
-            rooms = __cards[1].text
-            rooms = rooms.splitlines()[0]
-            rooms = rooms.split(" ")[0]
+            # this allowed me to see where the data were when I scraped the page
+            i = 0
+            for p in __ptags:
+                match (p.text):
+                    case "Precio (COP)": price_pos = i+1
+                    case "Casa en venta": neighborhood_pos = i+1
+                    case "Habitaciones": rooms_pos = i+1
+                    case "Baños": baths_pos = i+1
+                    case "Área construída": built_area_pos = i+1
+                    case "Área privada": private_area_pos = i+1
+                    case "Estrato": stratus_pos = i+1
+                    case "Parqueaderos": parking_lot_pos = i+1
+                    case "Antigüedad": old_pos = i+1
+                #print(i,"->", p.text)
+                i += 1
 
-            baths = __cards[2].text
-            baths = baths.splitlines()[0]
-            baths = baths.split(" ")[0]
+            neighborhood = __ptags[neighborhood_pos].text
+            neighborhood = neighborhood.split(" - ")[0]
+            
+            rooms = __ptags[rooms_pos].text
 
-            price = __cards2[13].text
+            baths = __ptags[baths_pos].text
+
+            price = __ptags[price_pos].text
             price = price.replace("$", "")
             price = price.replace(".", "")
-
-            old = __cards2[14].text
-            if ("Remodelado" not in old):
-                old = old.lstrip("Más de ")
-                old = old.lstrip("Entre ").rstrip(" años")
-                old = old.replace(" y ", "~")
+            price = price.lstrip()
+    
+            try:
+                old = __ptags[old_pos].text
+                old = old.lstrip("más de ")
+                old = old.rstrip(" años")
+                old = old.replace(' a ', "~")
+                check = int(old[0])
+            except:
+                old = str(0)
             
-            built_area = __cards2[15].text
+            built_area = __ptags[built_area_pos].text
             built_area = built_area.split(" ")[0]
 
-            private_area = __cards2[16].text
+            private_area = __ptags[private_area_pos].text
             private_area = private_area.split(" ")[0]
+            if (int(private_area) == 0):
+                private_area = built_area
             
-            parking_lot = __cards2[17].text
             try:
+                parking_lot = __ptags[parking_lot_pos].text
                 parking_lot = int(parking_lot)
+                parking_lot = str(parking_lot)
             except:
-                parking_lot = 0
+                parking_lot = str(0)
 
-            stratus = __cards2[4].text
-            stratus = stratus.splitlines()[0]
+            try:
+                stratus = __ptags[stratus_pos].text
+            except:
+                stratus = "nan"
 
         except:
             write_log("Something bad has happened at extracting process")
             operation_status = False
         
         # confirming the struture of information
-        #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
+        #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot), repr(stratus))
         
         # printing the gathering status
         write_log(f"POSTCODE:[{finra['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
@@ -197,7 +200,7 @@ if __name__ == '__main__':
         # appending scraped-data into data dictionary
         write_log("Appending data ... ", newl=False)
         data['code'].append(finra['code'].values[link])
-        data['neighborhood'].append(neighborhood)
+        data['neighborhood'].append(neighborhood. capitalize())
         data['city'].append(finra['city'].values[link].capitalize())
         data['offer type'].append(offertype.capitalize())
         data['property'].append(finra['facility'].values[link].capitalize())
@@ -213,7 +216,7 @@ if __name__ == '__main__':
         write_log("Data Successfully appended [OK]")
         #print(data)
 
-        #__stop += 1    # used to stop the for loop due to test purposes
+        __stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):
             break
 
