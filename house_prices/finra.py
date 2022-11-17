@@ -216,7 +216,7 @@ if __name__ == '__main__':
         write_log("Data Successfully appended [OK]")
         #print(data)
 
-        __stop += 1    # used to stop the for loop due to test purposes
+        #__stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):
             break
 

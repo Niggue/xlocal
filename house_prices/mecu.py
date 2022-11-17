@@ -172,6 +172,10 @@ if __name__ == '__main__':
                 old = old.lstrip("Más de ")
                 old = old.lstrip("Entre ").rstrip(" años")
                 old = old.replace(" y ", "~")
+            try:
+                old = int(old[0])
+            except:
+                old = 0
             
             built_area = __cards2[15].text
             built_area = built_area.split(" ")[0]
@@ -187,6 +191,10 @@ if __name__ == '__main__':
 
             stratus = __cards2[4].text
             stratus = stratus.splitlines()[0]
+            try:
+                stratus = int(stratus)
+            except:
+                stratus = "nan"
 
         except:
             write_log("Something bad has happened at extracting process")
@@ -217,7 +225,7 @@ if __name__ == '__main__':
         write_log("Data Successfully appended [OK]")
         #print(data)
 
-        #__stop += 1    # used to stop the for loop due to test purposes
+        __stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):
             break
 
