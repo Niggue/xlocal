@@ -143,7 +143,7 @@ if __name__ == '__main__':
             neighborhood = neighborhood.split(",")[0]
             neighborhood = neighborhood.lstrip("Casa en venta ")
         except:
-            write_log(f"Post deprecated ... {links[link]}")
+            write_log(f"[{link}/{len(links)}] [DEPRECATED] link:{links[link]} ... Skiped")
             continue
         
         # getting main cards
@@ -185,7 +185,7 @@ if __name__ == '__main__':
         try:
             check = int(price)
         except:
-            write_log(f"Error at extracting process: POSTCODE:[{punpro['code'].values[link]}], link:{links[link]}")
+            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
             continue
 
         try:
@@ -204,8 +204,9 @@ if __name__ == '__main__':
                 built_area = built_area.split(",")[0]
                 built_area = built_area.split(".")[0]
                 private_area = built_area
+                check = int(built_area)
             except:
-                write_log(f"Error at extracting process: POSTCODE:[{punpro['code'].values[link]}], link:{links[link]}")
+                write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
                 continue
         
         try:
@@ -241,7 +242,7 @@ if __name__ == '__main__':
         #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(stratus), repr(parking_lot))
         
         # printing the gathering status
-        write_log(f"POSTCODE:[{punpro['code'].values[link]}], link:{links[link]}")
+        write_log(f"[{link}/{len(links)}] [OK] link:{links[link]} ... ")
         
         # appending scraped-data into data dictionary
         write_log("Appending data ... ", newl=False)

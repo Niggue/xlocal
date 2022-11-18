@@ -193,14 +193,14 @@ if __name__ == '__main__':
                 stratus = "nan"
 
         except:
-            write_log(f"Error at extracting process: POSTCODE:[{finra['code'].values[link]}], link:{links[link]}")
+            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]}")
             continue
         
         # confirming the struture of information
         #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot), repr(stratus))
         
         # printing the gathering status
-        write_log(f"POSTCODE:[{finra['code'].values[link]}], link:{links[link]}")
+        write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
         
         # appending scraped-data into data dictionary
         write_log("Appending data ... ", newl=False)
