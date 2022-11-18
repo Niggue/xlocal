@@ -26,8 +26,8 @@ options.page_load_strategy = 'eager'
 service = Service(executable_path=ChromeDriverManager().install())
 
 driver = webdriver.Chrome(options=options, service=service)
-driver.implicitly_wait(1)
-driver.minimize_window()
+driver.implicitly_wait(1.5)
+#driver.minimize_window()
 
 
 
