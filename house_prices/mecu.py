@@ -137,15 +137,15 @@ if __name__ == '__main__':
         driver.get(links[link])
         operation_status = True
 
-        # getting the neigborhood
-        neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
-        neighborhood = neighborhood.text
-        neighborhood = neighborhood.split(",")[1]
-        neighborhood = neighborhood.lstrip()
-        neighborhood = neighborhood.capitalize()
-        
-        # getting main cards
         try:
+            # getting the neigborhood
+            neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
+            neighborhood = neighborhood.text
+            neighborhood = neighborhood.split(",")[1]
+            neighborhood = neighborhood.lstrip()
+            neighborhood = neighborhood.capitalize()
+
+            # getting main cards
             __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
             __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
         
@@ -175,19 +175,22 @@ if __name__ == '__main__':
             try:
                 old = int(old[0])
             except:
-                old = 0
+                old = "nan"
             
             built_area = __cards2[15].text
             built_area = built_area.split(" ")[0]
-
+            built_area = built_area.split(",")[0]
+            built_area = built_area.split(".")[0]
             private_area = __cards2[16].text
             private_area = private_area.split(" ")[0]
+            if (int(built_area) == 0):
+                raise Exception()   # all posts should have the area info
             
             parking_lot = __cards2[17].text
             try:
                 parking_lot = int(parking_lot)
             except:
-                parking_lot = 0
+                parking_lot = str(0)
 
             stratus = __cards2[4].text
             stratus = stratus.splitlines()[0]
@@ -197,14 +200,14 @@ if __name__ == '__main__':
                 stratus = "nan"
 
         except:
-            write_log("Something bad has happened at extracting process")
-            operation_status = False
+            write_log(f"Error at extracting process: POSTCODE:[{mecu['code'].values[link]}], link:{links[link]}")
+            continue
         
         # confirming the struture of information
         #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
         
         # printing the gathering status
-        write_log(f"POSTCODE:[{mecu['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
+        write_log(f"POSTCODE:[{mecu['code'].values[link]}], link:{links[link]}")
         
         # appending scraped-data into data dictionary
         write_log("Appending data ... ", newl=False)
@@ -220,12 +223,12 @@ if __name__ == '__main__':
         data['private area'].append(private_area)
         data['stratus'].append(stratus)
         data['price'].append(price)
-        data['price/area'].append(price_area(float(price), float(private_area)))
+        data['price/area'].append(price_area(float(price), float(built_area)))
         data['old'].append(old)
         write_log("Data Successfully appended [OK]")
         #print(data)
 
-        __stop += 1    # used to stop the for loop due to test purposes
+        #__stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):
             break
 

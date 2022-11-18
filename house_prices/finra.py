@@ -124,7 +124,6 @@ if __name__ == '__main__':
     for link in range(len(links)):
         # seeking for every link
         driver.get(links[link])
-        operation_status = True
         
         # getting main cards
         try:
@@ -149,10 +148,16 @@ if __name__ == '__main__':
             neighborhood = __ptags[neighborhood_pos].text
             neighborhood = neighborhood.split(" - ")[0]
             
-            rooms = __ptags[rooms_pos].text
+            try:
+                rooms = __ptags[rooms_pos].text
+            except:
+                rooms = str(0)
 
-            baths = __ptags[baths_pos].text
-
+            try:
+                baths = __ptags[baths_pos].text
+            except:
+                baths = str(0)
+    
             price = __ptags[price_pos].text
             price = price.replace("$", "")
             price = price.replace(".", "")
@@ -169,16 +174,16 @@ if __name__ == '__main__':
             
             built_area = __ptags[built_area_pos].text
             built_area = built_area.split(" ")[0]
-
+            built_area = built_area.split(",")[0]
+            built_area = built_area.split(".")[0]
             private_area = __ptags[private_area_pos].text
             private_area = private_area.split(" ")[0]
-            if (int(private_area) == 0):
-                private_area = built_area
+            if (int(built_area) == 0):
+                raise Exception()   # all posts should have the area info
             
             try:
                 parking_lot = __ptags[parking_lot_pos].text
-                parking_lot = int(parking_lot)
-                parking_lot = str(parking_lot)
+                check = int(parking_lot)
             except:
                 parking_lot = str(0)
 
@@ -188,14 +193,14 @@ if __name__ == '__main__':
                 stratus = "nan"
 
         except:
-            write_log("Something bad has happened at extracting process")
-            operation_status = False
+            write_log(f"Error at extracting process: POSTCODE:[{finra['code'].values[link]}], link:{links[link]}")
+            continue
         
         # confirming the struture of information
         #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot), repr(stratus))
         
         # printing the gathering status
-        write_log(f"POSTCODE:[{finra['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
+        write_log(f"POSTCODE:[{finra['code'].values[link]}], link:{links[link]}")
         
         # appending scraped-data into data dictionary
         write_log("Appending data ... ", newl=False)
@@ -211,7 +216,7 @@ if __name__ == '__main__':
         data['private area'].append(private_area)
         data['stratus'].append(stratus)
         data['price'].append(price)
-        data['price/area'].append(price_area(float(price), float(private_area)))
+        data['price/area'].append(price_area(float(price), float(built_area)))
         data['old'].append(old)
         write_log("Data Successfully appended [OK]")
         #print(data)

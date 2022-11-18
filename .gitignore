@@ -1,5 +1,7 @@
 *.pptx
 cryptocurency/*.pptx
-house_prices/awsdb.json
 *.log
-*/*.log
+*.dat
+house_prices/*.log
+house_prices/*.dat
+house_prices/awsdb.json

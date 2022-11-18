@@ -136,7 +136,6 @@ if __name__ == '__main__':
         try:
             # going for every link
             driver.get(links[link])
-            operation_status = True
 
             # getting the neigborhood
             neighborhood = driver.find_element(By.TAG_NAME, "h1")
@@ -159,6 +158,7 @@ if __name__ == '__main__':
                 case "Estrato": stratus = t
                 case "Año de construcción": old = t
                 case "Parqueadero": parking_lot = 1
+                case "Área útil": built_area = t
             #print(i,"->", t.text)
             i += 1
         
@@ -182,15 +182,31 @@ if __name__ == '__main__':
         price = price.replace(".", "")
         price = price.replace("COP$", "")
         price = price.strip()
+        try:
+            check = int(price)
+        except:
+            write_log(f"Error at extracting process: POSTCODE:[{punpro['code'].values[link]}], link:{links[link]}")
+            continue
 
         try:
-            built_area = driver.find_elements(By.CLASS_NAME, clattr(built_area_class))
-            built_area = built_area[1].text
-            built_area = built_area.rstrip("m2")
+            built_area = built_area.text
+            built_area = built_area.split(":")[1]
+            built_area = built_area.lstrip()
             built_area = built_area.split(",")[0]
+            built_area = built_area.split(".")[0]
             private_area = built_area
+            check = int(built_area)
         except:
-            built_area, private_area = 0, 0
+            try:
+                built_area = driver.find_elements(By.CLASS_NAME, clattr(built_area_class))
+                built_area = built_area[1].text
+                built_area = built_area.rstrip("m2")
+                built_area = built_area.split(",")[0]
+                built_area = built_area.split(".")[0]
+                private_area = built_area
+            except:
+                write_log(f"Error at extracting process: POSTCODE:[{punpro['code'].values[link]}], link:{links[link]}")
+                continue
         
         try:
             old = old.text
@@ -222,10 +238,10 @@ if __name__ == '__main__':
         #    operation_status = False
         
         # confirming the struture of information
-        print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(stratus), repr(parking_lot))
+        #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(stratus), repr(parking_lot))
         
         # printing the gathering status
-        write_log(f"POSTCODE:[{punpro['code'].values[link]}] operation [{'SUCCESS' if ({operation_status}) else 'FAILURE'}] , link:{links[link]}")
+        write_log(f"POSTCODE:[{punpro['code'].values[link]}], link:{links[link]}")
         
         # appending scraped-data into data dictionary
         write_log("Appending data ... ", newl=False)
@@ -241,12 +257,12 @@ if __name__ == '__main__':
         data['private area'].append(private_area)
         data['stratus'].append(stratus)
         data['price'].append(price)
-        data['price/area'].append(price_area(float(price), float(private_area)))
+        data['price/area'].append(price_area(float(price), float(built_area)))
         data['old'].append(old)
         write_log("Data Successfully appended [OK]")
         #print(data)
 
-        __stop += 1    # used to stop the for loop due to test purposes
+        #__stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):
             break
 
