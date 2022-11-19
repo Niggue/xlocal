@@ -244,24 +244,28 @@ if __name__ == '__main__':
         # printing the gathering status
         write_log(f"[{link}/{len(links)}] [OK] link:{links[link]} ... ")
         
-        # appending scraped-data into data dictionary
-        write_log("Appending data ... ", newl=False)
-        data['code'].append(punpro['code'].values[link])
-        data['neighborhood'].append(neighborhood)
-        data['city'].append(punpro['city'].values[link].capitalize())
-        data['offer type'].append(offertype.capitalize())
-        data['property'].append(punpro['facility'].values[link].capitalize())
-        data['rooms'].append(rooms)
-        data['baths'].append(baths)
-        data['parking lots'].append(parking_lot)
-        data['built area'].append(built_area)
-        data['private area'].append(private_area)
-        data['stratus'].append(stratus)
-        data['price'].append(price)
-        data['price/area'].append(price_area(float(price), float(built_area)))
-        data['old'].append(old)
-        write_log("Data Successfully appended [OK]")
-        #print(data)
+        try:
+            # appending scraped-data into data dictionary
+            write_log("Appending data ... ", newl=False)
+            data['code'].append(punpro['code'].values[link])
+            data['neighborhood'].append(neighborhood)
+            data['city'].append(punpro['city'].values[link].capitalize())
+            data['offer type'].append(offertype.capitalize())
+            data['property'].append(punpro['facility'].values[link].capitalize())
+            data['rooms'].append(rooms)
+            data['baths'].append(baths)
+            data['parking lots'].append(parking_lot)
+            data['built area'].append(built_area)
+            data['private area'].append(private_area)
+            data['stratus'].append(stratus)
+            data['price'].append(price)
+            data['price/area'].append(price_area(float(price), float(built_area)))
+            data['old'].append(old)
+            write_log("Data Successfully appended [OK]")
+            #print(data)
+        except:
+            write_log("Data Successfully appended [OK]")
+            continue
 
         #__stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):

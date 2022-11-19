@@ -178,6 +178,12 @@ if __name__ == '__main__':
             built_area = built_area.split(".")[0]
             private_area = __ptags[private_area_pos].text
             private_area = private_area.split(" ")[0]
+            private_area = private_area.split(",")[0]
+            private_area = private_area.split(".")[0]
+            try:
+                check = int(built_area)
+            except:
+                raise Exception()
             if (int(built_area) == 0):
                 raise Exception()   # all posts should have the area info
             
@@ -201,25 +207,29 @@ if __name__ == '__main__':
         
         # printing the gathering status
         write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
-        
-        # appending scraped-data into data dictionary
-        write_log("Appending data ... ", newl=False)
-        data['code'].append(finra['code'].values[link])
-        data['neighborhood'].append(neighborhood. capitalize())
-        data['city'].append(finra['city'].values[link].capitalize())
-        data['offer type'].append(offertype.capitalize())
-        data['property'].append(finra['facility'].values[link].capitalize())
-        data['rooms'].append(rooms)
-        data['baths'].append(baths)
-        data['parking lots'].append(parking_lot)
-        data['built area'].append(built_area)
-        data['private area'].append(private_area)
-        data['stratus'].append(stratus)
-        data['price'].append(price)
-        data['price/area'].append(price_area(float(price), float(built_area)))
-        data['old'].append(old)
-        write_log("Data Successfully appended [OK]")
-        #print(data)
+ 
+        try:
+            # appending scraped-data into data dictionary
+            write_log("Appending data ... ", newl=False)
+            data['code'].append(finra['code'].values[link])
+            data['neighborhood'].append(neighborhood. capitalize())
+            data['city'].append(finra['city'].values[link].capitalize())
+            data['offer type'].append(offertype.capitalize())
+            data['property'].append(finra['facility'].values[link].capitalize())
+            data['rooms'].append(rooms)
+            data['baths'].append(baths)
+            data['parking lots'].append(parking_lot)
+            data['built area'].append(built_area)
+            data['private area'].append(private_area)
+            data['stratus'].append(stratus)
+            data['price'].append(price)
+            data['price/area'].append(price_area(float(price), float(built_area)))
+            data['old'].append(old)
+            write_log("Data Successfully appended [OK]")
+            #print(data)
+        except:
+            write_log("Data Successfully appended [FAILURE]")
+            continue
 
         #__stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):

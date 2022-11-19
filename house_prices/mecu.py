@@ -173,7 +173,7 @@ if __name__ == '__main__':
                 old = old.lstrip("Entre ").rstrip(" años")
                 old = old.replace(" y ", "~")
             try:
-                old = int(old[0])
+                check = int(old[0])
             except:
                 old = "nan"
             
@@ -183,24 +183,31 @@ if __name__ == '__main__':
             built_area = built_area.split(".")[0]
             private_area = __cards2[16].text
             private_area = private_area.split(" ")[0]
+            private_area = private_area.split(",")[0]
+            private_area = private_area.split(".")[0]
+            try:
+                check = float(built_area)
+                check = float(private_area)
+            except:
+                raise Exception()
             if (int(built_area) == 0):
                 raise Exception()   # all posts should have the area info
             
             parking_lot = __cards2[17].text
             try:
-                parking_lot = int(parking_lot)
+                check = int(parking_lot)
             except:
                 parking_lot = str(0)
 
             stratus = __cards2[4].text
             stratus = stratus.splitlines()[0]
             try:
-                stratus = int(stratus)
+                check = int(stratus)
             except:
                 stratus = "nan"
 
         except:
-            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]}")
+            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
             continue
         
         # confirming the struture of information
@@ -209,24 +216,28 @@ if __name__ == '__main__':
         # printing the gathering status
         write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
         
-        # appending scraped-data into data dictionary
-        write_log("Appending data ... ", newl=False)
-        data['code'].append(mecu['code'].values[link])
-        data['neighborhood'].append(neighborhood)
-        data['city'].append(mecu['city'].values[link].capitalize())
-        data['offer type'].append(offertype.capitalize())
-        data['property'].append(mecu['facility'].values[link].capitalize())
-        data['rooms'].append(rooms)
-        data['baths'].append(baths)
-        data['parking lots'].append(parking_lot)
-        data['built area'].append(built_area)
-        data['private area'].append(private_area)
-        data['stratus'].append(stratus)
-        data['price'].append(price)
-        data['price/area'].append(price_area(float(price), float(built_area)))
-        data['old'].append(old)
-        write_log("Data Successfully appended [OK]")
-        #print(data)
+        try:
+            # appending scraped-data into data dictionary
+            write_log("Appending data ... ", newl=False)
+            data['code'].append(mecu['code'].values[link])
+            data['neighborhood'].append(neighborhood)
+            data['city'].append(mecu['city'].values[link].capitalize())
+            data['offer type'].append(offertype.capitalize())
+            data['property'].append(mecu['facility'].values[link].capitalize())
+            data['rooms'].append(rooms)
+            data['baths'].append(baths)
+            data['parking lots'].append(parking_lot)
+            data['built area'].append(built_area)
+            data['private area'].append(private_area)
+            data['stratus'].append(stratus)
+            data['price'].append(price)
+            data['price/area'].append(price_area(float(price), float(built_area)))
+            data['old'].append(old)
+            write_log("Data Successfully appended [OK]")
+            #print(data)
+        except:
+            write_log("Data Successfully appended [FAILURE]")
+            continue
 
         #__stop += 1    # used to stop the for loop due to test purposes
         if (__stop == 30):
