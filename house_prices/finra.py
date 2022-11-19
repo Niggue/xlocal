@@ -123,27 +123,34 @@ if __name__ == '__main__':
     # starting road through links
     for link in range(len(links)):
         # seeking for every link
-        driver.get(links[link])
+        driver.get(links[link+8758])
         
         # getting main cards
         try:
             __ptags = driver.find_elements(By.TAG_NAME, "p")
+            neighborhood_pos = None
         
             # this allowed me to see where the data were when I scraped the page
             i = 0
             for p in __ptags:
-                match (p.text):
-                    case "Precio (COP)": price_pos = i+1
-                    case "Casa en venta": neighborhood_pos = i+1
-                    case "Habitaciones": rooms_pos = i+1
-                    case "Baños": baths_pos = i+1
-                    case "Área construída": built_area_pos = i+1
-                    case "Área privada": private_area_pos = i+1
-                    case "Estrato": stratus_pos = i+1
-                    case "Parqueaderos": parking_lot_pos = i+1
-                    case "Antigüedad": old_pos = i+1
-                #print(i,"->", p.text)
-                i += 1
+                try:
+                    match (p.text):
+                        case "Precio (COP)": price_pos = i+1
+                        case "Casa en venta"|"Apartamento en venta"|"Oficina en venta": neighborhood_pos = int(i+1)
+                        case "Habitaciones": rooms_pos = i+1
+                        case "Baños": baths_pos = i+1
+                        case "Área construída": built_area_pos = i+1
+                        case "Área privada": private_area_pos = i+1
+                        case "Estrato": stratus_pos = i+1
+                        case "Parqueaderos": parking_lot_pos = i+1
+                        case "Antigüedad": old_pos = i+1
+                        case _:
+                            i += 1
+                            continue
+                    #print(i,"->", p.text, neighborhood_pos)
+                    i += 1
+                except:
+                    continue
 
             neighborhood = __ptags[neighborhood_pos].text
             neighborhood = neighborhood.split(" - ")[0]
@@ -157,12 +164,12 @@ if __name__ == '__main__':
                 baths = __ptags[baths_pos].text
             except:
                 baths = str(0)
-    
+
             price = __ptags[price_pos].text
             price = price.replace("$", "")
             price = price.replace(".", "")
             price = price.lstrip()
-    
+
             try:
                 old = __ptags[old_pos].text
                 old = old.lstrip("más de ")
@@ -199,14 +206,14 @@ if __name__ == '__main__':
                 stratus = "nan"
 
         except:
-            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]}")
+            write_log(f"[{link+8758}/{len(links)}] [ERROR] link:{links[link+8758]}")
             continue
         
         # confirming the struture of information
         #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot), repr(stratus))
         
         # printing the gathering status
-        write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
+        write_log(f"[{link+8758}/{len(links)}] [OK] link:{links[link +8758]}")
  
         try:
             # appending scraped-data into data dictionary
