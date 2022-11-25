@@ -6,10 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-# silencing the damn Future Warnings >:c
-import warnings
-warnings.filterwarnings('ignore', module='pyspark')
-
 
 
 
@@ -26,30 +22,13 @@ options.page_load_strategy = 'eager'
 service = Service(executable_path=ChromeDriverManager().install())
 
 driver = webdriver.Chrome(options=options, service=service)
-driver.implicitly_wait(1.5)
-#driver.minimize_window()
+driver.minimize_window()
 
 
 
 
-    ### tag classes to find in site ###
-#========================================================================================================================
-
-#city
-neighborhood_class = 'H1-xsrgru-0 jdfXCo mb-2 card-title'
-room_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
-bath_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
-parking_class = "card-text"#[6]
-private_area_class = "card-text"#[5]
-built_area_class = "card-text"#[4]
-stratus_class = "H2-kplljn-0 igCxTv card-text"
-price_class = "card-text"#[2]
-price_area = lambda price, area: round(price/area)
-offertype = "Venta"
-#property
-old_class = "card-text"#[3]
-
-
+    ### Util functions ###
+#=======================================================================================================================
 
 
 def write_log(__message="\n", newl=True, __logfile="./mecu.log"):
@@ -119,6 +98,20 @@ else:
     }
 
 
+    ### tag classes to find in site ###
+#========================================================================================================================
+
+#city
+neighborhood_class = 'H1-xsrgru-0 jdfXCo mb-2 card-title'
+room_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
+bath_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
+basics_class = 'Col-sc-14ninbu-0 lfGZKA mb-3 pb-1 col-12 col-lg-3'
+stratus_class = "H2-kplljn-0 igCxTv card-text"
+price_area = lambda price, area: round(price/area)
+offertype = "Venta"
+#property
+old_class = "card-text"#[3]
+
 
 
     ### Main execution ###
@@ -137,81 +130,40 @@ if __name__ == '__main__':
         driver.get(links[link])
         operation_status = True
 
-        try:
-            # getting the neigborhood
-            neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
-            neighborhood = neighborhood.text
-            neighborhood = neighborhood.split(",")[1]
-            neighborhood = neighborhood.lstrip()
-            neighborhood = neighborhood.capitalize()
+        #try:
+        # getting the neighborhood
+        neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
+        neighborhood = neighborhood.text
+        neighborhood = neighborhood.split(",")[1]
+        neighborhood = neighborhood.lstrip()
+        neighborhood = neighborhood.capitalize()
 
-            # getting main cards
-            __cards = driver.find_elements(By.CLASS_NAME, clattr(room_class))
-            __cards2 = driver.find_elements(By.CLASS_NAME, clattr(parking_class))
-        
-            # this allowed me to see where the data were when i scraped the page
-            #i = 0
-            #for c in __cards2:
-            #    print(i,"->", c.text)
-            #    i += 1
-        
-            rooms = __cards[1].text
-            rooms = rooms.splitlines()[0]
-            rooms = rooms.split(" ")[0]
+        # getting main information
+        __info = driver.find_elements(By.CLASS_NAME, clattr(basics_class))
+        # getting miscellaneous information
+        __info = driver.find_elements(By.CLASS_NAME, clattr(basics_class))
+    
+        # this allowed me to see where the data were when i scraped the page
+        i = 0
+        for c in __info:
+            __info_key =  c.find_element(By.TAG_NAME, 'h3').text
+            __info_value =  c.find_element(By.TAG_NAME, 'p').text
+            print(i,"->", __info_key, "|", __info_value)
+            # assigning info to variables
+            if (__info_key == 'Precio'): price = __info_value    
+            if (__info_key == 'Antigüedad'): old = __info_value
+            if (__info_key == 'Área Condtruída'): built_area = __info_value
+            if (__info_key == 'Área privada'): private_area = __info_value
+            if (__info_key == 'Parqueaderos'): parking_lot = __info_value
+            i += 1
 
-            baths = __cards[2].text
-            baths = baths.splitlines()[0]
-            baths = baths.split(" ")[0]
 
-            price = __cards2[13].text
-            price = price.replace("$", "")
-            price = price.replace(".", "")
-
-            old = __cards2[14].text
-            if ("Remodelado" not in old):
-                old = old.lstrip("Más de ")
-                old = old.lstrip("Entre ").rstrip(" años")
-                old = old.replace(" y ", "~")
-            try:
-                check = int(old[0])
-            except:
-                old = "nan"
-            
-            built_area = __cards2[15].text
-            built_area = built_area.split(" ")[0]
-            built_area = built_area.split(",")[0]
-            built_area = built_area.split(".")[0]
-            private_area = __cards2[16].text
-            private_area = private_area.split(" ")[0]
-            private_area = private_area.split(",")[0]
-            private_area = private_area.split(".")[0]
-            try:
-                check = float(built_area)
-                check = float(private_area)
-            except:
-                raise Exception()
-            if (int(built_area) == 0):
-                raise Exception()   # all posts should have the area info
-            
-            parking_lot = __cards2[17].text
-            try:
-                check = int(parking_lot)
-            except:
-                parking_lot = str(0)
-
-            stratus = __cards2[4].text
-            stratus = stratus.splitlines()[0]
-            try:
-                check = int(stratus)
-            except:
-                stratus = "nan"
-
-        except:
-            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
-            continue
+        #except:
+        #    write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
+        #    continue
         
         # confirming the struture of information
-        #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
+        print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
         
         # printing the gathering status
         write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
@@ -234,7 +186,6 @@ if __name__ == '__main__':
             data['price/area'].append(price_area(float(price), float(built_area)))
             data['old'].append(old)
             write_log("Data Successfully appended [OK]")
-            #print(data)
         except:
             write_log("Data Successfully appended [FAILURE]")
             continue

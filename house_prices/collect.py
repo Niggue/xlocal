@@ -1,5 +1,4 @@
 import os, time
-import proxyr
 import pandas
 from threading import Thread
 from selenium import webdriver

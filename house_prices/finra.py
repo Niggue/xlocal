@@ -123,7 +123,7 @@ if __name__ == '__main__':
     # starting road through links
     for link in range(len(links)):
         # seeking for every link
-        driver.get(links[link+8758])
+        driver.get(links[link])
         
         # getting main cards
         try:
@@ -206,14 +206,14 @@ if __name__ == '__main__':
                 stratus = "nan"
 
         except:
-            write_log(f"[{link+8758}/{len(links)}] [ERROR] link:{links[link+8758]}")
+            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]}")
             continue
         
         # confirming the struture of information
         #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot), repr(stratus))
         
         # printing the gathering status
-        write_log(f"[{link+8758}/{len(links)}] [OK] link:{links[link +8758]}")
+        write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
  
         try:
             # appending scraped-data into data dictionary
