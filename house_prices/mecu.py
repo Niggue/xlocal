@@ -125,21 +125,20 @@ if __name__ == '__main__':
     # starting road through links
     for link in range(len(links)):
         # going for every link
-        driver.get(links[link+42])
-        operation_status = True
+        driver.get(links[link])
+        neighborhood, price, rooms, baths, built_area, private_area, old, parking_lot, stratus = [None] * 9
+
 
         try:
-            
+            # getting the neighborhood
             try:
-                # getting the neighborhood
                 neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
                 neighborhood = neighborhood.text
                 neighborhood = neighborhood.split(",")[1]
                 neighborhood = neighborhood.lstrip()
                 neighborhood = neighborhood.capitalize()
             except:
-                neighborhood = None
-
+                pass
 
             # getting main information
             __header = driver.find_elements(By.CLASS_NAME, clattr(headers_class))
@@ -156,7 +155,6 @@ if __name__ == '__main__':
                     baths = __info_value
                     baths = baths.splitlines()[0]
             
-
             # getting stratus info which has a special tag
             __stratus_tag = driver.find_elements(By.CLASS_NAME, clattr(stratus_class))
             for s in __stratus_tag:
@@ -166,7 +164,6 @@ if __name__ == '__main__':
                 if (__info_key == 'Estrato'):
                     stratus = __info_value
                     stratus = stratus.splitlines()[0]
-
 
             # getting miscellaneous information
             __info = driver.find_elements(By.CLASS_NAME, clattr(basics_class))
@@ -190,7 +187,7 @@ if __name__ == '__main__':
                     private_area = private_area.split(" ")[0]
                 if (__info_key == 'Parqueaderos'):
                     parking_lot = __info_value
-
+            
         except:
             write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
             continue

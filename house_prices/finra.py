@@ -26,7 +26,6 @@ options.page_load_strategy = 'eager'
 service = Service(executable_path=ChromeDriverManager().install())
 
 driver = webdriver.Chrome(options=options, service=service)
-driver.implicitly_wait(1.5)
 #driver.minimize_window()
 
 
@@ -124,86 +123,47 @@ if __name__ == '__main__':
     for link in range(len(links)):
         # seeking for every link
         driver.get(links[link])
+        neighborhood, price, rooms, baths, old, built_area, private_area, stratus, parking_lot = [None] * 9
         
-        # getting main cards
+        # getting main and miscellaneous data
         try:
             __ptags = driver.find_elements(By.TAG_NAME, "p")
-            neighborhood_pos = None
-        
-            # this allowed me to see where the data were when I scraped the page
-            i = 0
+            __item_pos = 0
             for p in __ptags:
-                try:
-                    match (p.text):
-                        case "Precio (COP)": price_pos = i+1
-                        case "Casa en venta"|"Apartamento en venta"|"Oficina en venta": neighborhood_pos = int(i+1)
-                        case "Habitaciones": rooms_pos = i+1
-                        case "Baños": baths_pos = i+1
-                        case "Área construída": built_area_pos = i+1
-                        case "Área privada": private_area_pos = i+1
-                        case "Estrato": stratus_pos = i+1
-                        case "Parqueaderos": parking_lot_pos = i+1
-                        case "Antigüedad": old_pos = i+1
-                        case _:
-                            i += 1
-                            continue
-                    #print(i,"->", p.text, neighborhood_pos)
-                    i += 1
-                except:
-                    continue
+                # getting every p tag string
+                __item = p.text
+                #print("->", __item)
+                neighborhood_list = ['Casa en venta','Apartamento en venta','Oficina en venta']
+                if (__item in neighborhood_list):
+                    neighborhood = __ptags[__item_pos + 1].text
+                    neighborhood = neighborhood.split(" - ")[0]
+                if (__item == 'Precio (COP)'):
+                    price = __ptags[__item_pos + 1].text
+                    price = price.replace("$ ","").replace(".","")
+                if (__item == 'Habitaciones'):
+                    rooms = __ptags[__item_pos + 1].text
+                if (__item == 'Baños'):
+                    baths = __ptags[__item_pos + 1].text
+                if (__item == 'Área construída'):
+                    built_area = __ptags[__item_pos + 1].text
+                    built_area = built_area.split(" ")[0]
+                if (__item == 'Área privada'):
+                    private_area = __ptags[__item_pos + 1].text
+                    private_area = private_area.split(" ")[0]
+                if (__item == 'Antigüedad'):
+                    old = __ptags[__item_pos + 1].text
+                    old = old.replace(" años","").replace(" año","")
+                    old = old.replace("menor a ","").replace("más de ","")
+                    old = old.replace(" a ","-")
+                if (__item == 'Estrato'):
+                    stratus = __ptags[__item_pos + 1].text
+                if (__item == 'Parqueaderos'):
+                    parking_lot = __ptags[__item_pos + 1].text
 
-            neighborhood = __ptags[neighborhood_pos].text
-            neighborhood = neighborhood.split(" - ")[0]
-            
-            try:
-                rooms = __ptags[rooms_pos].text
-            except:
-                rooms = str(0)
-
-            try:
-                baths = __ptags[baths_pos].text
-            except:
-                baths = str(0)
-
-            price = __ptags[price_pos].text
-            price = price.replace("$", "")
-            price = price.replace(".", "")
-            price = price.lstrip()
-
-            try:
-                old = __ptags[old_pos].text
-                old = old.lstrip("más de ")
-                old = old.rstrip(" años")
-                old = old.replace(' a ', "~")
-                check = int(old[0])
-            except:
-                old = "nan"
-            
-            built_area = __ptags[built_area_pos].text
-            built_area = built_area.split(" ")[0]
-            built_area = built_area.split(",")[0]
-            built_area = built_area.split(".")[0]
-            private_area = __ptags[private_area_pos].text
-            private_area = private_area.split(" ")[0]
-            private_area = private_area.split(",")[0]
-            private_area = private_area.split(".")[0]
-            try:
-                check = int(built_area)
-            except:
-                raise Exception()
-            if (int(built_area) == 0):
-                raise Exception()   # all posts should have the area info
-            
-            try:
-                parking_lot = __ptags[parking_lot_pos].text
-                check = int(parking_lot)
-            except:
-                parking_lot = str(0)
-
-            try:
-                stratus = __ptags[stratus_pos].text
-            except:
-                stratus = "nan"
+                # from this p tag section below the information becomes irrelevant
+                if (__item == 'Características'):
+                    break
+                __item_pos += 1
 
         except:
             write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]}")
@@ -214,7 +174,7 @@ if __name__ == '__main__':
         
         # printing the gathering status
         write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
- 
+        
         try:
             # appending scraped-data into data dictionary
             write_log("Appending data ... ", newl=False)
