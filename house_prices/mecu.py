@@ -103,14 +103,12 @@ else:
 
 #city
 neighborhood_class = 'H1-xsrgru-0 jdfXCo mb-2 card-title'
-room_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
-bath_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
+headers_class = 'H2-kplljn-0 igCxTv vcenter-text card-text'
 basics_class = 'Col-sc-14ninbu-0 lfGZKA mb-3 pb-1 col-12 col-lg-3'
 stratus_class = "H2-kplljn-0 igCxTv card-text"
 price_area = lambda price, area: round(price/area)
 offertype = "Venta"
 #property
-old_class = "card-text"#[3]
 
 
 
@@ -127,43 +125,78 @@ if __name__ == '__main__':
     # starting road through links
     for link in range(len(links)):
         # going for every link
-        driver.get(links[link])
+        driver.get(links[link+42])
         operation_status = True
 
-        #try:
-        # getting the neighborhood
-        neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
-        neighborhood = neighborhood.text
-        neighborhood = neighborhood.split(",")[1]
-        neighborhood = neighborhood.lstrip()
-        neighborhood = neighborhood.capitalize()
-
-        # getting main information
-        __info = driver.find_elements(By.CLASS_NAME, clattr(basics_class))
-        # getting miscellaneous information
-        __info = driver.find_elements(By.CLASS_NAME, clattr(basics_class))
-    
-        # this allowed me to see where the data were when i scraped the page
-        i = 0
-        for c in __info:
-            __info_key =  c.find_element(By.TAG_NAME, 'h3').text
-            __info_value =  c.find_element(By.TAG_NAME, 'p').text
-            print(i,"->", __info_key, "|", __info_value)
-            # assigning info to variables
-            if (__info_key == 'Precio'): price = __info_value    
-            if (__info_key == 'Antigüedad'): old = __info_value
-            if (__info_key == 'Área Condtruída'): built_area = __info_value
-            if (__info_key == 'Área privada'): private_area = __info_value
-            if (__info_key == 'Parqueaderos'): parking_lot = __info_value
-            i += 1
+        try:
+            
+            try:
+                # getting the neighborhood
+                neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
+                neighborhood = neighborhood.text
+                neighborhood = neighborhood.split(",")[1]
+                neighborhood = neighborhood.lstrip()
+                neighborhood = neighborhood.capitalize()
+            except:
+                neighborhood = None
 
 
-        #except:
-        #    write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
-        #    continue
+            # getting main information
+            __header = driver.find_elements(By.CLASS_NAME, clattr(headers_class))
+            # locating such data in webpage
+            for h in __header:
+                __info_key =  h.find_element(By.TAG_NAME, 'span').text
+                __info_value =  h.text
+                #print("->", __info_key, "|", __info_value)
+                # addigning info to variables
+                if (__info_key == 'Habitaciones'): 
+                    rooms = __info_value
+                    rooms = rooms.splitlines()[0]
+                if (__info_key == 'Baños'):
+                    baths = __info_value
+                    baths = baths.splitlines()[0]
+            
+
+            # getting stratus info which has a special tag
+            __stratus_tag = driver.find_elements(By.CLASS_NAME, clattr(stratus_class))
+            for s in __stratus_tag:
+                __info_key =  s.find_element(By.TAG_NAME, 'span').text
+                __info_value =  s.text
+                #print("->", __info_key, "|", __info_value)
+                if (__info_key == 'Estrato'):
+                    stratus = __info_value
+                    stratus = stratus.splitlines()[0]
+
+
+            # getting miscellaneous information
+            __info = driver.find_elements(By.CLASS_NAME, clattr(basics_class))
+            # locating such data in webpage
+            for c in __info:
+                __info_key =  c.find_element(By.TAG_NAME, 'h3').text
+                __info_value =  c.find_element(By.TAG_NAME, 'p').text
+                #print("->", __info_key, "|", __info_value)
+                # assigning info to variables
+                if (__info_key == 'Precio'):
+                    price = __info_value    
+                    price = price.replace("$","").replace(".","")
+                if (__info_key == 'Antigüedad'):
+                    old = __info_value
+                    old = old.replace("Más de ", "").replace("Entre ","").replace(" años","").replace(" y ", "-")
+                if (__info_key == 'Área construida'):
+                    built_area = __info_value
+                    built_area = built_area.split(" ")[0]
+                if (__info_key == 'Área privada'):
+                    private_area = __info_value
+                    private_area = private_area.split(" ")[0]
+                if (__info_key == 'Parqueaderos'):
+                    parking_lot = __info_value
+
+        except:
+            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
+            continue
         
         # confirming the struture of information
-        print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot))
+        #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(parking_lot), repr(stratus))
         
         # printing the gathering status
         write_log(f"[{link}/{len(links)}] [OK] link:{links[link]}")
