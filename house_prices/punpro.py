@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from datetime import date
 
 # silencing the damn Future Warnings >:c
 import warnings
@@ -32,25 +33,8 @@ driver.implicitly_wait(1.5)
 
 
 
-    ### tag classes to find in site ###
-#========================================================================================================================
-
-#city
-neighborhood_class = "location_info"
-room_class = "bedrooms"
-bath_class = "bathrooms"
-parking_class = "tick"# repeated class
-private_area_class = "dimensions"
-built_area_class = "dimensions"
-stratus_class = "tick"# repeated class
-price_class = "price"#[0 or 1]
-price_area = lambda price, area: round(price/area)
-offertype = "Venta"
-#property
-old_class = "tick"# repeated class
-
-
-
+    ### Util functions ###
+#=========================================================================================================================
 
 def write_log(__message="\n", newl=True, __logfile="./punpro.log"):
     # printing conditional
@@ -120,6 +104,24 @@ else:
 
 
 
+    ### tag classes to find in site ###
+#========================================================================================================================
+
+#city
+neighborhood_class = "location_info"
+room_class = "bedrooms"
+bath_class = "bathrooms"
+area_class = "dimensions"
+info_class = "tick"
+price_class = "price"#[0 or 1]
+price_area = lambda price, area: round(price/area)
+offertype = "Venta"
+#property
+old_class = "tick"# repeated class
+
+
+
+
     ### Main execution ###
 #=========================================================================================================================
 
@@ -132,111 +134,60 @@ if __name__ == '__main__':
     __stop=0
     # starting road through links
     for link in range(len(links)):
-        # testing post available
+        # going for every link
+        driver.get(links[link])
+        neighborhood, price, rooms, baths, built_area, private_area, old, parking_lot, stratus = [None] * 9
+        
         try:
-            # going for every link
-            driver.get(links[link])
+            # getting main info
+            __header = driver.find_elements(By.CLASS_NAME, "priceChars")
+            for h in __header:
+                __info_key = h.text
+                #print(repr(__info_key))
+                if ("COP$" in __info_key):
+                    price = h.find_element(By.CLASS_NAME, clattr(price_class))
+                    price = price.text
+                    price = price.replace(".","").replace(" ","").replace("COP$","")
+                if ("m2" in __info_key):
+                    built_area = h.find_element(By.CLASS_NAME, clattr(area_class))
+                    built_area = built_area.text
+                    built_area = built_area.replace("m2","")
+                    private_area = built_area
+                if ("Habitaciones" in __info_key):
+                    rooms = h.find_element(By.CLASS_NAME, clattr(room_class))
+                    rooms = rooms.text
+                    rooms = rooms.split(" ")[0]
+                if ("Baños" in __info_key):
+                    baths = h.find_element(By.CLASS_NAME, clattr(bath_class))
+                    baths = baths.text
+                    baths = baths.split(" ")[0]
+     
+            # getting miscellaneus info
+            __info = driver.find_elements(By.CLASS_NAME, clattr(info_class))
 
-            # getting the neigborhood
-            neighborhood = driver.find_element(By.TAG_NAME, "h1")
+            for i in __info:
+                #print(i.text)
+                __info_key = i.text
+                if ("Área útil" in __info_key):
+                    built_area = __info_key.split(": ")[-1]
+                    private_area = built_area
+                if ("Estrato" in __info_key):
+                    stratus = __info_key.split(": ")[-1]
+                if ("Parqueadero" in __info_key):
+                    parking_lot = str(1)
+                if ("Año de construcción" in __info_key):
+                    old = __info_key.split(": ")[-1]
+                    old = old.replace(".","")
+                    old = date.today().year - int(old)
+                    old = str(old)
+                    
+            neighborhood = driver.find_element(By.CLASS_NAME, clattr(neighborhood_class))
             neighborhood = neighborhood.text
             neighborhood = neighborhood.split(",")[0]
-            neighborhood = neighborhood.lstrip("Casa en venta ")
+
         except:
-            write_log(f"[{link}/{len(links)}] [DEPRECATED] link:{links[link]} ... Skiped")
+            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... skiped")
             continue
-        
-        # getting main cards
-        #try:
-        __ticks = driver.find_elements(By.CLASS_NAME, clattr(old_class))
-
-        # this allowed me to see where the data were when i scraped the page
-        i = 0
-        for t in __ticks:
-            check = t.text.split(":")[0]
-            match (check):
-                case "Estrato": stratus = t
-                case "Año de construcción": old = t
-                case "Parqueadero": parking_lot = 1
-                case "Área útil": built_area = t
-            #print(i,"->", t.text)
-            i += 1
-        
-        try:
-            rooms = driver.find_elements(By.CLASS_NAME, clattr(room_class))
-            rooms = rooms[1].text
-            rooms = rooms.split(" ")[0]
-        except:
-            rooms = str(0)
-        
-        try:
-            baths = driver.find_elements(By.CLASS_NAME, clattr(bath_class))
-            baths = baths[1].text
-            baths = baths.split(" ")[0]
-        except:
-            baths = str(0)
-        
-        price = driver.find_elements(By.CLASS_NAME, clattr(price_class))
-        price = price[1].find_element(By.TAG_NAME, "h2")
-        price = price.text
-        price = price.replace(".", "")
-        price = price.replace("COP$", "")
-        price = price.strip()
-        try:
-            check = int(price)
-        except:
-            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
-            continue
-
-        try:
-            built_area = built_area.text
-            built_area = built_area.split(":")[1]
-            built_area = built_area.lstrip()
-            built_area = built_area.split(",")[0]
-            built_area = built_area.split(".")[0]
-            private_area = built_area
-            check = int(built_area)
-        except:
-            try:
-                built_area = driver.find_elements(By.CLASS_NAME, clattr(built_area_class))
-                built_area = built_area[1].text
-                built_area = built_area.rstrip("m2")
-                built_area = built_area.split(",")[0]
-                built_area = built_area.split(".")[0]
-                private_area = built_area
-                check = int(built_area)
-            except:
-                write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... Skiped")
-                continue
-        
-        try:
-            old = old.text
-            old = old.split(":")[1]
-            old = old.lstrip().replace(".", "")
-            old = int(old)
-            old_diff = 2022 - old
-            old = str(old_diff)
-        except:
-            old = "nan"
-        
-        try:
-            parking_lot = int(parking_lot)
-            parking_lot = str(parking_lot)
-        except:
-            parking_lot = str(0)
-
-        try:
-            stratus = stratus.text
-            stratus = stratus.split(":")[1]
-            stratus = stratus.strip()
-            stratus = int(stratus)
-            stratus = str(stratus)
-        except:
-            stratus = "nan"
-
-        #except:
-        #    write_log("Something bad has happened at extracting process")
-        #    operation_status = False
         
         # confirming the struture of information
         #print(repr(neighborhood), repr(rooms), repr(baths), repr(price), repr(old), repr(built_area), repr(private_area), repr(stratus), repr(parking_lot))
@@ -264,7 +215,7 @@ if __name__ == '__main__':
             write_log("Data Successfully appended [OK]")
             #print(data)
         except:
-            write_log("Data Successfully appended [OK]")
+            write_log("Data Successfully appended [FAILURE]")
             continue
 
         #__stop += 1    # used to stop the for loop due to test purposes

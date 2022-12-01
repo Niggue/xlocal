@@ -166,7 +166,7 @@ if __name__ == '__main__':
                 __item_pos += 1
 
         except:
-            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]}")
+            write_log(f"[{link}/{len(links)}] [ERROR] link:{links[link]} ... skiped")
             continue
         
         # confirming the struture of information
