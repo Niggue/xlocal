@@ -18,9 +18,11 @@ warnings.filterwarnings('ignore', module='pyspark')
 
 options = webdriver.ChromeOptions()
 options.add_argument('--incognito')
-options.add_argument('--window-position=960,0')
-options.add_argument('--window-size=960,1080')
-options.add_argument('--blink-settings=imagesEnabled=false')
+options.add_argument('--headless')
+options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36')
+#options.add_argument('--window-position=960,0')
+#options.add_argument('--window-size=960,1080')
+#options.add_argument('--blink-settings=imagesEnabled=false')
 options.page_load_strategy = 'eager'
 
 service = Service(executable_path=ChromeDriverManager().install())
@@ -150,6 +152,8 @@ if __name__ == '__main__':
                 if (__item == 'Área privada'):
                     private_area = __ptags[__item_pos + 1].text
                     private_area = private_area.split(" ")[0]
+                    if (float(private_area) == 0):
+                        private_area = built_area
                 if (__item == 'Antigüedad'):
                     old = __ptags[__item_pos + 1].text
                     old = old.replace(" años","").replace(" año","")
@@ -161,7 +165,7 @@ if __name__ == '__main__':
                     parking_lot = __ptags[__item_pos + 1].text
 
                 # from this p tag section below the information becomes irrelevant
-                if (__item == 'Características'):
+                if (__item == 'Anuncio publicado por'):
                     break
                 __item_pos += 1
 
@@ -208,7 +212,7 @@ if __name__ == '__main__':
         df = pandas.DataFrame(data=data)
         df.to_csv("./finra.dat", sep=",", na_rep="", header=False) 
     except:
-        write("Error: Data Not Saved [FAILURE]")
+        write_log("Error: Data Not Saved [FAILURE]")
     else:
         write_log("Data Saved to finra.dat [OK], exiting script ...")
 

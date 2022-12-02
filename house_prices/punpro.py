@@ -19,9 +19,11 @@ warnings.filterwarnings('ignore', module='pyspark')
 
 options = webdriver.ChromeOptions()
 options.add_argument('--incognito')
-options.add_argument('--window-position=960,0')
-options.add_argument('--window-size=960,1080')
-options.add_argument('--blink-settings=imagesEnabled=false')
+options.add_argument('--headless')
+options.add_argument('--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36')
+#options.add_argument('--window-position=960,0')
+#options.add_argument('--window-size=960,1080')
+#options.add_argument('--blink-settings=imagesEnabled=false')
 options.page_load_strategy = 'eager'
 
 service = Service(executable_path=ChromeDriverManager().install())
@@ -228,7 +230,7 @@ if __name__ == '__main__':
         df = pandas.DataFrame(data=data)
         df.to_csv("./punpro.dat", sep=",", na_rep="", header=False) 
     except:
-        write("Error: Data Not Saved [FAILURE]")
+        write_log("Error: Data Not Saved [FAILURE]")
     else:
         write_log("Data Saved to punpro.dat [OK], exiting script ...")
 
