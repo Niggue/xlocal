@@ -7,3 +7,4 @@ house_prices/*.dat
 house_prices/awsdb.json
 *.pem
 *.xlsx
+AccessKeys/
