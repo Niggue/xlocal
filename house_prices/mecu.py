@@ -118,11 +118,11 @@ offertype = "Venta"
 #=========================================================================================================================
 
 if __name__ == '__main__':
-    
+
     # opening the log file where we'll write all the process information
     os.system("rm ./mecu.log ./mecu.dat")
     os.system("touch ./mecu.log ./mecu.dat")
-    
+
     __stop=0
     # starting road through links
     for link in range(len(links)):
