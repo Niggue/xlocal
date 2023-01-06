@@ -1,10 +1,10 @@
 *.pptx
-cryptocurency/*.pptx
-*.log
+**/*.pptx
+__pycache__
+**/__pycache__
 *.dat
-house_prices/*.log
-house_prices/*.dat
-house_prices/awsdb.json
+*.log
+**/awsdb.json
 *.pem
 *.xlsx
 AccessKeys/
